@@ -13,6 +13,12 @@ library(tigris)
 library(sf)
 library(plotly)
 library(ggiraph)
+library(cowplot)
+library(gridExtra)
+library(grid)
+library(magick)
+library(svglite)
+library(gridtext)
 
 # Set file location relative to current project
 # --------------------------------------------------------------------------
@@ -58,6 +64,47 @@ ui <- fluidPage(
           height: 400px !important;
         }
       }
+      
+      .download-panel {
+        background-color: #f8f9fa;
+        border: 1px solid #dee2e6;
+        border-radius: 6px;
+        padding: 15px;
+        margin-bottom: 20px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      }
+      
+      .download-panel h4 {
+        color: #495057;
+        font-size: 14px;
+        margin-bottom: 8px;
+      }
+      
+      .download-panel p {
+        color: #6c757d;
+        font-size: 12px;
+        margin-bottom: 12px;
+      }
+      
+      .download-btn {
+        background-color: white !important;
+        color: #495057 !important;
+        border: 1px solid #ced4da !important;
+        font-weight: 500 !important;
+        margin: 5px !important;
+        font-size: 13px !important;
+      }
+      
+      .download-btn:hover {
+        background-color: #495057 !important;
+        color: white !important;
+        border-color: #495057 !important;
+      }
+      
+      .download-btn i {
+        margin-right: 5px;
+      }
+      
     "))
   ),
 
@@ -159,6 +206,24 @@ ui <- fluidPage(
           )
         )
       ),
+      
+      div(
+        class = "download-panel",
+        fluidRow(
+          column(4,
+                 downloadButton("download_png", 
+                                label = tagList(icon("image"), "PNG"), 
+                                class = "download-btn btn-block")),
+          column(4,
+                 downloadButton("download_pdf", 
+                                label = tagList(icon("file-pdf"), "PDF"), 
+                                class = "download-btn btn-block")),
+          column(4,
+                 downloadButton("download_svg", 
+                                label = tagList(icon("vector-square"), "SVG"), 
+                                class = "download-btn btn-block"))
+        )
+      ),
 
       div(
         style = "border: 1px solid #ddd; border-radius: 5px; padding: 15px; background-color: white;",
@@ -172,7 +237,7 @@ ui <- fluidPage(
     
     # Footer
     tags$footer(
-      style = "text-align: center; padding: 20px; margin-top: 50px; border-top: 1px solid #eee;",
+      style = "text-align: left; padding: 20px; margin-top: 50px; border-top: 1px solid #eee;",
       HTML("Except where otherwise indicated, the content on this app is licensed under the 
          <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/' target='_blank'>
          Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)</a>.")
@@ -183,38 +248,68 @@ ui <- fluidPage(
 )
 
 server <- function(input, output, session) {
+  
+  # Disease images from CDC
+  disease_images <- list(
+    "Rotavirus" = here("img/rotavirus.jpg"),
+    "Pertussis" = here("img/pertussis.jpg"),
+    "Pneumococcal" = here("img/pneumococcal.jpg")
+  )
+  
+  # Disease image captions
+  disease_image_captions <- list(
+    "Rotavirus" = "Rotavirus virions\nIllustrator: Alissa Eckert, MS\nCDC, 2016",
+    "Pertussis" = "Bordetella pertussis bacteria\nIllustrator: Meredith Newlove\nCDC, 2016",
+    "Pneumococcal" = "Drug-resistant Streptococcus pneumoniae\nIllustrator: Meredith Newlove\nCDC, 2019"
+  )
 
   # Show modal dialog on startup
   showModal(modalDialog(
     title = "Welcome to VaxImpactMap",
     HTML("
-      <p>Childhood vaccination rates in the United States have declined in recent years. Growing confusion about vaccine safety and changes to public health guidance may accelerate these declines, putting more children at risk for preventable diseases.</p>
-
-      <p>VaxImpactMap is an interactive tool that projects the real-world consequences of reduced vaccine coverage. Using epidemiological models and state-level data, it estimates the additional disease burden—cases, hospitalizations, deaths, missed workdays, and healthcare costs—that would result from specific declines in immunization coverage.</p>
-
-      <p>This tool is designed for public health officials, policymakers, journalists, and parents who need evidence-based projections to inform decisions, communicate risks, and support vaccination programs.</p>
-
-      <p><strong>Explore VaxImpactMap to see how coverage declines translate into health and economic impacts in your state.</strong></p>
+      <p>This interactive tool visualizes the potential health and economic impacts of declining childhood vaccination coverage in the United States.</p>
+      
+      <h4>How to use this tool:</h4>
+      <ol>
+        <li><strong>Select a disease</strong> from the dropdown menu</li>
+        <li><strong>Adjust the coverage decline</strong> using the slider (0-20%)</li>
+        <li><strong>Choose the time period</strong> for lower coverage</li>
+        <li><strong>Select burden type:</strong> Additional (attributable to decline) or Total (overall burden)</li>
+        <li><strong>Choose display format:</strong> Counts or Rates per 100k population</li>
+        <li><strong>Download your map</strong> with full attribution and parameters for sharing</li>
+      </ol>
+      
+      <p><strong>Hover over any state</strong> to see detailed statistics.</p>
+      
+      <p style='font-size: 12px; color: #666; margin-top: 20px;'>
+      This tool is for educational and advocacy purposes. 
+      Data is based on epidemiological models and should be interpreted appropriately.
+      </p>
     "),
-    size = "l",
     easyClose = TRUE,
     footer = modalButton("Get Started")
   ))
-
-  # Allow users to re-open the info dialog
+  
+  # Show info modal
   observeEvent(input$show_info, {
     showModal(modalDialog(
       title = "About VaxImpactMap",
       HTML("
-        <p>Childhood vaccination rates in the United States have declined in recent years. Growing confusion about vaccine safety and changes to public health guidance may accelerate these declines, putting more children at risk for preventable diseases.</p>
-
-        <p>VaxImpact is an interactive tool that projects the real-world consequences of reduced vaccine coverage. Using epidemiological models and state-level data, it estimates the additional disease burden—cases, hospitalizations, deaths, missed workdays, and healthcare costs—that would result from specific declines in immunization coverage.</p>
-
-        <p>This tool is designed for public health officials, policymakers, journalists, and parents who need evidence-based projections to inform decisions, communicate risks, and support vaccination programs.</p>
-
-        <p><strong>Explore VaxImpact to see how coverage declines translate into health and economic impacts in your state.</strong></p>
+        <h4>Purpose</h4>
+        <p>This visualization tool demonstrates the potential public health and economic consequences 
+        of declining childhood vaccination coverage across the United States.</p>
+        
+        <h4>Methodology</h4>
+        <p>The estimates are based on epidemiological models that calculate disease burden under 
+        different vaccination coverage scenarios.</p>
+        
+        <h4>License</h4>
+        <p>Content is licensed under CC BY-NC-ND 4.0. When sharing downloaded maps, 
+        please maintain the attribution included in the image.</p>
+        
+        <h4>Contact</h4>
+        <p>For questions or more information, please visit VaxImpactMap.org.</p>
       "),
-      size = "l",
       easyClose = TRUE,
       footer = modalButton("Close")
     ))
@@ -387,6 +482,371 @@ server <- function(input, output, session) {
 
     scales::dollar(round(value / 1000000) * 1000000)
   })
+  
+  create_static_map <- reactive({
+    # Get map data
+    us_states <- tigris_states
+    state_data <- filtered_data()
+    
+    plot_data <- us_states %>%
+      left_join(state_data, by = c("NAME" = "state_name"))
+    
+    metric_col <- metric_column()
+    
+    global_max <- data %>%
+      filter(
+        disease == input$disease,
+        accrual_label == input$accrual_label,
+        state_name != 'United States'
+      ) %>%
+      pull(!!sym(metric_col)) %>%
+      max(na.rm = TRUE)
+    
+    burden_label <- if(input$burden_type == "additional") "Additional " else "Total "
+    rate_label <- if(input$rate_or_count == "rate") " per 100k" else ""
+    legend_name <- paste0(burden_label, "Hospitalizations", rate_label)
+    
+    # Create static map without interactive features
+    p <- ggplot(plot_data) +
+      geom_sf(
+        aes(fill = .data[[metric_col]]),
+        color = "black",
+        linewidth = 0.3
+      ) +
+      scale_fill_gradient(
+        low = "#ffffcc",
+        high = "#800026",
+        name = legend_name,
+        labels = scales::comma,
+        na.value = "grey90",
+        limits = c(0, global_max)
+      ) +
+      theme_void() +
+      theme(
+        legend.position = "right",
+        legend.title = element_text(size = 12, face = "bold"),
+        legend.text = element_text(size = 10),
+        panel.background = element_rect(fill = "white", color = NA),
+        plot.background = element_rect(fill = "white", color = NA),
+        plot.margin = margin(10, 30, 10, 10)
+      ) +
+      guides(fill = guide_colorbar(
+        title.position = "top", 
+        title.hjust = 0.5,
+        barwidth = 1.5,
+        barheight = 15
+      ))
+    
+    return(p)
+  })
+  
+  # FUNCTION TO CREATE FULL DOWNLOADABLE PLOT WITH METADATA
+  create_download_plot <- function() {
+    # Get the base map
+    base_map <- ggplotGrob(create_static_map())
+    
+    base_map_with_margins <- arrangeGrob(
+      base_map,
+      padding = unit(c(0, 0.3, 0, 0.3), "inches")  # top, right, bottom, left
+    )
+    
+    # Create header
+    age_groups <- unique(filtered_data()$age_group)
+    current_date <- Sys.Date()
+    current_year_char <- format(current_date, "%Y")
+    example_year <- ifelse(input$accrual_label=='5 Years',
+                           as.character(as.numeric(current_year_char)+5),
+                           as.character(as.numeric(current_year_char)+1))
+    
+    title_line_1 <- paste0("Annual ", input$disease, " Burden Among Children Ages ", 
+                           tools::toTitleCase(age_groups), " in ", example_year)
+    title_line_2 <- paste0(" after ", input$accrual_label, " of ", 
+                           as.character(input$percent_decline), 
+                           "% Decline From Current Coverage per Year among Infants Beginning in ", 
+                           current_year_char)
+    
+    header_text <- paste0(title_line_1, "\n", title_line_2)
+    
+    # Create parameter details box
+    param_text <- paste0(
+      "PARAMETERS\n",
+      "Disease: ", tools::toTitleCase(input$disease), "\n",
+      "Coverage Decline: ", input$percent_decline, "%\n",
+      "Years of Lower Coverage: ", input$accrual_label, "\n",
+      "Burden Type: ", tools::toTitleCase(input$burden_type), "\n",
+      "Display Format: ", ifelse(input$rate_or_count == "count", "Counts", "Rates per 100k"), "\n",
+      "Age Group: ", tools::toTitleCase(filtered_data()$age_group[1]), "\n",
+      "Generated: ", format(Sys.Date(), "%B %d, %Y")
+    )
+    
+    # Create attribution text
+    attribution_base <- paste0(
+      "ATTRIBUTION & LICENSE\n",
+      "Source: VaxImpactMap\n",
+      "Website: VaxImpactMap.org\n"
+    )
+    
+    # Add disease image credit if applicable
+    if (!is.null(disease_images[[input$disease]])) {
+      attribution_base <- paste0(
+        attribution_base,
+        "Disease image: Centers for Disease Control and Prevention (CDC)\n"
+      )
+    }
+    
+    attribution_text <- paste0(
+      attribution_base,
+      "\nThis work is licensed under CC BY-NC-ND 4.0\n",
+      "(Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International)\n",
+      "You may share this image with attribution for non-commercial purposes.\n",
+      "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+    )
+    
+    # Create national summary text with formatted components
+    us_data <- us_summary()
+    if(nrow(us_data) > 0) {
+      # Create title
+      if(input$rate_or_count == "rate") {
+        summary_title <- paste0("NATIONAL IMPACT (PER 100K CHILDREN AGES ", 
+        toupper(tools::toTitleCase(age_groups)), ")")
+      } else {
+        summary_title <- "NATIONAL IMPACT"
+      }
+      
+      # Create title grob (size 14, bold)
+      summary_title_grob <- textGrob(
+        summary_title,
+        x = 0.5, just = "center",
+        gp = gpar(fontsize = 14, fontface = "bold")
+      )
+      
+      # Create metrics grob with mixed formatting (bold labels, regular values)
+      # Using richtext_grob to support HTML formatting
+      if(input$burden_type == "additional" && input$rate_or_count == "count") {
+        metrics_html <- paste0(
+          "<b>Additional Cases:</b> ", scales::comma(round(us_data$additional_cases)), " | ",
+          "<b>Additional Hospitalizations:</b> ", scales::comma(round(us_data$additional_hospitalizations)), " | ",
+          "<b>Additional Deaths:</b> ", round(us_data$additional_deaths, 1), " | ",
+          "<b>Additional Costs:</b> ", scales::dollar(round(us_data$additional_total_cost / 1000000) * 1000000)
+        )
+      } else if(input$burden_type == "total" && input$rate_or_count == "count") {
+        metrics_html <- paste0(
+          "<b>Total Cases:</b> ", scales::comma(round(us_data$cases)), " | ",
+          "<b>Total Hospitalizations:</b> ", scales::comma(round(us_data$hospitalizations)), " | ",
+          "<b>Total Deaths:</b> ", round(us_data$deaths, 1), " | ",
+          "<b>Total Costs:</b> ", scales::dollar(round(us_data$total_cost / 1000000) * 1000000)
+        )
+      } else if(input$burden_type == "additional" && input$rate_or_count == "rate") {
+        metrics_html <- paste0(
+          "<b>Additional Cases:</b> ", scales::comma(round(us_data$additional_cases_per_100k, 1)), " | ",
+          "<b>Additional Hospitalizations:</b> ", scales::comma(round(us_data$additional_hospitalizations_per_100k, 1)), " | ",
+          "<b>Additional Deaths:</b> ", round(us_data$additional_deaths_per_100k, 2), " | ",
+          "<b>Additional Costs:</b> ", scales::dollar(round(us_data$additional_total_cost_per_100k))
+        )
+      } else {
+        metrics_html <- paste0(
+          "<b>Total Cases:</b> ", scales::comma(round(us_data$cases_per_100k, 1)), " | ",
+          "<b>Total Hospitalizations:</b> ", scales::comma(round(us_data$hospitalizations_per_100k, 1)), " | ",
+          "<b>Total Deaths:</b> ", round(us_data$deaths_per_100k, 2), " | ",
+          "<b>Total Costs:</b> ", scales::dollar(round(us_data$total_cost_per_100k))
+        )
+      }
+      
+      summary_metrics_grob <- gridtext::textbox_grob(
+        metrics_html,
+        x = 0.5, y = 0.5,
+        hjust = 0.5, vjust = 0.5,
+        halign = 0.5,
+        width = unit(0.9, "npc"),  # Use 90% of available width
+        gp = gpar(fontsize = 10),
+        box_gp = gpar(col = NA, fill = NA),
+        r = unit(0, "pt"),
+        padding = unit(c(0, 0, 0, 0), "pt")
+      )
+      
+      # Combine title and metrics
+      summary_grob <- arrangeGrob(
+        summary_title_grob,
+        summary_metrics_grob,
+        ncol = 1,
+        heights = c(0.4, 0.6)
+      )
+    } else {
+      summary_grob <- textGrob(
+        "NATIONAL IMPACT\nData not available",
+        x = 0.5, just = "center",
+        gp = gpar(fontsize = 14, fontface = "bold")
+      )
+    }
+    
+    # Create text grobs
+    title_grob <- textGrob(
+      header_text,
+      gp = gpar(fontsize = 16, fontface = "bold"),
+      just = "center"
+    )
+    
+    # Add logo positioned in upper left with margins
+    logo_path <- here("img/logo.png")
+    logo_img <- magick::image_read(logo_path)
+    logo_img <- magick::image_scale(logo_img, "x100")  # Scale to 100px height, width auto
+    logo_img_raster <- as.raster(logo_img)
+    logo_grob <- rasterGrob(
+      logo_img_raster,
+      x = unit(0.2, "inches"),  # 0.2 inches from left edge
+      y = unit(1, "npc") - unit(0.2, "inches"),  # 0.2 inches from top edge
+      just = c("left", "top")  # Anchor at top-left of the logo
+    )
+    
+    # Add disease image for bottom section
+    disease_img <- magick::image_read(disease_images[[input$disease]])
+    disease_img <- magick::image_scale(disease_img, "200x200")
+    disease_img_raster <- as.raster(disease_img)
+    disease_img_grob <- rasterGrob(disease_img_raster, 
+                                   width = unit(2, "inches"),
+                                   height = unit(2, "inches"))
+    
+    # Add caption from lookup table
+    caption_text <- disease_image_captions[[input$disease]]
+    disease_caption_grob <- textGrob(
+      caption_text,
+      x = 0.5, just = "center",
+      gp = gpar(fontsize = 7, col = "gray40", lineheight = 1.2)
+    )
+    
+    param_grob <- textGrob(
+      param_text,
+      x = 0.05, just = "left",
+      gp = gpar(fontsize = 9, fontfamily = "mono")
+    )
+    
+    attribution_grob <- textGrob(
+      attribution_text,
+      x = 0.05, just = "left",
+      gp = gpar(fontsize = 8, col = "gray30")
+    )
+    
+    # Create bottom section with parameters and disease image side by side
+    # Combine disease image and its caption
+    disease_with_caption <- arrangeGrob(
+      disease_img_grob,
+      disease_caption_grob,
+      ncol = 1,
+      heights = c(2, 0.5)
+    )
+    
+    bottom_section <- arrangeGrob(
+      nullGrob(),
+      disease_with_caption,
+      nullGrob(),
+      param_grob,
+      nullGrob(),
+      attribution_grob,
+      nullGrob(),
+      ncol = 7,
+      widths = c(1, 2, 1, 2, 1, 4, 1)
+    )
+    
+    # Build the final plot - logo at top, title below, then rest of content
+    final_plot <- grid.arrange(
+      logo_grob,
+      nullGrob(),
+      title_grob,
+      nullGrob(),
+      summary_grob,
+      base_map_with_margins,
+      bottom_section,
+      nullGrob(),
+      ncol = 1,
+      heights = c(0.3, 0.3, 0.6, 0.2, 0.5, 4, 1.5, 0.3)
+    )
+    
+    return(final_plot)
+  }
+  
+  # Download handlers
+  output$download_png <- downloadHandler(
+    filename = function() {
+      paste0(
+        "vaximpactmap_",
+        tolower(gsub(" ", "_", input$disease)), "_",
+        input$percent_decline, "pct_decline_",
+        tolower(gsub(" ", "_", input$accrual_label)), "_",
+        input$burden_type, "_",
+        input$rate_or_count, "_",
+        format(Sys.Date(), "%Y%m%d"),
+        ".png"
+      )
+    },
+    content = function(file) {
+      # Create the plot
+      plot_to_save <- create_download_plot()
+      
+      # Save as high-resolution PNG
+      ggsave(
+        file,
+        plot = plot_to_save,
+        width = 12,
+        height = 14,
+        dpi = 300,
+        bg = "white"
+      )
+    }
+  )
+  
+  output$download_pdf <- downloadHandler(
+    filename = function() {
+      paste0(
+        "vaximpactmap_",
+        tolower(gsub(" ", "_", input$disease)), "_",
+        input$percent_decline, "pct_decline_",
+        tolower(gsub(" ", "_", input$accrual_label)), "_",
+        input$burden_type, "_",
+        input$rate_or_count, "_",
+        format(Sys.Date(), "%Y%m%d"),
+        ".pdf"
+      )
+    },
+    content = function(file) {
+      plot_to_save <- create_download_plot()
+      
+      ggsave(
+        file,
+        plot = plot_to_save,
+        width = 12,
+        height = 14,
+        device = "pdf",
+        bg = "white"
+      )
+    }
+  )
+  
+  output$download_svg <- downloadHandler(
+    filename = function() {
+      paste0(
+        "vaximpactmap_",
+        tolower(gsub(" ", "_", input$disease)), "_",
+        input$percent_decline, "pct_decline_",
+        tolower(gsub(" ", "_", input$accrual_label)), "_",
+        input$burden_type, "_",
+        input$rate_or_count, "_",
+        format(Sys.Date(), "%Y%m%d"),
+        ".svg"
+      )
+    },
+    content = function(file) {
+      plot_to_save <- create_download_plot()
+      
+      ggsave(
+        file,
+        plot = plot_to_save,
+        width = 12,
+        height = 14,
+        device = "svg",
+        bg = "white"
+      )
+    }
+  )
 
   # Render the map
   output$map <- renderGirafe({
