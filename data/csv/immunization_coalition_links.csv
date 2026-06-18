@@ -1,0 +1,52 @@
+state_name,state_abbr,has_coalition,coalition_url
+Alabama,AL,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJhbCJd&focus=W10=
+Alaska,AK,FALSE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJhayJd&focus=W10=
+Arizona,AZ,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJheiJd&focus=W10=
+Arkansas,AR,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJhciJd&focus=W10=
+California,CA,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJjYSJd&focus=W10=
+Colorado,CO,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJjbyJd&focus=W10=
+Connecticut,CT,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJjdCJd&focus=W10=
+Delaware,DE,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJkZSJd&focus=W10=
+District of Columbia,DC,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJkYyJd&focus=W10=
+Florida,FL,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJmbCJd&focus=W10=
+Georgia,GA,FALSE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJnYSJd&focus=W10=
+Hawaii,HI,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJoaSJd&focus=W10=
+Idaho,ID,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJpZCJd&focus=W10=
+Illinois,IL,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJpbCJd&focus=W10=
+Indiana,IN,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJpbiJd&focus=W10=
+Iowa,IA,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJpYSJd&focus=W10=
+Kansas,KS,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJrcyJd&focus=W10=
+Kentucky,KY,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJreSJd&focus=W10=
+Louisiana,LA,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJsYSJd&focus=W10=
+Maine,ME,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJtZSJd&focus=W10=
+Maryland,MD,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJtZCJd&focus=W10=
+Massachusetts,MA,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJtYSJd&focus=W10=
+Michigan,MI,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJtaSJd&focus=W10=
+Minnesota,MN,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJtbiJd&focus=W10=
+Mississippi,MS,FALSE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJtcyJd&focus=W10=
+Missouri,MO,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJtbyJd&focus=W10=
+Montana,MT,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJtdCJd&focus=W10=
+Nebraska,NE,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJuZSJd&focus=W10=
+Nevada,NV,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJudiJd&focus=W10=
+New Hampshire,NH,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJuaCJd&focus=W10=
+New Jersey,NJ,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJuaiJd&focus=W10=
+New Mexico,NM,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJubSJd&focus=W10=
+New York,NY,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJueSJd&focus=W10=
+North Carolina,NC,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJuYyJd&focus=W10=
+North Dakota,ND,FALSE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJuZCJd&focus=W10=
+Ohio,OH,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJvaCJd&focus=W10=
+Oklahoma,OK,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJvayJd&focus=W10=
+Oregon,OR,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJvciJd&focus=W10=
+Pennsylvania,PA,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJwYSJd&focus=W10=
+Rhode Island,RI,FALSE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJyaSJd&focus=W10=
+South Carolina,SC,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJzYyJd&focus=W10=
+South Dakota,SD,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJzZCJd&focus=W10=
+Tennessee,TN,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJ0biJd&focus=W10=
+Texas,TX,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJ0eCJd&focus=W10=
+Utah,UT,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJ1dCJd&focus=W10=
+Vermont,VT,FALSE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJ2dCJd&focus=W10=
+Virginia,VA,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJ2YSJd&focus=W10=
+Washington,WA,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJ3YSJd&focus=W10=
+West Virginia,WV,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJ3diJd&focus=W10=
+Wisconsin,WI,TRUE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJ3aSJd&focus=W10=
+Wyoming,WY,FALSE,https://www.immunizationcoalitions.org/network-members/?listing=1&country=usa&states=WyJ3eSJd&focus=W10=
