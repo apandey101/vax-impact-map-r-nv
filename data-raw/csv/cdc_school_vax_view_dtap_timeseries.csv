@@ -1,0 +1,308 @@
+"source","vaccine","state_name","year","year_type","school_year","vaccine_coverage_estimate","ci_95","sample_size"
+"school_vax_view","DTP, DTaP, or DT","Alabama",2019,"school_year","2019-20",86.6,NA,59477
+"school_vax_view","DTP, DTaP, or DT","Alabama",2020,"school_year","2020-21",94.7,NA,56974
+"school_vax_view","DTP, DTaP, or DT","Alabama",2021,"school_year","2021-22",94.9,NA,60332
+"school_vax_view","DTP, DTaP, or DT","Alabama",2022,"school_year","2022-23",93.9,NA,59113
+"school_vax_view","DTP, DTaP, or DT","Alabama",2023,"school_year","2023-24",93.8,NA,54565
+"school_vax_view","DTP, DTaP, or DT","Alabama",2024,"school_year","2024-25",95,NA,53589
+"school_vax_view","DTP, DTaP, or DT","Alaska",2019,"school_year","2019-20",NA,NA,10381
+"school_vax_view","DTP, DTaP, or DT","Alaska",2021,"school_year","2021-22",78,NA,9790
+"school_vax_view","DTP, DTaP, or DT","Alaska",2022,"school_year","2022-23",83.8,NA,9650
+"school_vax_view","DTP, DTaP, or DT","Alaska",2023,"school_year","2023-24",83.8,NA,8644
+"school_vax_view","DTP, DTaP, or DT","Alaska",2024,"school_year","2024-25",82.2,NA,7338
+"school_vax_view","DTP, DTaP, or DT","Arizona",2019,"school_year","2019-20",92.6,NA,83976
+"school_vax_view","DTP, DTaP, or DT","Arizona",2020,"school_year","2020-21",92,NA,76382
+"school_vax_view","DTP, DTaP, or DT","Arizona",2021,"school_year","2021-22",90.5,NA,83463
+"school_vax_view","DTP, DTaP, or DT","Arizona",2022,"school_year","2022-23",89.6,NA,80814
+"school_vax_view","DTP, DTaP, or DT","Arizona",2023,"school_year","2023-24",89.4,NA,74834
+"school_vax_view","DTP, DTaP, or DT","Arizona",2024,"school_year","2024-25",88.7,NA,75024
+"school_vax_view","DTP, DTaP, or DT","Arkansas",2019,"school_year","2019-20",93.2,NA,39510
+"school_vax_view","DTP, DTaP, or DT","Arkansas",2020,"school_year","2020-21",92.3,NA,37540
+"school_vax_view","DTP, DTaP, or DT","Arkansas",2021,"school_year","2021-22",91.3,NA,39358
+"school_vax_view","DTP, DTaP, or DT","Arkansas",2022,"school_year","2022-23",90.6,NA,38358
+"school_vax_view","DTP, DTaP, or DT","Arkansas",2023,"school_year","2023-24",91.4,NA,37535
+"school_vax_view","DTP, DTaP, or DT","Arkansas",2024,"school_year","2024-25",88.5,NA,37570
+"school_vax_view","DTP, DTaP, or DT","California",2019,"school_year","2019-20",96.2,NA,566155
+"school_vax_view","DTP, DTaP, or DT","California",2020,"school_year","2020-21",94.7,NA,498214
+"school_vax_view","DTP, DTaP, or DT","California",2021,"school_year","2021-22",95.7,NA,512144
+"school_vax_view","DTP, DTaP, or DT","California",2022,"school_year","2022-23",95.6,NA,541132
+"school_vax_view","DTP, DTaP, or DT","California",2023,"school_year","2023-24",95.4,NA,569680
+"school_vax_view","DTP, DTaP, or DT","California",2024,"school_year","2024-25",95.1,NA,590849
+"school_vax_view","DTP, DTaP, or DT","Colorado",2019,"school_year","2019-20",92.8,NA,69088
+"school_vax_view","DTP, DTaP, or DT","Colorado",2020,"school_year","2020-21",90.1,NA,63619
+"school_vax_view","DTP, DTaP, or DT","Colorado",2021,"school_year","2021-22",89.1,NA,66900
+"school_vax_view","DTP, DTaP, or DT","Colorado",2022,"school_year","2022-23",87.2,NA,65576
+"school_vax_view","DTP, DTaP, or DT","Colorado",2023,"school_year","2023-24",87.9,NA,61662
+"school_vax_view","DTP, DTaP, or DT","Colorado",2024,"school_year","2024-25",87.4,NA,60055
+"school_vax_view","DTP, DTaP, or DT","Connecticut",2019,"school_year","2019-20",96.2,NA,38888
+"school_vax_view","DTP, DTaP, or DT","Connecticut",2020,"school_year","2020-21",95.3,NA,34396
+"school_vax_view","DTP, DTaP, or DT","Connecticut",2021,"school_year","2021-22",96,NA,35451
+"school_vax_view","DTP, DTaP, or DT","Connecticut",2022,"school_year","2022-23",97.3,NA,35580
+"school_vax_view","DTP, DTaP, or DT","Connecticut",2023,"school_year","2023-24",97.6,NA,36184
+"school_vax_view","DTP, DTaP, or DT","Connecticut",2024,"school_year","2024-25",98.2,NA,30112
+"school_vax_view","DTP, DTaP, or DT","Delaware",2019,"school_year","2019-20",NA,NA,NA
+"school_vax_view","DTP, DTaP, or DT","Delaware",2020,"school_year","2020-21",94.9,NA,10587
+"school_vax_view","DTP, DTaP, or DT","Delaware",2021,"school_year","2021-22",96.4,NA,11181
+"school_vax_view","DTP, DTaP, or DT","Delaware",2022,"school_year","2022-23",93.8,NA,10674
+"school_vax_view","DTP, DTaP, or DT","Delaware",2023,"school_year","2023-24",93.8,NA,11043
+"school_vax_view","DTP, DTaP, or DT","Delaware",2024,"school_year","2024-25",94.8,NA,10393
+"school_vax_view","DTP, DTaP, or DT","District of Columbia",2019,"school_year","2019-20",NA,NA,NA
+"school_vax_view","DTP, DTaP, or DT","District of Columbia",2020,"school_year","2020-21",78.5,NA,8262
+"school_vax_view","DTP, DTaP, or DT","District of Columbia",2021,"school_year","2021-22",82.2,NA,8959
+"school_vax_view","DTP, DTaP, or DT","District of Columbia",2022,"school_year","2022-23",85,NA,8064
+"school_vax_view","DTP, DTaP, or DT","District of Columbia",2023,"school_year","2023-24",92,NA,7874
+"school_vax_view","DTP, DTaP, or DT","District of Columbia",2024,"school_year","2024-25",90.3,NA,7997
+"school_vax_view","DTP, DTaP, or DT","Florida",2019,"school_year","2019-20",93.5,NA,228298
+"school_vax_view","DTP, DTaP, or DT","Florida",2020,"school_year","2020-21",93.3,NA,207026
+"school_vax_view","DTP, DTaP, or DT","Florida",2021,"school_year","2021-22",91.7,NA,229432
+"school_vax_view","DTP, DTaP, or DT","Florida",2022,"school_year","2022-23",90.6,NA,230309
+"school_vax_view","DTP, DTaP, or DT","Florida",2023,"school_year","2023-24",88.1,NA,228213
+"school_vax_view","DTP, DTaP, or DT","Florida",2024,"school_year","2024-25",88.8,NA,221053
+"school_vax_view","DTP, DTaP, or DT","Georgia",2019,"school_year","2019-20",93.1,NA,130102
+"school_vax_view","DTP, DTaP, or DT","Georgia",2020,"school_year","2020-21",88.5,NA,83191
+"school_vax_view","DTP, DTaP, or DT","Georgia",2021,"school_year","2021-22",83.2,NA,118742
+"school_vax_view","DTP, DTaP, or DT","Georgia",2022,"school_year","2022-23",88.1,NA,123771
+"school_vax_view","DTP, DTaP, or DT","Georgia",2023,"school_year","2023-24",88.4,NA,136943
+"school_vax_view","DTP, DTaP, or DT","Georgia",2024,"school_year","2024-25",86.8,NA,114568
+"school_vax_view","DTP, DTaP, or DT","Hawaii",2019,"school_year","2019-20",91.1,NA,15695
+"school_vax_view","DTP, DTaP, or DT","Hawaii",2020,"school_year","2020-21",91.3,NA,13074
+"school_vax_view","DTP, DTaP, or DT","Hawaii",2021,"school_year","2021-22",92.5,NA,13368
+"school_vax_view","DTP, DTaP, or DT","Hawaii",2022,"school_year","2022-23",87,NA,13195
+"school_vax_view","DTP, DTaP, or DT","Hawaii",2023,"school_year","2023-24",89.4,NA,13995
+"school_vax_view","DTP, DTaP, or DT","Hawaii",2024,"school_year","2024-25",91.5,NA,13804
+"school_vax_view","DTP, DTaP, or DT","Idaho",2019,"school_year","2019-20",89,NA,23301
+"school_vax_view","DTP, DTaP, or DT","Idaho",2020,"school_year","2020-21",86.4,NA,22677
+"school_vax_view","DTP, DTaP, or DT","Idaho",2021,"school_year","2021-22",83.5,NA,23854
+"school_vax_view","DTP, DTaP, or DT","Idaho",2022,"school_year","2022-23",81,NA,23721
+"school_vax_view","DTP, DTaP, or DT","Idaho",2023,"school_year","2023-24",79.5,NA,22376
+"school_vax_view","DTP, DTaP, or DT","Idaho",2024,"school_year","2024-25",78.3,NA,22242
+"school_vax_view","DTP, DTaP, or DT","Illinois",2019,"school_year","2019-20",96.5,NA,145891
+"school_vax_view","DTP, DTaP, or DT","Illinois",2020,"school_year","2020-21",NA,NA,NA
+"school_vax_view","DTP, DTaP, or DT","Illinois",2021,"school_year","2021-22",91.9,NA,137699
+"school_vax_view","DTP, DTaP, or DT","Illinois",2022,"school_year","2022-23",91.5,NA,135332
+"school_vax_view","DTP, DTaP, or DT","Illinois",2023,"school_year","2023-24",91.2,NA,133578
+"school_vax_view","DTP, DTaP, or DT","Illinois",2024,"school_year","2024-25",91.2,NA,132769
+"school_vax_view","DTP, DTaP, or DT","Indiana",2019,"school_year","2019-20",84,NA,88253
+"school_vax_view","DTP, DTaP, or DT","Indiana",2020,"school_year","2020-21",83.9,NA,78694
+"school_vax_view","DTP, DTaP, or DT","Indiana",2021,"school_year","2021-22",84,NA,83198
+"school_vax_view","DTP, DTaP, or DT","Indiana",2022,"school_year","2022-23",83,NA,81307
+"school_vax_view","DTP, DTaP, or DT","Indiana",2023,"school_year","2023-24",81.8,NA,80639
+"school_vax_view","DTP, DTaP, or DT","Indiana",2024,"school_year","2024-25",81.7,NA,73744
+"school_vax_view","DTP, DTaP, or DT","Iowa",2019,"school_year","2019-20",93.2,NA,40812
+"school_vax_view","DTP, DTaP, or DT","Iowa",2020,"school_year","2020-21",93.4,NA,39141
+"school_vax_view","DTP, DTaP, or DT","Iowa",2021,"school_year","2021-22",90.6,NA,40111
+"school_vax_view","DTP, DTaP, or DT","Iowa",2022,"school_year","2022-23",89.9,NA,39178
+"school_vax_view","DTP, DTaP, or DT","Iowa",2023,"school_year","2023-24",89.1,NA,38611
+"school_vax_view","DTP, DTaP, or DT","Iowa",2024,"school_year","2024-25",88.8,NA,38268
+"school_vax_view","DTP, DTaP, or DT","Kansas",2019,"school_year","2019-20",89.7,NA,37865
+"school_vax_view","DTP, DTaP, or DT","Kansas",2020,"school_year","2020-21",90.8,NA,34687
+"school_vax_view","DTP, DTaP, or DT","Kansas",2021,"school_year","2021-22",90,NA,36526
+"school_vax_view","DTP, DTaP, or DT","Kansas",2022,"school_year","2022-23",90.5,NA,35543
+"school_vax_view","DTP, DTaP, or DT","Kansas",2023,"school_year","2023-24",90.1,NA,34178
+"school_vax_view","DTP, DTaP, or DT","Kansas",2024,"school_year","2024-25",90.8,NA,33892
+"school_vax_view","DTP, DTaP, or DT","Kentucky",2019,"school_year","2019-20",93.3,NA,59233
+"school_vax_view","DTP, DTaP, or DT","Kentucky",2020,"school_year","2020-21",89.4,NA,59233
+"school_vax_view","DTP, DTaP, or DT","Kentucky",2021,"school_year","2021-22",87.1,NA,59233
+"school_vax_view","DTP, DTaP, or DT","Kentucky",2022,"school_year","2022-23",90.6,NA,54742
+"school_vax_view","DTP, DTaP, or DT","Kentucky",2023,"school_year","2023-24",91,NA,52609
+"school_vax_view","DTP, DTaP, or DT","Kentucky",2024,"school_year","2024-25",86.2,NA,51319
+"school_vax_view","DTP, DTaP, or DT","Louisiana",2019,"school_year","2019-20",97.2,NA,59685
+"school_vax_view","DTP, DTaP, or DT","Louisiana",2020,"school_year","2020-21",96.9,NA,61912
+"school_vax_view","DTP, DTaP, or DT","Louisiana",2021,"school_year","2021-22",96.2,NA,66518
+"school_vax_view","DTP, DTaP, or DT","Louisiana",2022,"school_year","2022-23",93.1,NA,54314
+"school_vax_view","DTP, DTaP, or DT","Louisiana",2023,"school_year","2023-24",90.5,NA,51839
+"school_vax_view","DTP, DTaP, or DT","Louisiana",2024,"school_year","2024-25",95.3,NA,49229
+"school_vax_view","DTP, DTaP, or DT","Maine",2019,"school_year","2019-20",94.1,NA,13450
+"school_vax_view","DTP, DTaP, or DT","Maine",2020,"school_year","2020-21",94,NA,13477
+"school_vax_view","DTP, DTaP, or DT","Maine",2021,"school_year","2021-22",96.3,NA,12881
+"school_vax_view","DTP, DTaP, or DT","Maine",2022,"school_year","2022-23",96.6,NA,12403
+"school_vax_view","DTP, DTaP, or DT","Maine",2023,"school_year","2023-24",96.9,NA,12087
+"school_vax_view","DTP, DTaP, or DT","Maine",2024,"school_year","2024-25",97.3,NA,11761
+"school_vax_view","DTP, DTaP, or DT","Maryland",2019,"school_year","2019-20",98.2,NA,72443
+"school_vax_view","DTP, DTaP, or DT","Maryland",2020,"school_year","2020-21",89.7,NA,65764
+"school_vax_view","DTP, DTaP, or DT","Maryland",2021,"school_year","2021-22",88.6,NA,53866
+"school_vax_view","DTP, DTaP, or DT","Maryland",2022,"school_year","2022-23",96.9,NA,59684
+"school_vax_view","DTP, DTaP, or DT","Maryland",2023,"school_year","2023-24",96.8,NA,63224
+"school_vax_view","DTP, DTaP, or DT","Maryland",2024,"school_year","2024-25",96.6,NA,66135
+"school_vax_view","DTP, DTaP, or DT","Massachusetts",2019,"school_year","2019-20",97.2,NA,66756
+"school_vax_view","DTP, DTaP, or DT","Massachusetts",2020,"school_year","2020-21",95.7,NA,60724
+"school_vax_view","DTP, DTaP, or DT","Massachusetts",2021,"school_year","2021-22",96.1,NA,65582
+"school_vax_view","DTP, DTaP, or DT","Massachusetts",2022,"school_year","2022-23",96.2,NA,66041
+"school_vax_view","DTP, DTaP, or DT","Massachusetts",2023,"school_year","2023-24",96,NA,65424
+"school_vax_view","DTP, DTaP, or DT","Massachusetts",2024,"school_year","2024-25",96.3,NA,65581
+"school_vax_view","DTP, DTaP, or DT","Michigan",2019,"school_year","2019-20",94.7,NA,120565
+"school_vax_view","DTP, DTaP, or DT","Michigan",2020,"school_year","2020-21",95.4,NA,106657
+"school_vax_view","DTP, DTaP, or DT","Michigan",2021,"school_year","2021-22",94.1,NA,114251
+"school_vax_view","DTP, DTaP, or DT","Michigan",2022,"school_year","2022-23",93.1,NA,113678
+"school_vax_view","DTP, DTaP, or DT","Michigan",2023,"school_year","2023-24",92.1,NA,110156
+"school_vax_view","DTP, DTaP, or DT","Michigan",2024,"school_year","2024-25",91.6,NA,107636
+"school_vax_view","DTP, DTaP, or DT","Minnesota",2019,"school_year","2019-20",92.3,NA,71223
+"school_vax_view","DTP, DTaP, or DT","Minnesota",2020,"school_year","2020-21",89.3,NA,66007
+"school_vax_view","DTP, DTaP, or DT","Minnesota",2021,"school_year","2021-22",89,NA,69403
+"school_vax_view","DTP, DTaP, or DT","Minnesota",2022,"school_year","2022-23",88.3,NA,68152
+"school_vax_view","DTP, DTaP, or DT","Minnesota",2023,"school_year","2023-24",87.4,NA,66032
+"school_vax_view","DTP, DTaP, or DT","Minnesota",2024,"school_year","2024-25",87,NA,64898
+"school_vax_view","DTP, DTaP, or DT","Mississippi",2019,"school_year","2019-20",99.1,NA,37870
+"school_vax_view","DTP, DTaP, or DT","Mississippi",2020,"school_year","2020-21",98.9,NA,34028
+"school_vax_view","DTP, DTaP, or DT","Mississippi",2021,"school_year","2021-22",98.6,NA,36524
+"school_vax_view","DTP, DTaP, or DT","Mississippi",2022,"school_year","2022-23",98.4,NA,36048
+"school_vax_view","DTP, DTaP, or DT","Mississippi",2023,"school_year","2023-24",97.5,NA,36105
+"school_vax_view","DTP, DTaP, or DT","Mississippi",2024,"school_year","2024-25",97.6,NA,35293
+"school_vax_view","DTP, DTaP, or DT","Missouri",2019,"school_year","2019-20",94.5,NA,72324
+"school_vax_view","DTP, DTaP, or DT","Missouri",2020,"school_year","2020-21",92.6,NA,63093
+"school_vax_view","DTP, DTaP, or DT","Missouri",2021,"school_year","2021-22",91.5,NA,71034
+"school_vax_view","DTP, DTaP, or DT","Missouri",2022,"school_year","2022-23",91.1,NA,69126
+"school_vax_view","DTP, DTaP, or DT","Missouri",2023,"school_year","2023-24",90.5,NA,69014
+"school_vax_view","DTP, DTaP, or DT","Missouri",2024,"school_year","2024-25",90,NA,68163
+"school_vax_view","DTP, DTaP, or DT","Montana",2019,"school_year","2019-20",93.2,NA,12501
+"school_vax_view","DTP, DTaP, or DT","Montana",2020,"school_year","2020-21",91.9,NA,11279
+"school_vax_view","DTP, DTaP, or DT","Nebraska",2019,"school_year","2019-20",96.9,NA,26893
+"school_vax_view","DTP, DTaP, or DT","Nebraska",2020,"school_year","2020-21",96.1,NA,25681
+"school_vax_view","DTP, DTaP, or DT","Nebraska",2021,"school_year","2021-22",96.6,NA,25018
+"school_vax_view","DTP, DTaP, or DT","Nebraska",2022,"school_year","2022-23",95.7,NA,23176
+"school_vax_view","DTP, DTaP, or DT","Nebraska",2023,"school_year","2023-24",95.2,NA,23118
+"school_vax_view","DTP, DTaP, or DT","Nebraska",2024,"school_year","2024-25",95.1,NA,24102
+"school_vax_view","DTP, DTaP, or DT","Nevada",2019,"school_year","2019-20",94,NA,37724
+"school_vax_view","DTP, DTaP, or DT","Nevada",2020,"school_year","2020-21",95.4,NA,34171
+"school_vax_view","DTP, DTaP, or DT","Nevada",2021,"school_year","2021-22",91.5,NA,36855
+"school_vax_view","DTP, DTaP, or DT","Nevada",2022,"school_year","2022-23",92.2,NA,34333
+"school_vax_view","DTP, DTaP, or DT","Nevada",2023,"school_year","2023-24",91.1,NA,31261
+"school_vax_view","DTP, DTaP, or DT","Nevada",2024,"school_year","2024-25",90.3,NA,33272
+"school_vax_view","DTP, DTaP, or DT","New Hampshire",2019,"school_year","2019-20",91.5,NA,12447
+"school_vax_view","DTP, DTaP, or DT","New Hampshire",2020,"school_year","2020-21",90.8,NA,10242
+"school_vax_view","DTP, DTaP, or DT","New Hampshire",2021,"school_year","2021-22",88.7,NA,12157
+"school_vax_view","DTP, DTaP, or DT","New Hampshire",2022,"school_year","2022-23",89.4,NA,11332
+"school_vax_view","DTP, DTaP, or DT","New Hampshire",2023,"school_year","2023-24",89.2,NA,11871
+"school_vax_view","DTP, DTaP, or DT","New Hampshire",2024,"school_year","2024-25",89.2,NA,11713
+"school_vax_view","DTP, DTaP, or DT","New Jersey",2019,"school_year","2019-20",95.9,NA,107900
+"school_vax_view","DTP, DTaP, or DT","New Jersey",2020,"school_year","2020-21",94.3,NA,100144
+"school_vax_view","DTP, DTaP, or DT","New Jersey",2021,"school_year","2021-22",94.1,NA,104240
+"school_vax_view","DTP, DTaP, or DT","New Jersey",2022,"school_year","2022-23",94.3,NA,104468
+"school_vax_view","DTP, DTaP, or DT","New Jersey",2023,"school_year","2023-24",93.2,NA,105408
+"school_vax_view","DTP, DTaP, or DT","New Jersey",2024,"school_year","2024-25",92.8,NA,104339
+"school_vax_view","DTP, DTaP, or DT","New Mexico",2019,"school_year","2019-20",96.7,NA,23087
+"school_vax_view","DTP, DTaP, or DT","New Mexico",2020,"school_year","2020-21",95.7,NA,20589
+"school_vax_view","DTP, DTaP, or DT","New Mexico",2021,"school_year","2021-22",94,NA,20736
+"school_vax_view","DTP, DTaP, or DT","New Mexico",2022,"school_year","2022-23",94.7,NA,21068
+"school_vax_view","DTP, DTaP, or DT","New Mexico",2023,"school_year","2023-24",94.8,NA,20699
+"school_vax_view","DTP, DTaP, or DT","New Mexico",2024,"school_year","2024-25",94.5,NA,20180
+"school_vax_view","DTP, DTaP, or DT","New York",2019,"school_year","2019-20",97.8,NA,234165
+"school_vax_view","DTP, DTaP, or DT","New York",2020,"school_year","2020-21",97.8,NA,216804
+"school_vax_view","DTP, DTaP, or DT","New York",2021,"school_year","2021-22",97.3,NA,195377
+"school_vax_view","DTP, DTaP, or DT","New York",2022,"school_year","2022-23",97.2,NA,205906
+"school_vax_view","DTP, DTaP, or DT","New York",2023,"school_year","2023-24",96.8,NA,200894
+"school_vax_view","DTP, DTaP, or DT","New York",2024,"school_year","2024-25",97.2,NA,234054
+"school_vax_view","DTP, DTaP, or DT","North Carolina",2019,"school_year","2019-20",95.5,NA,124548
+"school_vax_view","DTP, DTaP, or DT","North Carolina",2020,"school_year","2020-21",95.2,NA,120995
+"school_vax_view","DTP, DTaP, or DT","North Carolina",2021,"school_year","2021-22",96,NA,118191
+"school_vax_view","DTP, DTaP, or DT","North Carolina",2022,"school_year","2022-23",93.7,NA,125679
+"school_vax_view","DTP, DTaP, or DT","North Carolina",2023,"school_year","2023-24",93.5,NA,125964
+"school_vax_view","DTP, DTaP, or DT","North Carolina",2024,"school_year","2024-25",94,NA,124028
+"school_vax_view","DTP, DTaP, or DT","North Dakota",2019,"school_year","2019-20",94.4,NA,10587
+"school_vax_view","DTP, DTaP, or DT","North Dakota",2020,"school_year","2020-21",93.1,NA,10116
+"school_vax_view","DTP, DTaP, or DT","North Dakota",2021,"school_year","2021-22",91.4,NA,10755
+"school_vax_view","DTP, DTaP, or DT","North Dakota",2022,"school_year","2022-23",91.8,NA,10554
+"school_vax_view","DTP, DTaP, or DT","North Dakota",2023,"school_year","2023-24",90.5,NA,9708
+"school_vax_view","DTP, DTaP, or DT","North Dakota",2024,"school_year","2024-25",89.7,NA,9659
+"school_vax_view","DTP, DTaP, or DT","Ohio",2019,"school_year","2019-20",92.3,NA,139103
+"school_vax_view","DTP, DTaP, or DT","Ohio",2020,"school_year","2020-21",89,NA,128535
+"school_vax_view","DTP, DTaP, or DT","Ohio",2021,"school_year","2021-22",88.5,NA,139077
+"school_vax_view","DTP, DTaP, or DT","Ohio",2022,"school_year","2022-23",89.4,NA,134893
+"school_vax_view","DTP, DTaP, or DT","Ohio",2023,"school_year","2023-24",89.3,NA,133716
+"school_vax_view","DTP, DTaP, or DT","Ohio",2024,"school_year","2024-25",88.8,NA,131589
+"school_vax_view","DTP, DTaP, or DT","Oklahoma",2019,"school_year","2019-20",93.9,NA,55348
+"school_vax_view","DTP, DTaP, or DT","Oklahoma",2020,"school_year","2020-21",90.3,NA,52656
+"school_vax_view","DTP, DTaP, or DT","Oklahoma",2021,"school_year","2021-22",91.1,NA,54042
+"school_vax_view","DTP, DTaP, or DT","Oklahoma",2022,"school_year","2022-23",90,NA,52548
+"school_vax_view","DTP, DTaP, or DT","Oklahoma",2023,"school_year","2023-24",89,NA,49979
+"school_vax_view","DTP, DTaP, or DT","Oklahoma",2024,"school_year","2024-25",89.5,NA,47544
+"school_vax_view","DTP, DTaP, or DT","Oregon",2019,"school_year","2019-20",92.6,NA,45959
+"school_vax_view","DTP, DTaP, or DT","Oregon",2020,"school_year","2020-21",91.6,NA,39568
+"school_vax_view","DTP, DTaP, or DT","Oregon",2021,"school_year","2021-22",92,NA,41538
+"school_vax_view","DTP, DTaP, or DT","Oregon",2022,"school_year","2022-23",90.9,NA,40963
+"school_vax_view","DTP, DTaP, or DT","Oregon",2023,"school_year","2023-24",90.5,NA,39568
+"school_vax_view","DTP, DTaP, or DT","Oregon",2024,"school_year","2024-25",89.6,NA,38247
+"school_vax_view","DTP, DTaP, or DT","Pennsylvania",2019,"school_year","2019-20",96.8,NA,140197
+"school_vax_view","DTP, DTaP, or DT","Pennsylvania",2020,"school_year","2020-21",95.9,NA,129307
+"school_vax_view","DTP, DTaP, or DT","Pennsylvania",2021,"school_year","2021-22",95.4,NA,139558
+"school_vax_view","DTP, DTaP, or DT","Pennsylvania",2022,"school_year","2022-23",94.3,NA,137259
+"school_vax_view","DTP, DTaP, or DT","Pennsylvania",2023,"school_year","2023-24",93.8,NA,137593
+"school_vax_view","DTP, DTaP, or DT","Pennsylvania",2024,"school_year","2024-25",92.7,NA,140160
+"school_vax_view","DTP, DTaP, or DT","Rhode Island",2019,"school_year","2019-20",97.4,NA,11219
+"school_vax_view","DTP, DTaP, or DT","Rhode Island",2020,"school_year","2020-21",96.8,NA,10402
+"school_vax_view","DTP, DTaP, or DT","Rhode Island",2021,"school_year","2021-22",97,NA,11002
+"school_vax_view","DTP, DTaP, or DT","Rhode Island",2022,"school_year","2022-23",96.9,NA,10532
+"school_vax_view","DTP, DTaP, or DT","Rhode Island",2023,"school_year","2023-24",96.9,NA,10539
+"school_vax_view","DTP, DTaP, or DT","Rhode Island",2024,"school_year","2024-25",96.7,NA,10088
+"school_vax_view","DTP, DTaP, or DT","South Carolina",2019,"school_year","2019-20",95.2,NA,65938
+"school_vax_view","DTP, DTaP, or DT","South Carolina",2020,"school_year","2020-21",95,NA,56330
+"school_vax_view","DTP, DTaP, or DT","South Carolina",2021,"school_year","2021-22",91,NA,58276
+"school_vax_view","DTP, DTaP, or DT","South Carolina",2022,"school_year","2022-23",92.1,NA,58878
+"school_vax_view","DTP, DTaP, or DT","South Carolina",2023,"school_year","2023-24",92.3,NA,58069
+"school_vax_view","DTP, DTaP, or DT","South Carolina",2024,"school_year","2024-25",91.8,NA,57718
+"school_vax_view","DTP, DTaP, or DT","South Dakota",2019,"school_year","2019-20",95.9,NA,12367
+"school_vax_view","DTP, DTaP, or DT","South Dakota",2020,"school_year","2020-21",93.7,NA,11512
+"school_vax_view","DTP, DTaP, or DT","South Dakota",2021,"school_year","2021-22",93.2,NA,12251
+"school_vax_view","DTP, DTaP, or DT","South Dakota",2022,"school_year","2022-23",92.2,NA,12081
+"school_vax_view","DTP, DTaP, or DT","South Dakota",2023,"school_year","2023-24",90.6,NA,11744
+"school_vax_view","DTP, DTaP, or DT","South Dakota",2024,"school_year","2024-25",89.6,NA,11367
+"school_vax_view","DTP, DTaP, or DT","TX-City of San Antonio",2024,"school_year","2024-25",94.3,NA,24929
+"school_vax_view","DTP, DTaP, or DT","Tennessee",2019,"school_year","2019-20",96.4,NA,80595
+"school_vax_view","DTP, DTaP, or DT","Tennessee",2020,"school_year","2020-21",96.4,NA,73819
+"school_vax_view","DTP, DTaP, or DT","Tennessee",2021,"school_year","2021-22",95.2,NA,79120
+"school_vax_view","DTP, DTaP, or DT","Tennessee",2022,"school_year","2022-23",94.8,NA,79692
+"school_vax_view","DTP, DTaP, or DT","Tennessee",2023,"school_year","2023-24",94.6,NA,79323
+"school_vax_view","DTP, DTaP, or DT","Tennessee",2024,"school_year","2024-25",94,NA,78299
+"school_vax_view","DTP, DTaP, or DT","Texas",2019,"school_year","2019-20",96.6,NA,398680
+"school_vax_view","DTP, DTaP, or DT","Texas",2020,"school_year","2020-21",95,NA,377840
+"school_vax_view","DTP, DTaP, or DT","Texas",2021,"school_year","2021-22",93.7,NA,389037
+"school_vax_view","DTP, DTaP, or DT","Texas",2022,"school_year","2022-23",93.8,NA,381680
+"school_vax_view","DTP, DTaP, or DT","Texas",2023,"school_year","2023-24",94,NA,381421
+"school_vax_view","DTP, DTaP, or DT","Texas",2024,"school_year","2024-25",92.9,NA,378860
+"school_vax_view","DTP, DTaP, or DT","United States",2019,"school_year","2019-20",94.9,NA,NA
+"school_vax_view","DTP, DTaP, or DT","United States",2020,"school_year","2020-21",93.6,NA,3510744
+"school_vax_view","DTP, DTaP, or DT","United States",2021,"school_year","2021-22",92.7,NA,3835130
+"school_vax_view","DTP, DTaP, or DT","United States",2022,"school_year","2022-23",92.7,NA,3832381
+"school_vax_view","DTP, DTaP, or DT","United States",2023,"school_year","2023-24",92.3,NA,3823506
+"school_vax_view","DTP, DTaP, or DT","United States",2024,"school_year","2024-25",92.1,NA,3785644
+"school_vax_view","DTP, DTaP, or DT","Utah",2019,"school_year","2019-20",92.2,NA,49208
+"school_vax_view","DTP, DTaP, or DT","Utah",2020,"school_year","2020-21",91.1,NA,46247
+"school_vax_view","DTP, DTaP, or DT","Utah",2021,"school_year","2021-22",89.6,NA,48995
+"school_vax_view","DTP, DTaP, or DT","Utah",2022,"school_year","2022-23",89.7,NA,46635
+"school_vax_view","DTP, DTaP, or DT","Utah",2023,"school_year","2023-24",88.5,NA,46228
+"school_vax_view","DTP, DTaP, or DT","Utah",2024,"school_year","2024-25",88.1,NA,45818
+"school_vax_view","DTP, DTaP, or DT","Vermont",2019,"school_year","2019-20",94.1,NA,6293
+"school_vax_view","DTP, DTaP, or DT","Vermont",2020,"school_year","2020-21",93.6,NA,5535
+"school_vax_view","DTP, DTaP, or DT","Vermont",2021,"school_year","2021-22",92.9,NA,6126
+"school_vax_view","DTP, DTaP, or DT","Vermont",2022,"school_year","2022-23",92.8,NA,5816
+"school_vax_view","DTP, DTaP, or DT","Vermont",2023,"school_year","2023-24",92.7,NA,5630
+"school_vax_view","DTP, DTaP, or DT","Vermont",2024,"school_year","2024-25",93.3,NA,5432
+"school_vax_view","DTP, DTaP, or DT","Virginia",2019,"school_year","2019-20",97.6,NA,99399
+"school_vax_view","DTP, DTaP, or DT","Virginia",2020,"school_year","2020-21",97.7,NA,88273
+"school_vax_view","DTP, DTaP, or DT","Virginia",2021,"school_year","2021-22",98.3,NA,95996
+"school_vax_view","DTP, DTaP, or DT","Virginia",2022,"school_year","2022-23",97.8,NA,93271
+"school_vax_view","DTP, DTaP, or DT","Virginia",2023,"school_year","2023-24",96.2,NA,92633
+"school_vax_view","DTP, DTaP, or DT","Virginia",2024,"school_year","2024-25",98.2,NA,91453
+"school_vax_view","DTP, DTaP, or DT","Washington",2019,"school_year","2019-20",92.8,NA,87757
+"school_vax_view","DTP, DTaP, or DT","Washington",2020,"school_year","2020-21",93.2,NA,74931
+"school_vax_view","DTP, DTaP, or DT","Washington",2021,"school_year","2021-22",91.4,NA,87256
+"school_vax_view","DTP, DTaP, or DT","Washington",2022,"school_year","2022-23",90.1,NA,86284
+"school_vax_view","DTP, DTaP, or DT","Washington",2023,"school_year","2023-24",90.2,NA,84053
+"school_vax_view","DTP, DTaP, or DT","Washington",2024,"school_year","2024-25",89.7,NA,76756
+"school_vax_view","DTP, DTaP, or DT","West Virginia",2019,"school_year","2019-20",98.8,NA,17114
+"school_vax_view","DTP, DTaP, or DT","West Virginia",2020,"school_year","2020-21",NA,NA,NA
+"school_vax_view","DTP, DTaP, or DT","West Virginia",2021,"school_year","2021-22",96.5,NA,18070
+"school_vax_view","DTP, DTaP, or DT","West Virginia",2022,"school_year","2022-23",95.6,NA,19175
+"school_vax_view","DTP, DTaP, or DT","West Virginia",2023,"school_year","2023-24",98.4,NA,18261
+"school_vax_view","DTP, DTaP, or DT","Wisconsin",2019,"school_year","2019-20",94.5,NA,67391
+"school_vax_view","DTP, DTaP, or DT","Wisconsin",2020,"school_year","2020-21",87.2,NA,63486
+"school_vax_view","DTP, DTaP, or DT","Wisconsin",2021,"school_year","2021-22",82.6,NA,64275
+"school_vax_view","DTP, DTaP, or DT","Wisconsin",2022,"school_year","2022-23",87,NA,63593
+"school_vax_view","DTP, DTaP, or DT","Wisconsin",2023,"school_year","2023-24",85.7,NA,62028
+"school_vax_view","DTP, DTaP, or DT","Wisconsin",2024,"school_year","2024-25",85.7,NA,61120
+"school_vax_view","DTP, DTaP, or DT","Wyoming",2019,"school_year","2019-20",94.4,NA,7913
+"school_vax_view","DTP, DTaP, or DT","Wyoming",2020,"school_year","2020-21",90.2,NA,6923
+"school_vax_view","DTP, DTaP, or DT","Wyoming",2021,"school_year","2021-22",92.5,NA,7382
+"school_vax_view","DTP, DTaP, or DT","Wyoming",2022,"school_year","2022-23",89.4,NA,7060
+"school_vax_view","DTP, DTaP, or DT","Wyoming",2023,"school_year","2023-24",92.2,NA,6754
+"school_vax_view","DTP, DTaP, or DT","Wyoming",2024,"school_year","2024-25",92.5,NA,6564

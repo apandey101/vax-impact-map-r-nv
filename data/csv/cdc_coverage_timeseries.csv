@@ -1,0 +1,732 @@
+"source","vaccine","state_name","year","year_type","vaccine_coverage_estimate","ci_95","sample_size"
+"child_vax_view","PCV","Alabama",2019,"birth_cohort",87.8,"81.6 to 92.6",227
+"child_vax_view","PCV","Alabama",2020,"birth_cohort",80.7,"72.2 to 87.9",240
+"child_vax_view","PCV","Alabama",2021,"birth_cohort",81.2,"74.5 to 87.0",270
+"child_vax_view","PCV","Alabama",2022,"birth_cohort",82.1,"71.8 to 90.3",184
+"child_vax_view","PCV","Alaska",2019,"birth_cohort",77.3,"70.2 to 83.8",287
+"child_vax_view","PCV","Alaska",2020,"birth_cohort",76,"69.8 to 81.7",302
+"child_vax_view","PCV","Alaska",2021,"birth_cohort",78.7,"72.1 to 84.6",279
+"child_vax_view","PCV","Alaska",2022,"birth_cohort",68.6,"55.4 to 81.1",126
+"child_vax_view","PCV","Arizona",2019,"birth_cohort",81.1,"74.2 to 87.1",235
+"child_vax_view","PCV","Arizona",2020,"birth_cohort",78.1,"70.8 to 84.6",271
+"child_vax_view","PCV","Arizona",2021,"birth_cohort",83.7,"74.7 to 90.8",293
+"child_vax_view","PCV","Arizona",2022,"birth_cohort",86.3,"74.7 to 94.4",145
+"child_vax_view","PCV","Arkansas",2019,"birth_cohort",82.5,"75.9 to 88.1",357
+"child_vax_view","PCV","Arkansas",2020,"birth_cohort",79.4,"73.5 to 84.8",323
+"child_vax_view","PCV","Arkansas",2021,"birth_cohort",80.1,"73.6 to 85.9",312
+"child_vax_view","PCV","Arkansas",2022,"birth_cohort",80.6,"70.2 to 89.2",144
+"child_vax_view","PCV","California",2019,"birth_cohort",86.2,"79.6 to 91.5",537
+"child_vax_view","PCV","California",2020,"birth_cohort",80.7,"72.9 to 87.4",434
+"child_vax_view","PCV","California",2021,"birth_cohort",80.3,"74.3 to 85.6",397
+"child_vax_view","PCV","California",2022,"birth_cohort",78.9,"67.3 to 88.5",193
+"child_vax_view","PCV","Colorado",2019,"birth_cohort",89.3,"84.1 to 93.5",265
+"child_vax_view","PCV","Colorado",2020,"birth_cohort",83.1,"77.5 to 88.0",311
+"child_vax_view","PCV","Colorado",2021,"birth_cohort",84.8,"79.7 to 89.3",302
+"child_vax_view","PCV","Colorado",2022,"birth_cohort",87,"79.8 to 92.6",177
+"child_vax_view","PCV","Connecticut",2019,"birth_cohort",94,"89.5 to 97.0",311
+"child_vax_view","PCV","Connecticut",2020,"birth_cohort",93.2,"87.4 to 96.9",248
+"child_vax_view","PCV","Connecticut",2021,"birth_cohort",92.1,"87.3 to 95.6",254
+"child_vax_view","PCV","Connecticut",2022,"birth_cohort",89.1,"81.9 to 94.4",136
+"child_vax_view","PCV","Delaware",2019,"birth_cohort",90.1,"83.8 to 94.7",205
+"child_vax_view","PCV","Delaware",2020,"birth_cohort",88.7,"80.5 to 94.5",183
+"child_vax_view","PCV","Delaware",2021,"birth_cohort",82.7,"74.8 to 89.3",179
+"child_vax_view","PCV","Delaware",2022,"birth_cohort",84.7,"72.9 to 93.3",115
+"child_vax_view","PCV","District of Columbia",2019,"birth_cohort",82.5,"75.8 to 88.2",327
+"child_vax_view","PCV","District of Columbia",2020,"birth_cohort",89,"83.1 to 93.6",293
+"child_vax_view","PCV","District of Columbia",2021,"birth_cohort",85.4,"78.6 to 90.9",314
+"child_vax_view","PCV","District of Columbia",2022,"birth_cohort",68.9,"56.6 to 80.6",212
+"child_vax_view","PCV","Florida",2019,"birth_cohort",85.5,"77.9 to 91.5",333
+"child_vax_view","PCV","Florida",2020,"birth_cohort",82.7,"77.1 to 87.6",390
+"child_vax_view","PCV","Florida",2021,"birth_cohort",81.6,"75.1 to 87.3",433
+"child_vax_view","PCV","Florida",2022,"birth_cohort",88.3,"82.8 to 92.7",203
+"child_vax_view","PCV","Georgia",2019,"birth_cohort",83.6,"75.1 to 90.5",273
+"child_vax_view","PCV","Georgia",2020,"birth_cohort",78.3,"69.5 to 86.0",338
+"child_vax_view","PCV","Georgia",2021,"birth_cohort",83.4,"76.1 to 89.5",376
+"child_vax_view","PCV","Georgia",2022,"birth_cohort",88.2,"76.3 to 95.7",193
+"child_vax_view","PCV","Hawaii",2019,"birth_cohort",81.5,"75.5 to 86.8",246
+"child_vax_view","PCV","Hawaii",2020,"birth_cohort",82.1,"74.4 to 88.6",201
+"child_vax_view","PCV","Hawaii",2021,"birth_cohort",83.3,"75.6 to 89.6",238
+"child_vax_view","PCV","Hawaii",2022,"birth_cohort",85.2,"72.8 to 93.9",140
+"child_vax_view","PCV","Idaho",2019,"birth_cohort",87.1,"81.8 to 91.5",306
+"child_vax_view","PCV","Idaho",2020,"birth_cohort",85.5,"79.8 to 90.3",286
+"child_vax_view","PCV","Idaho",2021,"birth_cohort",81.4,"74.4 to 87.4",251
+"child_vax_view","PCV","Idaho",2022,"birth_cohort",83.4,"76.3 to 89.3",175
+"child_vax_view","PCV","Illinois",2019,"birth_cohort",86.2,"79.7 to 91.4",548
+"child_vax_view","PCV","Illinois",2020,"birth_cohort",84.5,"80.0 to 88.5",549
+"child_vax_view","PCV","Illinois",2021,"birth_cohort",86.9,"80.9 to 91.7",601
+"child_vax_view","PCV","Illinois",2022,"birth_cohort",83.4,"76.4 to 89.3",282
+"child_vax_view","PCV","Indiana",2019,"birth_cohort",86.1,"78.1 to 92.3",209
+"child_vax_view","PCV","Indiana",2020,"birth_cohort",85.7,"79.0 to 91.2",232
+"child_vax_view","PCV","Indiana",2021,"birth_cohort",85,"78.6 to 90.4",228
+"child_vax_view","PCV","Indiana",2022,"birth_cohort",82.1,"72.4 to 89.9",123
+"child_vax_view","PCV","Iowa",2019,"birth_cohort",92.3,"87.4 to 95.8",250
+"child_vax_view","PCV","Iowa",2020,"birth_cohort",85.5,"79.4 to 90.7",271
+"child_vax_view","PCV","Iowa",2021,"birth_cohort",88.8,"83.6 to 93.0",276
+"child_vax_view","PCV","Iowa",2022,"birth_cohort",88.8,"82.4 to 93.7",178
+"child_vax_view","PCV","Kansas",2019,"birth_cohort",87,"81.9 to 91.3",358
+"child_vax_view","PCV","Kansas",2020,"birth_cohort",79.8,"73.8 to 85.2",368
+"child_vax_view","PCV","Kansas",2021,"birth_cohort",85.4,"80.4 to 89.7",390
+"child_vax_view","PCV","Kansas",2022,"birth_cohort",78.6,"69.4 to 86.5",220
+"child_vax_view","PCV","Kentucky",2019,"birth_cohort",90.6,"84.6 to 95.0",271
+"child_vax_view","PCV","Kentucky",2020,"birth_cohort",79.7,"72.5 to 86.1",324
+"child_vax_view","PCV","Kentucky",2021,"birth_cohort",80.8,"74.9 to 86.0",333
+"child_vax_view","PCV","Kentucky",2022,"birth_cohort",80.5,"72.0 to 87.8",186
+"child_vax_view","PCV","Louisiana",2019,"birth_cohort",82.1,"75.4 to 87.9",411
+"child_vax_view","PCV","Louisiana",2020,"birth_cohort",73.6,"65.6 to 81.0",433
+"child_vax_view","PCV","Louisiana",2021,"birth_cohort",79.8,"72.7 to 86.0",428
+"child_vax_view","PCV","Louisiana",2022,"birth_cohort",80.5,"70.7 to 88.6",214
+"child_vax_view","PCV","Maine",2019,"birth_cohort",88.5,"82.8 to 93.0",244
+"child_vax_view","PCV","Maine",2020,"birth_cohort",91.6,"85.7 to 95.8",223
+"child_vax_view","PCV","Maine",2021,"birth_cohort",83.2,"77.2 to 88.4",228
+"child_vax_view","PCV","Maine",2022,"birth_cohort",80.6,"69.1 to 89.9",133
+"child_vax_view","PCV","Maryland",2019,"birth_cohort",85.9,"81.5 to 89.7",614
+"child_vax_view","PCV","Maryland",2020,"birth_cohort",89.8,"85.6 to 93.1",494
+"child_vax_view","PCV","Maryland",2021,"birth_cohort",87.4,"82.1 to 91.7",525
+"child_vax_view","PCV","Maryland",2022,"birth_cohort",90.6,"84.8 to 94.9",268
+"child_vax_view","PCV","Massachusetts",2019,"birth_cohort",94.3,"88.4 to 97.7",295
+"child_vax_view","PCV","Massachusetts",2020,"birth_cohort",93.3,"87.3 to 97.1",268
+"child_vax_view","PCV","Massachusetts",2021,"birth_cohort",94.5,"89.8 to 97.5",277
+"child_vax_view","PCV","Massachusetts",2022,"birth_cohort",86.8,"78.9 to 92.9",175
+"child_vax_view","PCV","Michigan",2019,"birth_cohort",89.2,"84.5 to 93.0",375
+"child_vax_view","PCV","Michigan",2020,"birth_cohort",82.7,"75.8 to 88.6",448
+"child_vax_view","PCV","Michigan",2021,"birth_cohort",84.5,"78.4 to 89.7",467
+"child_vax_view","PCV","Michigan",2022,"birth_cohort",92,"85.1 to 96.5",251
+"child_vax_view","PCV","Minnesota",2019,"birth_cohort",89.8,"84.0 to 94.1",283
+"child_vax_view","PCV","Minnesota",2020,"birth_cohort",86.6,"80.6 to 91.4",239
+"child_vax_view","PCV","Minnesota",2021,"birth_cohort",85.7,"79.5 to 90.8",278
+"child_vax_view","PCV","Minnesota",2022,"birth_cohort",91,"84.7 to 95.4",166
+"child_vax_view","PCV","Mississippi",2019,"birth_cohort",83.8,"76.4 to 89.9",324
+"child_vax_view","PCV","Mississippi",2020,"birth_cohort",86.9,"78.7 to 93.0",308
+"child_vax_view","PCV","Mississippi",2021,"birth_cohort",78.2,"70.0 to 85.4",268
+"child_vax_view","PCV","Mississippi",2022,"birth_cohort",79.4,"67.0 to 89.4",160
+"child_vax_view","PCV","Missouri",2019,"birth_cohort",78.9,"72.7 to 84.6",402
+"child_vax_view","PCV","Missouri",2020,"birth_cohort",87.8,"81.9 to 92.5",390
+"child_vax_view","PCV","Missouri",2021,"birth_cohort",84.4,"79.3 to 88.7",387
+"child_vax_view","PCV","Missouri",2022,"birth_cohort",86.4,"78.2 to 92.7",194
+"child_vax_view","PCV","Montana",2019,"birth_cohort",84.3,"76.2 to 90.8",187
+"child_vax_view","PCV","Montana",2020,"birth_cohort",75.2,"67.7 to 82.0",220
+"child_vax_view","PCV","Montana",2021,"birth_cohort",80.8,"73.1 to 87.4",219
+"child_vax_view","PCV","Montana",2022,"birth_cohort",84.7,"76.3 to 91.4",154
+"child_vax_view","PCV","Nebraska",2019,"birth_cohort",89.6,"84.8 to 93.3",259
+"child_vax_view","PCV","Nebraska",2020,"birth_cohort",91.2,"87.0 to 94.5",251
+"child_vax_view","PCV","Nebraska",2021,"birth_cohort",87.6,"81.8 to 92.3",256
+"child_vax_view","PCV","Nebraska",2022,"birth_cohort",93.5,"86.4 to 97.6",148
+"child_vax_view","PCV","Nevada",2019,"birth_cohort",83.8,"78.0 to 88.7",340
+"child_vax_view","PCV","Nevada",2020,"birth_cohort",79.2,"71.2 to 86.2",323
+"child_vax_view","PCV","Nevada",2021,"birth_cohort",75.2,"69.0 to 81.0",352
+"child_vax_view","PCV","Nevada",2022,"birth_cohort",93.5,"86.4 to 97.7",200
+"child_vax_view","PCV","New Hampshire",2019,"birth_cohort",86.1,"79.7 to 91.3",214
+"child_vax_view","PCV","New Hampshire",2020,"birth_cohort",90.4,"84.0 to 95.0",189
+"child_vax_view","PCV","New Hampshire",2021,"birth_cohort",90.9,"86.3 to 94.5",231
+"child_vax_view","PCV","New Hampshire",2022,"birth_cohort",87.5,"79.8 to 93.3",123
+"child_vax_view","PCV","New Jersey",2019,"birth_cohort",76.9,"68.1 to 84.7",279
+"child_vax_view","PCV","New Jersey",2020,"birth_cohort",85.3,"77.3 to 91.6",268
+"child_vax_view","PCV","New Jersey",2021,"birth_cohort",82.3,"76.1 to 87.8",291
+"child_vax_view","PCV","New Jersey",2022,"birth_cohort",80.1,"69.9 to 88.6",172
+"child_vax_view","PCV","New Mexico",2019,"birth_cohort",87.8,"83.4 to 91.5",374
+"child_vax_view","PCV","New Mexico",2020,"birth_cohort",86.3,"80.8 to 90.8",357
+"child_vax_view","PCV","New Mexico",2021,"birth_cohort",84,"77.4 to 89.6",352
+"child_vax_view","PCV","New Mexico",2022,"birth_cohort",86.6,"79.9 to 92.0",186
+"child_vax_view","PCV","New York",2019,"birth_cohort",82.8,"77.6 to 87.3",637
+"child_vax_view","PCV","New York",2020,"birth_cohort",85.5,"81.1 to 89.4",624
+"child_vax_view","PCV","New York",2021,"birth_cohort",85.5,"80.6 to 89.7",640
+"child_vax_view","PCV","New York",2022,"birth_cohort",79,"72.7 to 84.6",360
+"child_vax_view","PCV","North Carolina",2019,"birth_cohort",95.6,"92.5 to 97.7",314
+"child_vax_view","PCV","North Carolina",2020,"birth_cohort",89.9,"85.3 to 93.6",459
+"child_vax_view","PCV","North Carolina",2021,"birth_cohort",88,"82.8 to 92.2",435
+"child_vax_view","PCV","North Carolina",2022,"birth_cohort",86.4,"78.7 to 92.4",207
+"child_vax_view","PCV","North Dakota",2019,"birth_cohort",86.8,"79.8 to 92.2",263
+"child_vax_view","PCV","North Dakota",2020,"birth_cohort",84.9,"78.6 to 90.1",248
+"child_vax_view","PCV","North Dakota",2021,"birth_cohort",78.5,"70.9 to 85.3",233
+"child_vax_view","PCV","North Dakota",2022,"birth_cohort",79.2,"69.7 to 87.2",151
+"child_vax_view","PCV","Ohio",2019,"birth_cohort",85.4,"78.9 to 90.8",384
+"child_vax_view","PCV","Ohio",2020,"birth_cohort",83.7,"78.6 to 88.2",484
+"child_vax_view","PCV","Ohio",2021,"birth_cohort",86.1,"80.6 to 90.8",418
+"child_vax_view","PCV","Ohio",2022,"birth_cohort",86.7,"80.7 to 91.6",237
+"child_vax_view","PCV","Oklahoma",2019,"birth_cohort",81.2,"73.1 to 88.1",205
+"child_vax_view","PCV","Oklahoma",2020,"birth_cohort",83.2,"74.5 to 90.3",298
+"child_vax_view","PCV","Oklahoma",2021,"birth_cohort",78.2,"71.1 to 84.6",236
+"child_vax_view","PCV","Oklahoma",2022,"birth_cohort",75.2,"64.2 to 85.0",120
+"child_vax_view","PCV","Oregon",2019,"birth_cohort",84.7,"77.5 to 90.7",264
+"child_vax_view","PCV","Oregon",2020,"birth_cohort",79.9,"72.5 to 86.4",220
+"child_vax_view","PCV","Oregon",2021,"birth_cohort",78.6,"72.4 to 84.2",255
+"child_vax_view","PCV","Oregon",2022,"birth_cohort",79,"70.4 to 86.4",152
+"child_vax_view","PCV","Pennsylvania",2019,"birth_cohort",90.8,"86.5 to 94.1",641
+"child_vax_view","PCV","Pennsylvania",2020,"birth_cohort",82.9,"77.7 to 87.5",655
+"child_vax_view","PCV","Pennsylvania",2021,"birth_cohort",87.1,"82.9 to 90.6",668
+"child_vax_view","PCV","Pennsylvania",2022,"birth_cohort",83.5,"77.0 to 89.0",359
+"child_vax_view","PCV","Puerto Rico",2019,"birth_cohort",54.7,"47.3 to 62.4",319
+"child_vax_view","PCV","Puerto Rico",2020,"birth_cohort",70,"62.9 to 76.7",337
+"child_vax_view","PCV","Puerto Rico",2021,"birth_cohort",77.9,"66.8 to 87.3",338
+"child_vax_view","PCV","Puerto Rico",2022,"birth_cohort",53.3,"43.1 to 64.2",185
+"child_vax_view","PCV","Rhode Island",2019,"birth_cohort",92.9,"88.2 to 96.2",277
+"child_vax_view","PCV","Rhode Island",2020,"birth_cohort",95.3,"91.9 to 97.6",301
+"child_vax_view","PCV","Rhode Island",2021,"birth_cohort",93.8,"89.8 to 96.6",354
+"child_vax_view","PCV","Rhode Island",2022,"birth_cohort",90.4,"84.6 to 94.7",201
+"child_vax_view","PCV","South Carolina",2019,"birth_cohort",89.6,"83.4 to 94.2",245
+"child_vax_view","PCV","South Carolina",2020,"birth_cohort",87.8,"78.8 to 94.2",243
+"child_vax_view","PCV","South Carolina",2021,"birth_cohort",81.1,"75.0 to 86.5",300
+"child_vax_view","PCV","South Carolina",2022,"birth_cohort",88.1,"81.2 to 93.3",160
+"child_vax_view","PCV","South Dakota",2019,"birth_cohort",88.9,"83.1 to 93.5",318
+"child_vax_view","PCV","South Dakota",2020,"birth_cohort",78.7,"70.7 to 85.6",289
+"child_vax_view","PCV","South Dakota",2021,"birth_cohort",84.7,"75.8 to 91.7",279
+"child_vax_view","PCV","South Dakota",2022,"birth_cohort",86.6,"78.3 to 92.9",145
+"child_vax_view","PCV","Tennessee",2019,"birth_cohort",87.9,"83.3 to 91.7",396
+"child_vax_view","PCV","Tennessee",2020,"birth_cohort",84.3,"77.2 to 90.2",363
+"child_vax_view","PCV","Tennessee",2021,"birth_cohort",87.2,"82.0 to 91.6",336
+"child_vax_view","PCV","Tennessee",2022,"birth_cohort",85,"73.8 to 93.2",182
+"child_vax_view","PCV","Texas",2019,"birth_cohort",86.1,"81.4 to 90.0",919
+"child_vax_view","PCV","Texas",2020,"birth_cohort",80,"74.6 to 84.9",795
+"child_vax_view","PCV","Texas",2021,"birth_cohort",81.8,"77.3 to 86.0",814
+"child_vax_view","PCV","Texas",2022,"birth_cohort",73.1,"66.6 to 79.2",541
+"child_vax_view","PCV","United States",2019,"birth_cohort",86.5,"85.3 to 87.7",17265
+"child_vax_view","PCV","United States",2020,"birth_cohort",83.3,"82.0 to 84.6",17387
+"child_vax_view","PCV","United States",2021,"birth_cohort",83.9,"82.7 to 85.0",17612
+"child_vax_view","PCV","United States",2022,"birth_cohort",82.9,"81.2 to 84.6",9780
+"child_vax_view","PCV","Utah",2019,"birth_cohort",91,"86.2 to 94.7",330
+"child_vax_view","PCV","Utah",2020,"birth_cohort",86,"81.2 to 90.2",333
+"child_vax_view","PCV","Utah",2021,"birth_cohort",82.5,"76.8 to 87.5",332
+"child_vax_view","PCV","Utah",2022,"birth_cohort",85,"76.0 to 91.9",149
+"child_vax_view","PCV","Vermont",2019,"birth_cohort",95.8,"87.0 to 99.3",334
+"child_vax_view","PCV","Vermont",2020,"birth_cohort",92.5,"87.7 to 96.0",307
+"child_vax_view","PCV","Vermont",2021,"birth_cohort",86.3,"78.7 to 92.2",281
+"child_vax_view","PCV","Vermont",2022,"birth_cohort",95.7,"88.9 to 98.9",187
+"child_vax_view","PCV","Virginia",2019,"birth_cohort",94.6,"87.0 to 98.5",452
+"child_vax_view","PCV","Virginia",2020,"birth_cohort",80.8,"74.4 to 86.5",494
+"child_vax_view","PCV","Virginia",2021,"birth_cohort",86.3,"80.9 to 90.8",450
+"child_vax_view","PCV","Virginia",2022,"birth_cohort",88.9,"82.8 to 93.6",241
+"child_vax_view","PCV","Washington",2019,"birth_cohort",89,"84.5 to 92.6",455
+"child_vax_view","PCV","Washington",2020,"birth_cohort",87.2,"82.4 to 91.1",445
+"child_vax_view","PCV","Washington",2021,"birth_cohort",85.6,"79.5 to 90.7",394
+"child_vax_view","PCV","Washington",2022,"birth_cohort",83.3,"77.1 to 88.6",211
+"child_vax_view","PCV","West Virginia",2019,"birth_cohort",82.1,"75.2 to 88.0",201
+"child_vax_view","PCV","West Virginia",2020,"birth_cohort",81.1,"74.7 to 86.6",271
+"child_vax_view","PCV","West Virginia",2021,"birth_cohort",89.1,"83.8 to 93.3",279
+"child_vax_view","PCV","West Virginia",2022,"birth_cohort",91,"84.7 to 95.5",180
+"child_vax_view","PCV","Wisconsin",2019,"birth_cohort",84.8,"77.8 to 90.5",224
+"child_vax_view","PCV","Wisconsin",2020,"birth_cohort",86.7,"80.7 to 91.6",287
+"child_vax_view","PCV","Wisconsin",2021,"birth_cohort",85.8,"78.6 to 91.5",317
+"child_vax_view","PCV","Wisconsin",2022,"birth_cohort",87.2,"78.6 to 93.6",164
+"child_vax_view","PCV","Wyoming",2019,"birth_cohort",84,"77.6 to 89.3",260
+"child_vax_view","PCV","Wyoming",2020,"birth_cohort",80,"74.1 to 85.4",296
+"child_vax_view","PCV","Wyoming",2021,"birth_cohort",76.2,"68.9 to 82.8",306
+"child_vax_view","PCV","Wyoming",2022,"birth_cohort",78,"69.1 to 85.8",157
+"child_vax_view","Rotavirus","Alabama",2019,"birth_cohort",77.2,"70.0 to 83.2",227
+"child_vax_view","Rotavirus","Alabama",2020,"birth_cohort",75.5,"67.0 to 82.4",240
+"child_vax_view","Rotavirus","Alabama",2021,"birth_cohort",66.6,"58.4 to 73.9",270
+"child_vax_view","Rotavirus","Alabama",2022,"birth_cohort",68.6,"57.8 to 77.7",184
+"child_vax_view","Rotavirus","Alaska",2019,"birth_cohort",66.3,"59.1 to 72.9",287
+"child_vax_view","Rotavirus","Alaska",2020,"birth_cohort",69.9,"63.4 to 75.6",302
+"child_vax_view","Rotavirus","Alaska",2021,"birth_cohort",70.5,"63.1 to 77.0",279
+"child_vax_view","Rotavirus","Alaska",2022,"birth_cohort",62.9,"49.0 to 74.9",126
+"child_vax_view","Rotavirus","Arizona",2019,"birth_cohort",73.7,"65.8 to 80.4",235
+"child_vax_view","Rotavirus","Arizona",2020,"birth_cohort",70.9,"63.1 to 77.6",271
+"child_vax_view","Rotavirus","Arizona",2021,"birth_cohort",72.7,"64.5 to 79.7",293
+"child_vax_view","Rotavirus","Arizona",2022,"birth_cohort",80.5,"70.6 to 87.7",145
+"child_vax_view","Rotavirus","Arkansas",2019,"birth_cohort",74.9,"68.6 to 80.3",357
+"child_vax_view","Rotavirus","Arkansas",2020,"birth_cohort",78.2,"72.1 to 83.3",323
+"child_vax_view","Rotavirus","Arkansas",2021,"birth_cohort",73.5,"66.6 to 79.5",312
+"child_vax_view","Rotavirus","Arkansas",2022,"birth_cohort",75.6,"65.8 to 83.3",144
+"child_vax_view","Rotavirus","California",2019,"birth_cohort",73.5,"66.8 to 79.3",537
+"child_vax_view","Rotavirus","California",2020,"birth_cohort",73.9,"66.5 to 80.2",434
+"child_vax_view","Rotavirus","California",2021,"birth_cohort",70.5,"64.3 to 76.1",397
+"child_vax_view","Rotavirus","California",2022,"birth_cohort",62.2,"52.7 to 70.9",193
+"child_vax_view","Rotavirus","Colorado",2019,"birth_cohort",81.9,"76.0 to 86.5",265
+"child_vax_view","Rotavirus","Colorado",2020,"birth_cohort",73.5,"67.3 to 78.9",311
+"child_vax_view","Rotavirus","Colorado",2021,"birth_cohort",77.1,"71.4 to 81.9",302
+"child_vax_view","Rotavirus","Colorado",2022,"birth_cohort",80.1,"72.6 to 85.9",177
+"child_vax_view","Rotavirus","Connecticut",2019,"birth_cohort",81.8,"76.1 to 86.4",311
+"child_vax_view","Rotavirus","Connecticut",2020,"birth_cohort",83.1,"74.6 to 89.1",248
+"child_vax_view","Rotavirus","Connecticut",2021,"birth_cohort",83,"76.6 to 87.9",254
+"child_vax_view","Rotavirus","Connecticut",2022,"birth_cohort",84.9,"72.2 to 92.4",136
+"child_vax_view","Rotavirus","Delaware",2019,"birth_cohort",79.7,"71.7 to 85.9",205
+"child_vax_view","Rotavirus","Delaware",2020,"birth_cohort",76.3,"67.4 to 83.4",183
+"child_vax_view","Rotavirus","Delaware",2021,"birth_cohort",70,"61.5 to 77.4",179
+"child_vax_view","Rotavirus","Delaware",2022,"birth_cohort",82.1,"68.8 to 90.5",115
+"child_vax_view","Rotavirus","District of Columbia",2019,"birth_cohort",76.4,"68.9 to 82.5",327
+"child_vax_view","Rotavirus","District of Columbia",2020,"birth_cohort",75.2,"66.2 to 82.4",293
+"child_vax_view","Rotavirus","District of Columbia",2021,"birth_cohort",73,"63.7 to 80.7",314
+"child_vax_view","Rotavirus","District of Columbia",2022,"birth_cohort",65.6,"52.5 to 76.7",212
+"child_vax_view","Rotavirus","Florida",2019,"birth_cohort",71,"63.1 to 77.8",333
+"child_vax_view","Rotavirus","Florida",2020,"birth_cohort",73.7,"67.2 to 79.2",390
+"child_vax_view","Rotavirus","Florida",2021,"birth_cohort",71.4,"65.0 to 77.0",433
+"child_vax_view","Rotavirus","Florida",2022,"birth_cohort",76.8,"69.2 to 83.0",203
+"child_vax_view","Rotavirus","Georgia",2019,"birth_cohort",74.2,"65.3 to 81.5",273
+"child_vax_view","Rotavirus","Georgia",2020,"birth_cohort",68.1,"59.3 to 75.8",338
+"child_vax_view","Rotavirus","Georgia",2021,"birth_cohort",72.1,"65.3 to 78.1",376
+"child_vax_view","Rotavirus","Georgia",2022,"birth_cohort",77.6,"69.3 to 84.2",193
+"child_vax_view","Rotavirus","Hawaii",2019,"birth_cohort",81,"75.0 to 85.8",246
+"child_vax_view","Rotavirus","Hawaii",2020,"birth_cohort",73,"64.6 to 80.0",201
+"child_vax_view","Rotavirus","Hawaii",2021,"birth_cohort",75.5,"68.3 to 81.5",238
+"child_vax_view","Rotavirus","Hawaii",2022,"birth_cohort",76.6,"67.5 to 83.8",140
+"child_vax_view","Rotavirus","Idaho",2019,"birth_cohort",77.7,"71.6 to 82.9",306
+"child_vax_view","Rotavirus","Idaho",2020,"birth_cohort",80.3,"74.2 to 85.2",286
+"child_vax_view","Rotavirus","Idaho",2021,"birth_cohort",74.1,"66.4 to 80.5",251
+"child_vax_view","Rotavirus","Idaho",2022,"birth_cohort",75.3,"66.7 to 82.3",175
+"child_vax_view","Rotavirus","Illinois",2019,"birth_cohort",78.5,"73.6 to 82.8",548
+"child_vax_view","Rotavirus","Illinois",2020,"birth_cohort",77.1,"72.1 to 81.3",549
+"child_vax_view","Rotavirus","Illinois",2021,"birth_cohort",77,"72.4 to 81.1",601
+"child_vax_view","Rotavirus","Illinois",2022,"birth_cohort",75,"68.1 to 80.8",282
+"child_vax_view","Rotavirus","Indiana",2019,"birth_cohort",74.7,"66.9 to 81.1",209
+"child_vax_view","Rotavirus","Indiana",2020,"birth_cohort",73.1,"65.5 to 79.5",232
+"child_vax_view","Rotavirus","Indiana",2021,"birth_cohort",75.3,"67.9 to 81.4",228
+"child_vax_view","Rotavirus","Indiana",2022,"birth_cohort",82.5,"73.0 to 89.2",123
+"child_vax_view","Rotavirus","Iowa",2019,"birth_cohort",84.9,"78.7 to 89.6",250
+"child_vax_view","Rotavirus","Iowa",2020,"birth_cohort",80.1,"73.1 to 85.6",271
+"child_vax_view","Rotavirus","Iowa",2021,"birth_cohort",77.4,"70.0 to 83.4",276
+"child_vax_view","Rotavirus","Iowa",2022,"birth_cohort",76,"67.8 to 82.7",178
+"child_vax_view","Rotavirus","Kansas",2019,"birth_cohort",78.5,"72.8 to 83.3",358
+"child_vax_view","Rotavirus","Kansas",2020,"birth_cohort",79,"73.2 to 83.9",368
+"child_vax_view","Rotavirus","Kansas",2021,"birth_cohort",73.6,"67.2 to 79.1",390
+"child_vax_view","Rotavirus","Kansas",2022,"birth_cohort",68,"59.6 to 75.3",220
+"child_vax_view","Rotavirus","Kentucky",2019,"birth_cohort",81,"74.5 to 86.2",271
+"child_vax_view","Rotavirus","Kentucky",2020,"birth_cohort",62.2,"54.7 to 69.1",324
+"child_vax_view","Rotavirus","Kentucky",2021,"birth_cohort",72.3,"65.8 to 78.0",333
+"child_vax_view","Rotavirus","Kentucky",2022,"birth_cohort",76.7,"68.2 to 83.5",186
+"child_vax_view","Rotavirus","Louisiana",2019,"birth_cohort",70,"62.6 to 76.5",411
+"child_vax_view","Rotavirus","Louisiana",2020,"birth_cohort",71.7,"63.9 to 78.4",433
+"child_vax_view","Rotavirus","Louisiana",2021,"birth_cohort",70.1,"62.9 to 76.5",428
+"child_vax_view","Rotavirus","Louisiana",2022,"birth_cohort",81.8,"72.5 to 88.4",214
+"child_vax_view","Rotavirus","Maine",2019,"birth_cohort",74.1,"67.0 to 80.1",244
+"child_vax_view","Rotavirus","Maine",2020,"birth_cohort",78,"70.2 to 84.3",223
+"child_vax_view","Rotavirus","Maine",2021,"birth_cohort",78.2,"71.7 to 83.5",228
+"child_vax_view","Rotavirus","Maine",2022,"birth_cohort",81.4,"72.4 to 88.0",133
+"child_vax_view","Rotavirus","Maryland",2019,"birth_cohort",78.4,"73.8 to 82.4",614
+"child_vax_view","Rotavirus","Maryland",2020,"birth_cohort",82.6,"77.9 to 86.4",494
+"child_vax_view","Rotavirus","Maryland",2021,"birth_cohort",79.4,"73.6 to 84.1",525
+"child_vax_view","Rotavirus","Maryland",2022,"birth_cohort",87.1,"81.1 to 91.4",268
+"child_vax_view","Rotavirus","Massachusetts",2019,"birth_cohort",82.7,"76.0 to 87.8",295
+"child_vax_view","Rotavirus","Massachusetts",2020,"birth_cohort",84.7,"77.6 to 89.8",268
+"child_vax_view","Rotavirus","Massachusetts",2021,"birth_cohort",88.3,"83.3 to 92.0",277
+"child_vax_view","Rotavirus","Massachusetts",2022,"birth_cohort",77.9,"68.7 to 84.9",175
+"child_vax_view","Rotavirus","Michigan",2019,"birth_cohort",77.8,"71.8 to 82.9",375
+"child_vax_view","Rotavirus","Michigan",2020,"birth_cohort",78.1,"70.8 to 84.0",448
+"child_vax_view","Rotavirus","Michigan",2021,"birth_cohort",77,"71.1 to 81.9",467
+"child_vax_view","Rotavirus","Michigan",2022,"birth_cohort",72.3,"62.0 to 80.7",251
+"child_vax_view","Rotavirus","Minnesota",2019,"birth_cohort",82.1,"73.6 to 88.3",283
+"child_vax_view","Rotavirus","Minnesota",2020,"birth_cohort",79.7,"73.0 to 85.1",239
+"child_vax_view","Rotavirus","Minnesota",2021,"birth_cohort",76.9,"70.3 to 82.3",278
+"child_vax_view","Rotavirus","Minnesota",2022,"birth_cohort",85.9,"78.0 to 91.3",166
+"child_vax_view","Rotavirus","Mississippi",2019,"birth_cohort",62.7,"54.8 to 70.1",324
+"child_vax_view","Rotavirus","Mississippi",2020,"birth_cohort",65.4,"56.2 to 73.6",308
+"child_vax_view","Rotavirus","Mississippi",2021,"birth_cohort",58.2,"49.3 to 66.6",268
+"child_vax_view","Rotavirus","Mississippi",2022,"birth_cohort",64.3,"52.0 to 74.9",160
+"child_vax_view","Rotavirus","Missouri",2019,"birth_cohort",66.3,"59.4 to 72.6",402
+"child_vax_view","Rotavirus","Missouri",2020,"birth_cohort",78.1,"72.4 to 82.9",390
+"child_vax_view","Rotavirus","Missouri",2021,"birth_cohort",83.7,"78.9 to 87.7",387
+"child_vax_view","Rotavirus","Missouri",2022,"birth_cohort",79.6,"71.3 to 86.0",194
+"child_vax_view","Rotavirus","Montana",2019,"birth_cohort",77.5,"68.4 to 84.6",187
+"child_vax_view","Rotavirus","Montana",2020,"birth_cohort",67.6,"59.8 to 74.5",220
+"child_vax_view","Rotavirus","Montana",2021,"birth_cohort",64.8,"56.7 to 72.2",219
+"child_vax_view","Rotavirus","Montana",2022,"birth_cohort",72.7,"63.0 to 80.6",154
+"child_vax_view","Rotavirus","Nebraska",2019,"birth_cohort",80.6,"74.4 to 85.6",259
+"child_vax_view","Rotavirus","Nebraska",2020,"birth_cohort",79.6,"72.8 to 85.0",251
+"child_vax_view","Rotavirus","Nebraska",2021,"birth_cohort",79.3,"72.9 to 84.6",256
+"child_vax_view","Rotavirus","Nebraska",2022,"birth_cohort",85.1,"76.2 to 91.0",148
+"child_vax_view","Rotavirus","Nevada",2019,"birth_cohort",72.2,"65.9 to 77.7",340
+"child_vax_view","Rotavirus","Nevada",2020,"birth_cohort",70.6,"62.9 to 77.2",323
+"child_vax_view","Rotavirus","Nevada",2021,"birth_cohort",68.5,"61.9 to 74.5",352
+"child_vax_view","Rotavirus","Nevada",2022,"birth_cohort",77.8,"69.1 to 84.6",200
+"child_vax_view","Rotavirus","New Hampshire",2019,"birth_cohort",78.7,"71.4 to 84.6",214
+"child_vax_view","Rotavirus","New Hampshire",2020,"birth_cohort",82.5,"75.2 to 87.9",189
+"child_vax_view","Rotavirus","New Hampshire",2021,"birth_cohort",85.7,"79.9 to 90.1",231
+"child_vax_view","Rotavirus","New Hampshire",2022,"birth_cohort",81,"71.2 to 88.0",123
+"child_vax_view","Rotavirus","New Jersey",2019,"birth_cohort",69.6,"60.7 to 77.2",279
+"child_vax_view","Rotavirus","New Jersey",2020,"birth_cohort",76.2,"68.8 to 82.2",268
+"child_vax_view","Rotavirus","New Jersey",2021,"birth_cohort",73.6,"65.8 to 80.2",291
+"child_vax_view","Rotavirus","New Jersey",2022,"birth_cohort",71.8,"62.2 to 79.9",172
+"child_vax_view","Rotavirus","New Mexico",2019,"birth_cohort",85.6,"80.6 to 89.5",374
+"child_vax_view","Rotavirus","New Mexico",2020,"birth_cohort",78.4,"71.5 to 84.0",357
+"child_vax_view","Rotavirus","New Mexico",2021,"birth_cohort",71.8,"65.2 to 77.6",352
+"child_vax_view","Rotavirus","New Mexico",2022,"birth_cohort",85.5,"78.7 to 90.5",186
+"child_vax_view","Rotavirus","New York",2019,"birth_cohort",77.7,"72.6 to 82.1",637
+"child_vax_view","Rotavirus","New York",2020,"birth_cohort",77.6,"72.9 to 81.7",624
+"child_vax_view","Rotavirus","New York",2021,"birth_cohort",73.1,"68.0 to 77.7",640
+"child_vax_view","Rotavirus","New York",2022,"birth_cohort",69.5,"62.7 to 75.5",360
+"child_vax_view","Rotavirus","North Carolina",2019,"birth_cohort",86.2,"81.0 to 90.2",314
+"child_vax_view","Rotavirus","North Carolina",2020,"birth_cohort",76.4,"70.4 to 81.5",459
+"child_vax_view","Rotavirus","North Carolina",2021,"birth_cohort",83.3,"78.1 to 87.4",435
+"child_vax_view","Rotavirus","North Carolina",2022,"birth_cohort",69.9,"60.1 to 78.2",207
+"child_vax_view","Rotavirus","North Dakota",2019,"birth_cohort",82.8,"76.5 to 87.7",263
+"child_vax_view","Rotavirus","North Dakota",2020,"birth_cohort",80.5,"73.7 to 85.9",248
+"child_vax_view","Rotavirus","North Dakota",2021,"birth_cohort",76.5,"68.6 to 83.0",233
+"child_vax_view","Rotavirus","North Dakota",2022,"birth_cohort",78.8,"70.2 to 85.4",151
+"child_vax_view","Rotavirus","Ohio",2019,"birth_cohort",78.4,"71.9 to 83.7",384
+"child_vax_view","Rotavirus","Ohio",2020,"birth_cohort",75.6,"69.8 to 80.6",484
+"child_vax_view","Rotavirus","Ohio",2021,"birth_cohort",76.4,"70.3 to 81.6",418
+"child_vax_view","Rotavirus","Ohio",2022,"birth_cohort",81.9,"74.6 to 87.4",237
+"child_vax_view","Rotavirus","Oklahoma",2019,"birth_cohort",74.3,"65.6 to 81.5",205
+"child_vax_view","Rotavirus","Oklahoma",2020,"birth_cohort",71.1,"63.9 to 77.3",298
+"child_vax_view","Rotavirus","Oklahoma",2021,"birth_cohort",68.5,"61.2 to 75.0",236
+"child_vax_view","Rotavirus","Oklahoma",2022,"birth_cohort",64.4,"52.6 to 74.6",120
+"child_vax_view","Rotavirus","Oregon",2019,"birth_cohort",80.8,"72.9 to 86.8",264
+"child_vax_view","Rotavirus","Oregon",2020,"birth_cohort",72.7,"64.9 to 79.3",220
+"child_vax_view","Rotavirus","Oregon",2021,"birth_cohort",72.4,"65.8 to 78.1",255
+"child_vax_view","Rotavirus","Oregon",2022,"birth_cohort",75,"65.7 to 82.5",152
+"child_vax_view","Rotavirus","Pennsylvania",2019,"birth_cohort",79.1,"74.0 to 83.4",641
+"child_vax_view","Rotavirus","Pennsylvania",2020,"birth_cohort",77.8,"72.0 to 82.7",655
+"child_vax_view","Rotavirus","Pennsylvania",2021,"birth_cohort",79.9,"75.4 to 83.8",668
+"child_vax_view","Rotavirus","Pennsylvania",2022,"birth_cohort",79.9,"73.7 to 84.9",359
+"child_vax_view","Rotavirus","Puerto Rico",2019,"birth_cohort",53.8,"46.8 to 60.7",319
+"child_vax_view","Rotavirus","Puerto Rico",2020,"birth_cohort",55.7,"49.0 to 62.2",337
+"child_vax_view","Rotavirus","Puerto Rico",2021,"birth_cohort",62.4,"54.6 to 69.5",338
+"child_vax_view","Rotavirus","Puerto Rico",2022,"birth_cohort",57,"46.4 to 67.1",185
+"child_vax_view","Rotavirus","Rhode Island",2019,"birth_cohort",90.8,"85.5 to 94.3",277
+"child_vax_view","Rotavirus","Rhode Island",2020,"birth_cohort",91.7,"87.3 to 94.7",301
+"child_vax_view","Rotavirus","Rhode Island",2021,"birth_cohort",84.9,"80.1 to 88.8",354
+"child_vax_view","Rotavirus","Rhode Island",2022,"birth_cohort",81.2,"74.3 to 86.6",201
+"child_vax_view","Rotavirus","South Carolina",2019,"birth_cohort",80.8,"72.7 to 87.0",245
+"child_vax_view","Rotavirus","South Carolina",2020,"birth_cohort",79.7,"71.4 to 86.0",243
+"child_vax_view","Rotavirus","South Carolina",2021,"birth_cohort",75.2,"68.6 to 80.8",300
+"child_vax_view","Rotavirus","South Carolina",2022,"birth_cohort",84.4,"75.2 to 90.7",160
+"child_vax_view","Rotavirus","South Dakota",2019,"birth_cohort",81.8,"76.3 to 86.2",318
+"child_vax_view","Rotavirus","South Dakota",2020,"birth_cohort",78.4,"70.7 to 84.5",289
+"child_vax_view","Rotavirus","South Dakota",2021,"birth_cohort",73.4,"65.0 to 80.4",279
+"child_vax_view","Rotavirus","South Dakota",2022,"birth_cohort",76.6,"65.6 to 84.9",145
+"child_vax_view","Rotavirus","Tennessee",2019,"birth_cohort",73.9,"67.8 to 79.3",396
+"child_vax_view","Rotavirus","Tennessee",2020,"birth_cohort",70.1,"62.2 to 76.9",363
+"child_vax_view","Rotavirus","Tennessee",2021,"birth_cohort",75.2,"69.1 to 80.4",336
+"child_vax_view","Rotavirus","Tennessee",2022,"birth_cohort",61.9,"51.9 to 70.9",182
+"child_vax_view","Rotavirus","Texas",2019,"birth_cohort",74.9,"69.8 to 79.5",919
+"child_vax_view","Rotavirus","Texas",2020,"birth_cohort",74.4,"68.7 to 79.4",795
+"child_vax_view","Rotavirus","Texas",2021,"birth_cohort",71.5,"66.2 to 76.2",814
+"child_vax_view","Rotavirus","Texas",2022,"birth_cohort",65.4,"58.6 to 71.6",541
+"child_vax_view","Rotavirus","United States",2019,"birth_cohort",76.4,"75.1 to 77.7",17265
+"child_vax_view","Rotavirus","United States",2020,"birth_cohort",75.1,"73.8 to 76.4",17387
+"child_vax_view","Rotavirus","United States",2021,"birth_cohort",74.5,"73.3 to 75.7",17612
+"child_vax_view","Rotavirus","United States",2022,"birth_cohort",73.8,"72.0 to 75.4",9780
+"child_vax_view","Rotavirus","Utah",2019,"birth_cohort",84.5,"79.1 to 88.6",330
+"child_vax_view","Rotavirus","Utah",2020,"birth_cohort",76.3,"70.4 to 81.4",333
+"child_vax_view","Rotavirus","Utah",2021,"birth_cohort",74.8,"68.5 to 80.2",332
+"child_vax_view","Rotavirus","Utah",2022,"birth_cohort",79.5,"69.9 to 86.6",149
+"child_vax_view","Rotavirus","Vermont",2019,"birth_cohort",81.5,"76.0 to 86.0",334
+"child_vax_view","Rotavirus","Vermont",2020,"birth_cohort",85,"80.1 to 88.9",307
+"child_vax_view","Rotavirus","Vermont",2021,"birth_cohort",81.1,"74.6 to 86.3",281
+"child_vax_view","Rotavirus","Vermont",2022,"birth_cohort",85.8,"78.8 to 90.7",187
+"child_vax_view","Rotavirus","Virginia",2019,"birth_cohort",79.8,"72.1 to 85.8",452
+"child_vax_view","Rotavirus","Virginia",2020,"birth_cohort",72.1,"65.3 to 78.0",494
+"child_vax_view","Rotavirus","Virginia",2021,"birth_cohort",79.1,"73.3 to 83.9",450
+"child_vax_view","Rotavirus","Virginia",2022,"birth_cohort",82.8,"76.3 to 87.8",241
+"child_vax_view","Rotavirus","Washington",2019,"birth_cohort",79.8,"74.7 to 84.2",455
+"child_vax_view","Rotavirus","Washington",2020,"birth_cohort",75.1,"69.6 to 79.9",445
+"child_vax_view","Rotavirus","Washington",2021,"birth_cohort",76.5,"70.7 to 81.4",394
+"child_vax_view","Rotavirus","Washington",2022,"birth_cohort",76.9,"70.0 to 82.6",211
+"child_vax_view","Rotavirus","West Virginia",2019,"birth_cohort",64.7,"57.1 to 71.6",201
+"child_vax_view","Rotavirus","West Virginia",2020,"birth_cohort",74.3,"67.5 to 80.2",271
+"child_vax_view","Rotavirus","West Virginia",2021,"birth_cohort",75.6,"69.2 to 81.1",279
+"child_vax_view","Rotavirus","West Virginia",2022,"birth_cohort",83.2,"76.6 to 88.2",180
+"child_vax_view","Rotavirus","Wisconsin",2019,"birth_cohort",76.9,"69.3 to 83.1",224
+"child_vax_view","Rotavirus","Wisconsin",2020,"birth_cohort",75.2,"68.3 to 81.0",287
+"child_vax_view","Rotavirus","Wisconsin",2021,"birth_cohort",78.5,"72.1 to 83.7",317
+"child_vax_view","Rotavirus","Wisconsin",2022,"birth_cohort",82.2,"68.2 to 90.9",164
+"child_vax_view","Rotavirus","Wyoming",2019,"birth_cohort",80.3,"73.9 to 85.4",260
+"child_vax_view","Rotavirus","Wyoming",2020,"birth_cohort",76.1,"69.7 to 81.5",296
+"child_vax_view","Rotavirus","Wyoming",2021,"birth_cohort",73.7,"66.9 to 79.6",306
+"child_vax_view","Rotavirus","Wyoming",2022,"birth_cohort",72.8,"63.2 to 80.7",157
+"school_vax_view","DTP, DTaP, or DT","Alabama",2019,"school_year",86.6,NA,59477
+"school_vax_view","DTP, DTaP, or DT","Alabama",2020,"school_year",94.7,NA,56974
+"school_vax_view","DTP, DTaP, or DT","Alabama",2021,"school_year",94.9,NA,60332
+"school_vax_view","DTP, DTaP, or DT","Alabama",2022,"school_year",93.9,NA,59113
+"school_vax_view","DTP, DTaP, or DT","Alabama",2023,"school_year",93.8,NA,54565
+"school_vax_view","DTP, DTaP, or DT","Alabama",2024,"school_year",95,NA,53589
+"school_vax_view","DTP, DTaP, or DT","Alaska",2019,"school_year",NA,NA,10381
+"school_vax_view","DTP, DTaP, or DT","Alaska",2021,"school_year",78,NA,9790
+"school_vax_view","DTP, DTaP, or DT","Alaska",2022,"school_year",83.8,NA,9650
+"school_vax_view","DTP, DTaP, or DT","Alaska",2023,"school_year",83.8,NA,8644
+"school_vax_view","DTP, DTaP, or DT","Alaska",2024,"school_year",82.2,NA,7338
+"school_vax_view","DTP, DTaP, or DT","Arizona",2019,"school_year",92.6,NA,83976
+"school_vax_view","DTP, DTaP, or DT","Arizona",2020,"school_year",92,NA,76382
+"school_vax_view","DTP, DTaP, or DT","Arizona",2021,"school_year",90.5,NA,83463
+"school_vax_view","DTP, DTaP, or DT","Arizona",2022,"school_year",89.6,NA,80814
+"school_vax_view","DTP, DTaP, or DT","Arizona",2023,"school_year",89.4,NA,74834
+"school_vax_view","DTP, DTaP, or DT","Arizona",2024,"school_year",88.7,NA,75024
+"school_vax_view","DTP, DTaP, or DT","Arkansas",2019,"school_year",93.2,NA,39510
+"school_vax_view","DTP, DTaP, or DT","Arkansas",2020,"school_year",92.3,NA,37540
+"school_vax_view","DTP, DTaP, or DT","Arkansas",2021,"school_year",91.3,NA,39358
+"school_vax_view","DTP, DTaP, or DT","Arkansas",2022,"school_year",90.6,NA,38358
+"school_vax_view","DTP, DTaP, or DT","Arkansas",2023,"school_year",91.4,NA,37535
+"school_vax_view","DTP, DTaP, or DT","Arkansas",2024,"school_year",88.5,NA,37570
+"school_vax_view","DTP, DTaP, or DT","California",2019,"school_year",96.2,NA,566155
+"school_vax_view","DTP, DTaP, or DT","California",2020,"school_year",94.7,NA,498214
+"school_vax_view","DTP, DTaP, or DT","California",2021,"school_year",95.7,NA,512144
+"school_vax_view","DTP, DTaP, or DT","California",2022,"school_year",95.6,NA,541132
+"school_vax_view","DTP, DTaP, or DT","California",2023,"school_year",95.4,NA,569680
+"school_vax_view","DTP, DTaP, or DT","California",2024,"school_year",95.1,NA,590849
+"school_vax_view","DTP, DTaP, or DT","Colorado",2019,"school_year",92.8,NA,69088
+"school_vax_view","DTP, DTaP, or DT","Colorado",2020,"school_year",90.1,NA,63619
+"school_vax_view","DTP, DTaP, or DT","Colorado",2021,"school_year",89.1,NA,66900
+"school_vax_view","DTP, DTaP, or DT","Colorado",2022,"school_year",87.2,NA,65576
+"school_vax_view","DTP, DTaP, or DT","Colorado",2023,"school_year",87.9,NA,61662
+"school_vax_view","DTP, DTaP, or DT","Colorado",2024,"school_year",87.4,NA,60055
+"school_vax_view","DTP, DTaP, or DT","Connecticut",2019,"school_year",96.2,NA,38888
+"school_vax_view","DTP, DTaP, or DT","Connecticut",2020,"school_year",95.3,NA,34396
+"school_vax_view","DTP, DTaP, or DT","Connecticut",2021,"school_year",96,NA,35451
+"school_vax_view","DTP, DTaP, or DT","Connecticut",2022,"school_year",97.3,NA,35580
+"school_vax_view","DTP, DTaP, or DT","Connecticut",2023,"school_year",97.6,NA,36184
+"school_vax_view","DTP, DTaP, or DT","Connecticut",2024,"school_year",98.2,NA,30112
+"school_vax_view","DTP, DTaP, or DT","Delaware",2019,"school_year",NA,NA,NA
+"school_vax_view","DTP, DTaP, or DT","Delaware",2020,"school_year",94.9,NA,10587
+"school_vax_view","DTP, DTaP, or DT","Delaware",2021,"school_year",96.4,NA,11181
+"school_vax_view","DTP, DTaP, or DT","Delaware",2022,"school_year",93.8,NA,10674
+"school_vax_view","DTP, DTaP, or DT","Delaware",2023,"school_year",93.8,NA,11043
+"school_vax_view","DTP, DTaP, or DT","Delaware",2024,"school_year",94.8,NA,10393
+"school_vax_view","DTP, DTaP, or DT","District of Columbia",2019,"school_year",NA,NA,NA
+"school_vax_view","DTP, DTaP, or DT","District of Columbia",2020,"school_year",78.5,NA,8262
+"school_vax_view","DTP, DTaP, or DT","District of Columbia",2021,"school_year",82.2,NA,8959
+"school_vax_view","DTP, DTaP, or DT","District of Columbia",2022,"school_year",85,NA,8064
+"school_vax_view","DTP, DTaP, or DT","District of Columbia",2023,"school_year",92,NA,7874
+"school_vax_view","DTP, DTaP, or DT","District of Columbia",2024,"school_year",90.3,NA,7997
+"school_vax_view","DTP, DTaP, or DT","Florida",2019,"school_year",93.5,NA,228298
+"school_vax_view","DTP, DTaP, or DT","Florida",2020,"school_year",93.3,NA,207026
+"school_vax_view","DTP, DTaP, or DT","Florida",2021,"school_year",91.7,NA,229432
+"school_vax_view","DTP, DTaP, or DT","Florida",2022,"school_year",90.6,NA,230309
+"school_vax_view","DTP, DTaP, or DT","Florida",2023,"school_year",88.1,NA,228213
+"school_vax_view","DTP, DTaP, or DT","Florida",2024,"school_year",88.8,NA,221053
+"school_vax_view","DTP, DTaP, or DT","Georgia",2019,"school_year",93.1,NA,130102
+"school_vax_view","DTP, DTaP, or DT","Georgia",2020,"school_year",88.5,NA,83191
+"school_vax_view","DTP, DTaP, or DT","Georgia",2021,"school_year",83.2,NA,118742
+"school_vax_view","DTP, DTaP, or DT","Georgia",2022,"school_year",88.1,NA,123771
+"school_vax_view","DTP, DTaP, or DT","Georgia",2023,"school_year",88.4,NA,136943
+"school_vax_view","DTP, DTaP, or DT","Georgia",2024,"school_year",86.8,NA,114568
+"school_vax_view","DTP, DTaP, or DT","Hawaii",2019,"school_year",91.1,NA,15695
+"school_vax_view","DTP, DTaP, or DT","Hawaii",2020,"school_year",91.3,NA,13074
+"school_vax_view","DTP, DTaP, or DT","Hawaii",2021,"school_year",92.5,NA,13368
+"school_vax_view","DTP, DTaP, or DT","Hawaii",2022,"school_year",87,NA,13195
+"school_vax_view","DTP, DTaP, or DT","Hawaii",2023,"school_year",89.4,NA,13995
+"school_vax_view","DTP, DTaP, or DT","Hawaii",2024,"school_year",91.5,NA,13804
+"school_vax_view","DTP, DTaP, or DT","Idaho",2019,"school_year",89,NA,23301
+"school_vax_view","DTP, DTaP, or DT","Idaho",2020,"school_year",86.4,NA,22677
+"school_vax_view","DTP, DTaP, or DT","Idaho",2021,"school_year",83.5,NA,23854
+"school_vax_view","DTP, DTaP, or DT","Idaho",2022,"school_year",81,NA,23721
+"school_vax_view","DTP, DTaP, or DT","Idaho",2023,"school_year",79.5,NA,22376
+"school_vax_view","DTP, DTaP, or DT","Idaho",2024,"school_year",78.3,NA,22242
+"school_vax_view","DTP, DTaP, or DT","Illinois",2019,"school_year",96.5,NA,145891
+"school_vax_view","DTP, DTaP, or DT","Illinois",2020,"school_year",NA,NA,NA
+"school_vax_view","DTP, DTaP, or DT","Illinois",2021,"school_year",91.9,NA,137699
+"school_vax_view","DTP, DTaP, or DT","Illinois",2022,"school_year",91.5,NA,135332
+"school_vax_view","DTP, DTaP, or DT","Illinois",2023,"school_year",91.2,NA,133578
+"school_vax_view","DTP, DTaP, or DT","Illinois",2024,"school_year",91.2,NA,132769
+"school_vax_view","DTP, DTaP, or DT","Indiana",2019,"school_year",84,NA,88253
+"school_vax_view","DTP, DTaP, or DT","Indiana",2020,"school_year",83.9,NA,78694
+"school_vax_view","DTP, DTaP, or DT","Indiana",2021,"school_year",84,NA,83198
+"school_vax_view","DTP, DTaP, or DT","Indiana",2022,"school_year",83,NA,81307
+"school_vax_view","DTP, DTaP, or DT","Indiana",2023,"school_year",81.8,NA,80639
+"school_vax_view","DTP, DTaP, or DT","Indiana",2024,"school_year",81.7,NA,73744
+"school_vax_view","DTP, DTaP, or DT","Iowa",2019,"school_year",93.2,NA,40812
+"school_vax_view","DTP, DTaP, or DT","Iowa",2020,"school_year",93.4,NA,39141
+"school_vax_view","DTP, DTaP, or DT","Iowa",2021,"school_year",90.6,NA,40111
+"school_vax_view","DTP, DTaP, or DT","Iowa",2022,"school_year",89.9,NA,39178
+"school_vax_view","DTP, DTaP, or DT","Iowa",2023,"school_year",89.1,NA,38611
+"school_vax_view","DTP, DTaP, or DT","Iowa",2024,"school_year",88.8,NA,38268
+"school_vax_view","DTP, DTaP, or DT","Kansas",2019,"school_year",89.7,NA,37865
+"school_vax_view","DTP, DTaP, or DT","Kansas",2020,"school_year",90.8,NA,34687
+"school_vax_view","DTP, DTaP, or DT","Kansas",2021,"school_year",90,NA,36526
+"school_vax_view","DTP, DTaP, or DT","Kansas",2022,"school_year",90.5,NA,35543
+"school_vax_view","DTP, DTaP, or DT","Kansas",2023,"school_year",90.1,NA,34178
+"school_vax_view","DTP, DTaP, or DT","Kansas",2024,"school_year",90.8,NA,33892
+"school_vax_view","DTP, DTaP, or DT","Kentucky",2019,"school_year",93.3,NA,59233
+"school_vax_view","DTP, DTaP, or DT","Kentucky",2020,"school_year",89.4,NA,59233
+"school_vax_view","DTP, DTaP, or DT","Kentucky",2021,"school_year",87.1,NA,59233
+"school_vax_view","DTP, DTaP, or DT","Kentucky",2022,"school_year",90.6,NA,54742
+"school_vax_view","DTP, DTaP, or DT","Kentucky",2023,"school_year",91,NA,52609
+"school_vax_view","DTP, DTaP, or DT","Kentucky",2024,"school_year",86.2,NA,51319
+"school_vax_view","DTP, DTaP, or DT","Louisiana",2019,"school_year",97.2,NA,59685
+"school_vax_view","DTP, DTaP, or DT","Louisiana",2020,"school_year",96.9,NA,61912
+"school_vax_view","DTP, DTaP, or DT","Louisiana",2021,"school_year",96.2,NA,66518
+"school_vax_view","DTP, DTaP, or DT","Louisiana",2022,"school_year",93.1,NA,54314
+"school_vax_view","DTP, DTaP, or DT","Louisiana",2023,"school_year",90.5,NA,51839
+"school_vax_view","DTP, DTaP, or DT","Louisiana",2024,"school_year",95.3,NA,49229
+"school_vax_view","DTP, DTaP, or DT","Maine",2019,"school_year",94.1,NA,13450
+"school_vax_view","DTP, DTaP, or DT","Maine",2020,"school_year",94,NA,13477
+"school_vax_view","DTP, DTaP, or DT","Maine",2021,"school_year",96.3,NA,12881
+"school_vax_view","DTP, DTaP, or DT","Maine",2022,"school_year",96.6,NA,12403
+"school_vax_view","DTP, DTaP, or DT","Maine",2023,"school_year",96.9,NA,12087
+"school_vax_view","DTP, DTaP, or DT","Maine",2024,"school_year",97.3,NA,11761
+"school_vax_view","DTP, DTaP, or DT","Maryland",2019,"school_year",98.2,NA,72443
+"school_vax_view","DTP, DTaP, or DT","Maryland",2020,"school_year",89.7,NA,65764
+"school_vax_view","DTP, DTaP, or DT","Maryland",2021,"school_year",88.6,NA,53866
+"school_vax_view","DTP, DTaP, or DT","Maryland",2022,"school_year",96.9,NA,59684
+"school_vax_view","DTP, DTaP, or DT","Maryland",2023,"school_year",96.8,NA,63224
+"school_vax_view","DTP, DTaP, or DT","Maryland",2024,"school_year",96.6,NA,66135
+"school_vax_view","DTP, DTaP, or DT","Massachusetts",2019,"school_year",97.2,NA,66756
+"school_vax_view","DTP, DTaP, or DT","Massachusetts",2020,"school_year",95.7,NA,60724
+"school_vax_view","DTP, DTaP, or DT","Massachusetts",2021,"school_year",96.1,NA,65582
+"school_vax_view","DTP, DTaP, or DT","Massachusetts",2022,"school_year",96.2,NA,66041
+"school_vax_view","DTP, DTaP, or DT","Massachusetts",2023,"school_year",96,NA,65424
+"school_vax_view","DTP, DTaP, or DT","Massachusetts",2024,"school_year",96.3,NA,65581
+"school_vax_view","DTP, DTaP, or DT","Michigan",2019,"school_year",94.7,NA,120565
+"school_vax_view","DTP, DTaP, or DT","Michigan",2020,"school_year",95.4,NA,106657
+"school_vax_view","DTP, DTaP, or DT","Michigan",2021,"school_year",94.1,NA,114251
+"school_vax_view","DTP, DTaP, or DT","Michigan",2022,"school_year",93.1,NA,113678
+"school_vax_view","DTP, DTaP, or DT","Michigan",2023,"school_year",92.1,NA,110156
+"school_vax_view","DTP, DTaP, or DT","Michigan",2024,"school_year",91.6,NA,107636
+"school_vax_view","DTP, DTaP, or DT","Minnesota",2019,"school_year",92.3,NA,71223
+"school_vax_view","DTP, DTaP, or DT","Minnesota",2020,"school_year",89.3,NA,66007
+"school_vax_view","DTP, DTaP, or DT","Minnesota",2021,"school_year",89,NA,69403
+"school_vax_view","DTP, DTaP, or DT","Minnesota",2022,"school_year",88.3,NA,68152
+"school_vax_view","DTP, DTaP, or DT","Minnesota",2023,"school_year",87.4,NA,66032
+"school_vax_view","DTP, DTaP, or DT","Minnesota",2024,"school_year",87,NA,64898
+"school_vax_view","DTP, DTaP, or DT","Mississippi",2019,"school_year",99.1,NA,37870
+"school_vax_view","DTP, DTaP, or DT","Mississippi",2020,"school_year",98.9,NA,34028
+"school_vax_view","DTP, DTaP, or DT","Mississippi",2021,"school_year",98.6,NA,36524
+"school_vax_view","DTP, DTaP, or DT","Mississippi",2022,"school_year",98.4,NA,36048
+"school_vax_view","DTP, DTaP, or DT","Mississippi",2023,"school_year",97.5,NA,36105
+"school_vax_view","DTP, DTaP, or DT","Mississippi",2024,"school_year",97.6,NA,35293
+"school_vax_view","DTP, DTaP, or DT","Missouri",2019,"school_year",94.5,NA,72324
+"school_vax_view","DTP, DTaP, or DT","Missouri",2020,"school_year",92.6,NA,63093
+"school_vax_view","DTP, DTaP, or DT","Missouri",2021,"school_year",91.5,NA,71034
+"school_vax_view","DTP, DTaP, or DT","Missouri",2022,"school_year",91.1,NA,69126
+"school_vax_view","DTP, DTaP, or DT","Missouri",2023,"school_year",90.5,NA,69014
+"school_vax_view","DTP, DTaP, or DT","Missouri",2024,"school_year",90,NA,68163
+"school_vax_view","DTP, DTaP, or DT","Montana",2019,"school_year",93.2,NA,12501
+"school_vax_view","DTP, DTaP, or DT","Montana",2020,"school_year",91.9,NA,11279
+"school_vax_view","DTP, DTaP, or DT","Nebraska",2019,"school_year",96.9,NA,26893
+"school_vax_view","DTP, DTaP, or DT","Nebraska",2020,"school_year",96.1,NA,25681
+"school_vax_view","DTP, DTaP, or DT","Nebraska",2021,"school_year",96.6,NA,25018
+"school_vax_view","DTP, DTaP, or DT","Nebraska",2022,"school_year",95.7,NA,23176
+"school_vax_view","DTP, DTaP, or DT","Nebraska",2023,"school_year",95.2,NA,23118
+"school_vax_view","DTP, DTaP, or DT","Nebraska",2024,"school_year",95.1,NA,24102
+"school_vax_view","DTP, DTaP, or DT","Nevada",2019,"school_year",94,NA,37724
+"school_vax_view","DTP, DTaP, or DT","Nevada",2020,"school_year",95.4,NA,34171
+"school_vax_view","DTP, DTaP, or DT","Nevada",2021,"school_year",91.5,NA,36855
+"school_vax_view","DTP, DTaP, or DT","Nevada",2022,"school_year",92.2,NA,34333
+"school_vax_view","DTP, DTaP, or DT","Nevada",2023,"school_year",91.1,NA,31261
+"school_vax_view","DTP, DTaP, or DT","Nevada",2024,"school_year",90.3,NA,33272
+"school_vax_view","DTP, DTaP, or DT","New Hampshire",2019,"school_year",91.5,NA,12447
+"school_vax_view","DTP, DTaP, or DT","New Hampshire",2020,"school_year",90.8,NA,10242
+"school_vax_view","DTP, DTaP, or DT","New Hampshire",2021,"school_year",88.7,NA,12157
+"school_vax_view","DTP, DTaP, or DT","New Hampshire",2022,"school_year",89.4,NA,11332
+"school_vax_view","DTP, DTaP, or DT","New Hampshire",2023,"school_year",89.2,NA,11871
+"school_vax_view","DTP, DTaP, or DT","New Hampshire",2024,"school_year",89.2,NA,11713
+"school_vax_view","DTP, DTaP, or DT","New Jersey",2019,"school_year",95.9,NA,107900
+"school_vax_view","DTP, DTaP, or DT","New Jersey",2020,"school_year",94.3,NA,100144
+"school_vax_view","DTP, DTaP, or DT","New Jersey",2021,"school_year",94.1,NA,104240
+"school_vax_view","DTP, DTaP, or DT","New Jersey",2022,"school_year",94.3,NA,104468
+"school_vax_view","DTP, DTaP, or DT","New Jersey",2023,"school_year",93.2,NA,105408
+"school_vax_view","DTP, DTaP, or DT","New Jersey",2024,"school_year",92.8,NA,104339
+"school_vax_view","DTP, DTaP, or DT","New Mexico",2019,"school_year",96.7,NA,23087
+"school_vax_view","DTP, DTaP, or DT","New Mexico",2020,"school_year",95.7,NA,20589
+"school_vax_view","DTP, DTaP, or DT","New Mexico",2021,"school_year",94,NA,20736
+"school_vax_view","DTP, DTaP, or DT","New Mexico",2022,"school_year",94.7,NA,21068
+"school_vax_view","DTP, DTaP, or DT","New Mexico",2023,"school_year",94.8,NA,20699
+"school_vax_view","DTP, DTaP, or DT","New Mexico",2024,"school_year",94.5,NA,20180
+"school_vax_view","DTP, DTaP, or DT","New York",2019,"school_year",97.8,NA,234165
+"school_vax_view","DTP, DTaP, or DT","New York",2020,"school_year",97.8,NA,216804
+"school_vax_view","DTP, DTaP, or DT","New York",2021,"school_year",97.3,NA,195377
+"school_vax_view","DTP, DTaP, or DT","New York",2022,"school_year",97.2,NA,205906
+"school_vax_view","DTP, DTaP, or DT","New York",2023,"school_year",96.8,NA,200894
+"school_vax_view","DTP, DTaP, or DT","New York",2024,"school_year",97.2,NA,234054
+"school_vax_view","DTP, DTaP, or DT","North Carolina",2019,"school_year",95.5,NA,124548
+"school_vax_view","DTP, DTaP, or DT","North Carolina",2020,"school_year",95.2,NA,120995
+"school_vax_view","DTP, DTaP, or DT","North Carolina",2021,"school_year",96,NA,118191
+"school_vax_view","DTP, DTaP, or DT","North Carolina",2022,"school_year",93.7,NA,125679
+"school_vax_view","DTP, DTaP, or DT","North Carolina",2023,"school_year",93.5,NA,125964
+"school_vax_view","DTP, DTaP, or DT","North Carolina",2024,"school_year",94,NA,124028
+"school_vax_view","DTP, DTaP, or DT","North Dakota",2019,"school_year",94.4,NA,10587
+"school_vax_view","DTP, DTaP, or DT","North Dakota",2020,"school_year",93.1,NA,10116
+"school_vax_view","DTP, DTaP, or DT","North Dakota",2021,"school_year",91.4,NA,10755
+"school_vax_view","DTP, DTaP, or DT","North Dakota",2022,"school_year",91.8,NA,10554
+"school_vax_view","DTP, DTaP, or DT","North Dakota",2023,"school_year",90.5,NA,9708
+"school_vax_view","DTP, DTaP, or DT","North Dakota",2024,"school_year",89.7,NA,9659
+"school_vax_view","DTP, DTaP, or DT","Ohio",2019,"school_year",92.3,NA,139103
+"school_vax_view","DTP, DTaP, or DT","Ohio",2020,"school_year",89,NA,128535
+"school_vax_view","DTP, DTaP, or DT","Ohio",2021,"school_year",88.5,NA,139077
+"school_vax_view","DTP, DTaP, or DT","Ohio",2022,"school_year",89.4,NA,134893
+"school_vax_view","DTP, DTaP, or DT","Ohio",2023,"school_year",89.3,NA,133716
+"school_vax_view","DTP, DTaP, or DT","Ohio",2024,"school_year",88.8,NA,131589
+"school_vax_view","DTP, DTaP, or DT","Oklahoma",2019,"school_year",93.9,NA,55348
+"school_vax_view","DTP, DTaP, or DT","Oklahoma",2020,"school_year",90.3,NA,52656
+"school_vax_view","DTP, DTaP, or DT","Oklahoma",2021,"school_year",91.1,NA,54042
+"school_vax_view","DTP, DTaP, or DT","Oklahoma",2022,"school_year",90,NA,52548
+"school_vax_view","DTP, DTaP, or DT","Oklahoma",2023,"school_year",89,NA,49979
+"school_vax_view","DTP, DTaP, or DT","Oklahoma",2024,"school_year",89.5,NA,47544
+"school_vax_view","DTP, DTaP, or DT","Oregon",2019,"school_year",92.6,NA,45959
+"school_vax_view","DTP, DTaP, or DT","Oregon",2020,"school_year",91.6,NA,39568
+"school_vax_view","DTP, DTaP, or DT","Oregon",2021,"school_year",92,NA,41538
+"school_vax_view","DTP, DTaP, or DT","Oregon",2022,"school_year",90.9,NA,40963
+"school_vax_view","DTP, DTaP, or DT","Oregon",2023,"school_year",90.5,NA,39568
+"school_vax_view","DTP, DTaP, or DT","Oregon",2024,"school_year",89.6,NA,38247
+"school_vax_view","DTP, DTaP, or DT","Pennsylvania",2019,"school_year",96.8,NA,140197
+"school_vax_view","DTP, DTaP, or DT","Pennsylvania",2020,"school_year",95.9,NA,129307
+"school_vax_view","DTP, DTaP, or DT","Pennsylvania",2021,"school_year",95.4,NA,139558
+"school_vax_view","DTP, DTaP, or DT","Pennsylvania",2022,"school_year",94.3,NA,137259
+"school_vax_view","DTP, DTaP, or DT","Pennsylvania",2023,"school_year",93.8,NA,137593
+"school_vax_view","DTP, DTaP, or DT","Pennsylvania",2024,"school_year",92.7,NA,140160
+"school_vax_view","DTP, DTaP, or DT","Rhode Island",2019,"school_year",97.4,NA,11219
+"school_vax_view","DTP, DTaP, or DT","Rhode Island",2020,"school_year",96.8,NA,10402
+"school_vax_view","DTP, DTaP, or DT","Rhode Island",2021,"school_year",97,NA,11002
+"school_vax_view","DTP, DTaP, or DT","Rhode Island",2022,"school_year",96.9,NA,10532
+"school_vax_view","DTP, DTaP, or DT","Rhode Island",2023,"school_year",96.9,NA,10539
+"school_vax_view","DTP, DTaP, or DT","Rhode Island",2024,"school_year",96.7,NA,10088
+"school_vax_view","DTP, DTaP, or DT","South Carolina",2019,"school_year",95.2,NA,65938
+"school_vax_view","DTP, DTaP, or DT","South Carolina",2020,"school_year",95,NA,56330
+"school_vax_view","DTP, DTaP, or DT","South Carolina",2021,"school_year",91,NA,58276
+"school_vax_view","DTP, DTaP, or DT","South Carolina",2022,"school_year",92.1,NA,58878
+"school_vax_view","DTP, DTaP, or DT","South Carolina",2023,"school_year",92.3,NA,58069
+"school_vax_view","DTP, DTaP, or DT","South Carolina",2024,"school_year",91.8,NA,57718
+"school_vax_view","DTP, DTaP, or DT","South Dakota",2019,"school_year",95.9,NA,12367
+"school_vax_view","DTP, DTaP, or DT","South Dakota",2020,"school_year",93.7,NA,11512
+"school_vax_view","DTP, DTaP, or DT","South Dakota",2021,"school_year",93.2,NA,12251
+"school_vax_view","DTP, DTaP, or DT","South Dakota",2022,"school_year",92.2,NA,12081
+"school_vax_view","DTP, DTaP, or DT","South Dakota",2023,"school_year",90.6,NA,11744
+"school_vax_view","DTP, DTaP, or DT","South Dakota",2024,"school_year",89.6,NA,11367
+"school_vax_view","DTP, DTaP, or DT","TX-City of San Antonio",2024,"school_year",94.3,NA,24929
+"school_vax_view","DTP, DTaP, or DT","Tennessee",2019,"school_year",96.4,NA,80595
+"school_vax_view","DTP, DTaP, or DT","Tennessee",2020,"school_year",96.4,NA,73819
+"school_vax_view","DTP, DTaP, or DT","Tennessee",2021,"school_year",95.2,NA,79120
+"school_vax_view","DTP, DTaP, or DT","Tennessee",2022,"school_year",94.8,NA,79692
+"school_vax_view","DTP, DTaP, or DT","Tennessee",2023,"school_year",94.6,NA,79323
+"school_vax_view","DTP, DTaP, or DT","Tennessee",2024,"school_year",94,NA,78299
+"school_vax_view","DTP, DTaP, or DT","Texas",2019,"school_year",96.6,NA,398680
+"school_vax_view","DTP, DTaP, or DT","Texas",2020,"school_year",95,NA,377840
+"school_vax_view","DTP, DTaP, or DT","Texas",2021,"school_year",93.7,NA,389037
+"school_vax_view","DTP, DTaP, or DT","Texas",2022,"school_year",93.8,NA,381680
+"school_vax_view","DTP, DTaP, or DT","Texas",2023,"school_year",94,NA,381421
+"school_vax_view","DTP, DTaP, or DT","Texas",2024,"school_year",92.9,NA,378860
+"school_vax_view","DTP, DTaP, or DT","United States",2019,"school_year",94.9,NA,NA
+"school_vax_view","DTP, DTaP, or DT","United States",2020,"school_year",93.6,NA,3510744
+"school_vax_view","DTP, DTaP, or DT","United States",2021,"school_year",92.7,NA,3835130
+"school_vax_view","DTP, DTaP, or DT","United States",2022,"school_year",92.7,NA,3832381
+"school_vax_view","DTP, DTaP, or DT","United States",2023,"school_year",92.3,NA,3823506
+"school_vax_view","DTP, DTaP, or DT","United States",2024,"school_year",92.1,NA,3785644
+"school_vax_view","DTP, DTaP, or DT","Utah",2019,"school_year",92.2,NA,49208
+"school_vax_view","DTP, DTaP, or DT","Utah",2020,"school_year",91.1,NA,46247
+"school_vax_view","DTP, DTaP, or DT","Utah",2021,"school_year",89.6,NA,48995
+"school_vax_view","DTP, DTaP, or DT","Utah",2022,"school_year",89.7,NA,46635
+"school_vax_view","DTP, DTaP, or DT","Utah",2023,"school_year",88.5,NA,46228
+"school_vax_view","DTP, DTaP, or DT","Utah",2024,"school_year",88.1,NA,45818
+"school_vax_view","DTP, DTaP, or DT","Vermont",2019,"school_year",94.1,NA,6293
+"school_vax_view","DTP, DTaP, or DT","Vermont",2020,"school_year",93.6,NA,5535
+"school_vax_view","DTP, DTaP, or DT","Vermont",2021,"school_year",92.9,NA,6126
+"school_vax_view","DTP, DTaP, or DT","Vermont",2022,"school_year",92.8,NA,5816
+"school_vax_view","DTP, DTaP, or DT","Vermont",2023,"school_year",92.7,NA,5630
+"school_vax_view","DTP, DTaP, or DT","Vermont",2024,"school_year",93.3,NA,5432
+"school_vax_view","DTP, DTaP, or DT","Virginia",2019,"school_year",97.6,NA,99399
+"school_vax_view","DTP, DTaP, or DT","Virginia",2020,"school_year",97.7,NA,88273
+"school_vax_view","DTP, DTaP, or DT","Virginia",2021,"school_year",98.3,NA,95996
+"school_vax_view","DTP, DTaP, or DT","Virginia",2022,"school_year",97.8,NA,93271
+"school_vax_view","DTP, DTaP, or DT","Virginia",2023,"school_year",96.2,NA,92633
+"school_vax_view","DTP, DTaP, or DT","Virginia",2024,"school_year",98.2,NA,91453
+"school_vax_view","DTP, DTaP, or DT","Washington",2019,"school_year",92.8,NA,87757
+"school_vax_view","DTP, DTaP, or DT","Washington",2020,"school_year",93.2,NA,74931
+"school_vax_view","DTP, DTaP, or DT","Washington",2021,"school_year",91.4,NA,87256
+"school_vax_view","DTP, DTaP, or DT","Washington",2022,"school_year",90.1,NA,86284
+"school_vax_view","DTP, DTaP, or DT","Washington",2023,"school_year",90.2,NA,84053
+"school_vax_view","DTP, DTaP, or DT","Washington",2024,"school_year",89.7,NA,76756
+"school_vax_view","DTP, DTaP, or DT","West Virginia",2019,"school_year",98.8,NA,17114
+"school_vax_view","DTP, DTaP, or DT","West Virginia",2020,"school_year",NA,NA,NA
+"school_vax_view","DTP, DTaP, or DT","West Virginia",2021,"school_year",96.5,NA,18070
+"school_vax_view","DTP, DTaP, or DT","West Virginia",2022,"school_year",95.6,NA,19175
+"school_vax_view","DTP, DTaP, or DT","West Virginia",2023,"school_year",98.4,NA,18261
+"school_vax_view","DTP, DTaP, or DT","Wisconsin",2019,"school_year",94.5,NA,67391
+"school_vax_view","DTP, DTaP, or DT","Wisconsin",2020,"school_year",87.2,NA,63486
+"school_vax_view","DTP, DTaP, or DT","Wisconsin",2021,"school_year",82.6,NA,64275
+"school_vax_view","DTP, DTaP, or DT","Wisconsin",2022,"school_year",87,NA,63593
+"school_vax_view","DTP, DTaP, or DT","Wisconsin",2023,"school_year",85.7,NA,62028
+"school_vax_view","DTP, DTaP, or DT","Wisconsin",2024,"school_year",85.7,NA,61120
+"school_vax_view","DTP, DTaP, or DT","Wyoming",2019,"school_year",94.4,NA,7913
+"school_vax_view","DTP, DTaP, or DT","Wyoming",2020,"school_year",90.2,NA,6923
+"school_vax_view","DTP, DTaP, or DT","Wyoming",2021,"school_year",92.5,NA,7382
+"school_vax_view","DTP, DTaP, or DT","Wyoming",2022,"school_year",89.4,NA,7060
+"school_vax_view","DTP, DTaP, or DT","Wyoming",2023,"school_year",92.2,NA,6754
+"school_vax_view","DTP, DTaP, or DT","Wyoming",2024,"school_year",92.5,NA,6564

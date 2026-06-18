@@ -1,0 +1,213 @@
+"source","vaccine","state_name","year","year_type","vaccine_coverage_estimate","ci_95","sample_size"
+"child_vax_view","PCV","Alabama",2019,"birth_cohort",87.8,"81.6 to 92.6",227
+"child_vax_view","PCV","Alabama",2020,"birth_cohort",80.7,"72.2 to 87.9",240
+"child_vax_view","PCV","Alabama",2021,"birth_cohort",81.2,"74.5 to 87.0",270
+"child_vax_view","PCV","Alabama",2022,"birth_cohort",82.1,"71.8 to 90.3",184
+"child_vax_view","PCV","Alaska",2019,"birth_cohort",77.3,"70.2 to 83.8",287
+"child_vax_view","PCV","Alaska",2020,"birth_cohort",76,"69.8 to 81.7",302
+"child_vax_view","PCV","Alaska",2021,"birth_cohort",78.7,"72.1 to 84.6",279
+"child_vax_view","PCV","Alaska",2022,"birth_cohort",68.6,"55.4 to 81.1",126
+"child_vax_view","PCV","Arizona",2019,"birth_cohort",81.1,"74.2 to 87.1",235
+"child_vax_view","PCV","Arizona",2020,"birth_cohort",78.1,"70.8 to 84.6",271
+"child_vax_view","PCV","Arizona",2021,"birth_cohort",83.7,"74.7 to 90.8",293
+"child_vax_view","PCV","Arizona",2022,"birth_cohort",86.3,"74.7 to 94.4",145
+"child_vax_view","PCV","Arkansas",2019,"birth_cohort",82.5,"75.9 to 88.1",357
+"child_vax_view","PCV","Arkansas",2020,"birth_cohort",79.4,"73.5 to 84.8",323
+"child_vax_view","PCV","Arkansas",2021,"birth_cohort",80.1,"73.6 to 85.9",312
+"child_vax_view","PCV","Arkansas",2022,"birth_cohort",80.6,"70.2 to 89.2",144
+"child_vax_view","PCV","California",2019,"birth_cohort",86.2,"79.6 to 91.5",537
+"child_vax_view","PCV","California",2020,"birth_cohort",80.7,"72.9 to 87.4",434
+"child_vax_view","PCV","California",2021,"birth_cohort",80.3,"74.3 to 85.6",397
+"child_vax_view","PCV","California",2022,"birth_cohort",78.9,"67.3 to 88.5",193
+"child_vax_view","PCV","Colorado",2019,"birth_cohort",89.3,"84.1 to 93.5",265
+"child_vax_view","PCV","Colorado",2020,"birth_cohort",83.1,"77.5 to 88.0",311
+"child_vax_view","PCV","Colorado",2021,"birth_cohort",84.8,"79.7 to 89.3",302
+"child_vax_view","PCV","Colorado",2022,"birth_cohort",87,"79.8 to 92.6",177
+"child_vax_view","PCV","Connecticut",2019,"birth_cohort",94,"89.5 to 97.0",311
+"child_vax_view","PCV","Connecticut",2020,"birth_cohort",93.2,"87.4 to 96.9",248
+"child_vax_view","PCV","Connecticut",2021,"birth_cohort",92.1,"87.3 to 95.6",254
+"child_vax_view","PCV","Connecticut",2022,"birth_cohort",89.1,"81.9 to 94.4",136
+"child_vax_view","PCV","Delaware",2019,"birth_cohort",90.1,"83.8 to 94.7",205
+"child_vax_view","PCV","Delaware",2020,"birth_cohort",88.7,"80.5 to 94.5",183
+"child_vax_view","PCV","Delaware",2021,"birth_cohort",82.7,"74.8 to 89.3",179
+"child_vax_view","PCV","Delaware",2022,"birth_cohort",84.7,"72.9 to 93.3",115
+"child_vax_view","PCV","District of Columbia",2019,"birth_cohort",82.5,"75.8 to 88.2",327
+"child_vax_view","PCV","District of Columbia",2020,"birth_cohort",89,"83.1 to 93.6",293
+"child_vax_view","PCV","District of Columbia",2021,"birth_cohort",85.4,"78.6 to 90.9",314
+"child_vax_view","PCV","District of Columbia",2022,"birth_cohort",68.9,"56.6 to 80.6",212
+"child_vax_view","PCV","Florida",2019,"birth_cohort",85.5,"77.9 to 91.5",333
+"child_vax_view","PCV","Florida",2020,"birth_cohort",82.7,"77.1 to 87.6",390
+"child_vax_view","PCV","Florida",2021,"birth_cohort",81.6,"75.1 to 87.3",433
+"child_vax_view","PCV","Florida",2022,"birth_cohort",88.3,"82.8 to 92.7",203
+"child_vax_view","PCV","Georgia",2019,"birth_cohort",83.6,"75.1 to 90.5",273
+"child_vax_view","PCV","Georgia",2020,"birth_cohort",78.3,"69.5 to 86.0",338
+"child_vax_view","PCV","Georgia",2021,"birth_cohort",83.4,"76.1 to 89.5",376
+"child_vax_view","PCV","Georgia",2022,"birth_cohort",88.2,"76.3 to 95.7",193
+"child_vax_view","PCV","Hawaii",2019,"birth_cohort",81.5,"75.5 to 86.8",246
+"child_vax_view","PCV","Hawaii",2020,"birth_cohort",82.1,"74.4 to 88.6",201
+"child_vax_view","PCV","Hawaii",2021,"birth_cohort",83.3,"75.6 to 89.6",238
+"child_vax_view","PCV","Hawaii",2022,"birth_cohort",85.2,"72.8 to 93.9",140
+"child_vax_view","PCV","Idaho",2019,"birth_cohort",87.1,"81.8 to 91.5",306
+"child_vax_view","PCV","Idaho",2020,"birth_cohort",85.5,"79.8 to 90.3",286
+"child_vax_view","PCV","Idaho",2021,"birth_cohort",81.4,"74.4 to 87.4",251
+"child_vax_view","PCV","Idaho",2022,"birth_cohort",83.4,"76.3 to 89.3",175
+"child_vax_view","PCV","Illinois",2019,"birth_cohort",86.2,"79.7 to 91.4",548
+"child_vax_view","PCV","Illinois",2020,"birth_cohort",84.5,"80.0 to 88.5",549
+"child_vax_view","PCV","Illinois",2021,"birth_cohort",86.9,"80.9 to 91.7",601
+"child_vax_view","PCV","Illinois",2022,"birth_cohort",83.4,"76.4 to 89.3",282
+"child_vax_view","PCV","Indiana",2019,"birth_cohort",86.1,"78.1 to 92.3",209
+"child_vax_view","PCV","Indiana",2020,"birth_cohort",85.7,"79.0 to 91.2",232
+"child_vax_view","PCV","Indiana",2021,"birth_cohort",85,"78.6 to 90.4",228
+"child_vax_view","PCV","Indiana",2022,"birth_cohort",82.1,"72.4 to 89.9",123
+"child_vax_view","PCV","Iowa",2019,"birth_cohort",92.3,"87.4 to 95.8",250
+"child_vax_view","PCV","Iowa",2020,"birth_cohort",85.5,"79.4 to 90.7",271
+"child_vax_view","PCV","Iowa",2021,"birth_cohort",88.8,"83.6 to 93.0",276
+"child_vax_view","PCV","Iowa",2022,"birth_cohort",88.8,"82.4 to 93.7",178
+"child_vax_view","PCV","Kansas",2019,"birth_cohort",87,"81.9 to 91.3",358
+"child_vax_view","PCV","Kansas",2020,"birth_cohort",79.8,"73.8 to 85.2",368
+"child_vax_view","PCV","Kansas",2021,"birth_cohort",85.4,"80.4 to 89.7",390
+"child_vax_view","PCV","Kansas",2022,"birth_cohort",78.6,"69.4 to 86.5",220
+"child_vax_view","PCV","Kentucky",2019,"birth_cohort",90.6,"84.6 to 95.0",271
+"child_vax_view","PCV","Kentucky",2020,"birth_cohort",79.7,"72.5 to 86.1",324
+"child_vax_view","PCV","Kentucky",2021,"birth_cohort",80.8,"74.9 to 86.0",333
+"child_vax_view","PCV","Kentucky",2022,"birth_cohort",80.5,"72.0 to 87.8",186
+"child_vax_view","PCV","Louisiana",2019,"birth_cohort",82.1,"75.4 to 87.9",411
+"child_vax_view","PCV","Louisiana",2020,"birth_cohort",73.6,"65.6 to 81.0",433
+"child_vax_view","PCV","Louisiana",2021,"birth_cohort",79.8,"72.7 to 86.0",428
+"child_vax_view","PCV","Louisiana",2022,"birth_cohort",80.5,"70.7 to 88.6",214
+"child_vax_view","PCV","Maine",2019,"birth_cohort",88.5,"82.8 to 93.0",244
+"child_vax_view","PCV","Maine",2020,"birth_cohort",91.6,"85.7 to 95.8",223
+"child_vax_view","PCV","Maine",2021,"birth_cohort",83.2,"77.2 to 88.4",228
+"child_vax_view","PCV","Maine",2022,"birth_cohort",80.6,"69.1 to 89.9",133
+"child_vax_view","PCV","Maryland",2019,"birth_cohort",85.9,"81.5 to 89.7",614
+"child_vax_view","PCV","Maryland",2020,"birth_cohort",89.8,"85.6 to 93.1",494
+"child_vax_view","PCV","Maryland",2021,"birth_cohort",87.4,"82.1 to 91.7",525
+"child_vax_view","PCV","Maryland",2022,"birth_cohort",90.6,"84.8 to 94.9",268
+"child_vax_view","PCV","Massachusetts",2019,"birth_cohort",94.3,"88.4 to 97.7",295
+"child_vax_view","PCV","Massachusetts",2020,"birth_cohort",93.3,"87.3 to 97.1",268
+"child_vax_view","PCV","Massachusetts",2021,"birth_cohort",94.5,"89.8 to 97.5",277
+"child_vax_view","PCV","Massachusetts",2022,"birth_cohort",86.8,"78.9 to 92.9",175
+"child_vax_view","PCV","Michigan",2019,"birth_cohort",89.2,"84.5 to 93.0",375
+"child_vax_view","PCV","Michigan",2020,"birth_cohort",82.7,"75.8 to 88.6",448
+"child_vax_view","PCV","Michigan",2021,"birth_cohort",84.5,"78.4 to 89.7",467
+"child_vax_view","PCV","Michigan",2022,"birth_cohort",92,"85.1 to 96.5",251
+"child_vax_view","PCV","Minnesota",2019,"birth_cohort",89.8,"84.0 to 94.1",283
+"child_vax_view","PCV","Minnesota",2020,"birth_cohort",86.6,"80.6 to 91.4",239
+"child_vax_view","PCV","Minnesota",2021,"birth_cohort",85.7,"79.5 to 90.8",278
+"child_vax_view","PCV","Minnesota",2022,"birth_cohort",91,"84.7 to 95.4",166
+"child_vax_view","PCV","Mississippi",2019,"birth_cohort",83.8,"76.4 to 89.9",324
+"child_vax_view","PCV","Mississippi",2020,"birth_cohort",86.9,"78.7 to 93.0",308
+"child_vax_view","PCV","Mississippi",2021,"birth_cohort",78.2,"70.0 to 85.4",268
+"child_vax_view","PCV","Mississippi",2022,"birth_cohort",79.4,"67.0 to 89.4",160
+"child_vax_view","PCV","Missouri",2019,"birth_cohort",78.9,"72.7 to 84.6",402
+"child_vax_view","PCV","Missouri",2020,"birth_cohort",87.8,"81.9 to 92.5",390
+"child_vax_view","PCV","Missouri",2021,"birth_cohort",84.4,"79.3 to 88.7",387
+"child_vax_view","PCV","Missouri",2022,"birth_cohort",86.4,"78.2 to 92.7",194
+"child_vax_view","PCV","Montana",2019,"birth_cohort",84.3,"76.2 to 90.8",187
+"child_vax_view","PCV","Montana",2020,"birth_cohort",75.2,"67.7 to 82.0",220
+"child_vax_view","PCV","Montana",2021,"birth_cohort",80.8,"73.1 to 87.4",219
+"child_vax_view","PCV","Montana",2022,"birth_cohort",84.7,"76.3 to 91.4",154
+"child_vax_view","PCV","Nebraska",2019,"birth_cohort",89.6,"84.8 to 93.3",259
+"child_vax_view","PCV","Nebraska",2020,"birth_cohort",91.2,"87.0 to 94.5",251
+"child_vax_view","PCV","Nebraska",2021,"birth_cohort",87.6,"81.8 to 92.3",256
+"child_vax_view","PCV","Nebraska",2022,"birth_cohort",93.5,"86.4 to 97.6",148
+"child_vax_view","PCV","Nevada",2019,"birth_cohort",83.8,"78.0 to 88.7",340
+"child_vax_view","PCV","Nevada",2020,"birth_cohort",79.2,"71.2 to 86.2",323
+"child_vax_view","PCV","Nevada",2021,"birth_cohort",75.2,"69.0 to 81.0",352
+"child_vax_view","PCV","Nevada",2022,"birth_cohort",93.5,"86.4 to 97.7",200
+"child_vax_view","PCV","New Hampshire",2019,"birth_cohort",86.1,"79.7 to 91.3",214
+"child_vax_view","PCV","New Hampshire",2020,"birth_cohort",90.4,"84.0 to 95.0",189
+"child_vax_view","PCV","New Hampshire",2021,"birth_cohort",90.9,"86.3 to 94.5",231
+"child_vax_view","PCV","New Hampshire",2022,"birth_cohort",87.5,"79.8 to 93.3",123
+"child_vax_view","PCV","New Jersey",2019,"birth_cohort",76.9,"68.1 to 84.7",279
+"child_vax_view","PCV","New Jersey",2020,"birth_cohort",85.3,"77.3 to 91.6",268
+"child_vax_view","PCV","New Jersey",2021,"birth_cohort",82.3,"76.1 to 87.8",291
+"child_vax_view","PCV","New Jersey",2022,"birth_cohort",80.1,"69.9 to 88.6",172
+"child_vax_view","PCV","New Mexico",2019,"birth_cohort",87.8,"83.4 to 91.5",374
+"child_vax_view","PCV","New Mexico",2020,"birth_cohort",86.3,"80.8 to 90.8",357
+"child_vax_view","PCV","New Mexico",2021,"birth_cohort",84,"77.4 to 89.6",352
+"child_vax_view","PCV","New Mexico",2022,"birth_cohort",86.6,"79.9 to 92.0",186
+"child_vax_view","PCV","New York",2019,"birth_cohort",82.8,"77.6 to 87.3",637
+"child_vax_view","PCV","New York",2020,"birth_cohort",85.5,"81.1 to 89.4",624
+"child_vax_view","PCV","New York",2021,"birth_cohort",85.5,"80.6 to 89.7",640
+"child_vax_view","PCV","New York",2022,"birth_cohort",79,"72.7 to 84.6",360
+"child_vax_view","PCV","North Carolina",2019,"birth_cohort",95.6,"92.5 to 97.7",314
+"child_vax_view","PCV","North Carolina",2020,"birth_cohort",89.9,"85.3 to 93.6",459
+"child_vax_view","PCV","North Carolina",2021,"birth_cohort",88,"82.8 to 92.2",435
+"child_vax_view","PCV","North Carolina",2022,"birth_cohort",86.4,"78.7 to 92.4",207
+"child_vax_view","PCV","North Dakota",2019,"birth_cohort",86.8,"79.8 to 92.2",263
+"child_vax_view","PCV","North Dakota",2020,"birth_cohort",84.9,"78.6 to 90.1",248
+"child_vax_view","PCV","North Dakota",2021,"birth_cohort",78.5,"70.9 to 85.3",233
+"child_vax_view","PCV","North Dakota",2022,"birth_cohort",79.2,"69.7 to 87.2",151
+"child_vax_view","PCV","Ohio",2019,"birth_cohort",85.4,"78.9 to 90.8",384
+"child_vax_view","PCV","Ohio",2020,"birth_cohort",83.7,"78.6 to 88.2",484
+"child_vax_view","PCV","Ohio",2021,"birth_cohort",86.1,"80.6 to 90.8",418
+"child_vax_view","PCV","Ohio",2022,"birth_cohort",86.7,"80.7 to 91.6",237
+"child_vax_view","PCV","Oklahoma",2019,"birth_cohort",81.2,"73.1 to 88.1",205
+"child_vax_view","PCV","Oklahoma",2020,"birth_cohort",83.2,"74.5 to 90.3",298
+"child_vax_view","PCV","Oklahoma",2021,"birth_cohort",78.2,"71.1 to 84.6",236
+"child_vax_view","PCV","Oklahoma",2022,"birth_cohort",75.2,"64.2 to 85.0",120
+"child_vax_view","PCV","Oregon",2019,"birth_cohort",84.7,"77.5 to 90.7",264
+"child_vax_view","PCV","Oregon",2020,"birth_cohort",79.9,"72.5 to 86.4",220
+"child_vax_view","PCV","Oregon",2021,"birth_cohort",78.6,"72.4 to 84.2",255
+"child_vax_view","PCV","Oregon",2022,"birth_cohort",79,"70.4 to 86.4",152
+"child_vax_view","PCV","Pennsylvania",2019,"birth_cohort",90.8,"86.5 to 94.1",641
+"child_vax_view","PCV","Pennsylvania",2020,"birth_cohort",82.9,"77.7 to 87.5",655
+"child_vax_view","PCV","Pennsylvania",2021,"birth_cohort",87.1,"82.9 to 90.6",668
+"child_vax_view","PCV","Pennsylvania",2022,"birth_cohort",83.5,"77.0 to 89.0",359
+"child_vax_view","PCV","Puerto Rico",2019,"birth_cohort",54.7,"47.3 to 62.4",319
+"child_vax_view","PCV","Puerto Rico",2020,"birth_cohort",70,"62.9 to 76.7",337
+"child_vax_view","PCV","Puerto Rico",2021,"birth_cohort",77.9,"66.8 to 87.3",338
+"child_vax_view","PCV","Puerto Rico",2022,"birth_cohort",53.3,"43.1 to 64.2",185
+"child_vax_view","PCV","Rhode Island",2019,"birth_cohort",92.9,"88.2 to 96.2",277
+"child_vax_view","PCV","Rhode Island",2020,"birth_cohort",95.3,"91.9 to 97.6",301
+"child_vax_view","PCV","Rhode Island",2021,"birth_cohort",93.8,"89.8 to 96.6",354
+"child_vax_view","PCV","Rhode Island",2022,"birth_cohort",90.4,"84.6 to 94.7",201
+"child_vax_view","PCV","South Carolina",2019,"birth_cohort",89.6,"83.4 to 94.2",245
+"child_vax_view","PCV","South Carolina",2020,"birth_cohort",87.8,"78.8 to 94.2",243
+"child_vax_view","PCV","South Carolina",2021,"birth_cohort",81.1,"75.0 to 86.5",300
+"child_vax_view","PCV","South Carolina",2022,"birth_cohort",88.1,"81.2 to 93.3",160
+"child_vax_view","PCV","South Dakota",2019,"birth_cohort",88.9,"83.1 to 93.5",318
+"child_vax_view","PCV","South Dakota",2020,"birth_cohort",78.7,"70.7 to 85.6",289
+"child_vax_view","PCV","South Dakota",2021,"birth_cohort",84.7,"75.8 to 91.7",279
+"child_vax_view","PCV","South Dakota",2022,"birth_cohort",86.6,"78.3 to 92.9",145
+"child_vax_view","PCV","Tennessee",2019,"birth_cohort",87.9,"83.3 to 91.7",396
+"child_vax_view","PCV","Tennessee",2020,"birth_cohort",84.3,"77.2 to 90.2",363
+"child_vax_view","PCV","Tennessee",2021,"birth_cohort",87.2,"82.0 to 91.6",336
+"child_vax_view","PCV","Tennessee",2022,"birth_cohort",85,"73.8 to 93.2",182
+"child_vax_view","PCV","Texas",2019,"birth_cohort",86.1,"81.4 to 90.0",919
+"child_vax_view","PCV","Texas",2020,"birth_cohort",80,"74.6 to 84.9",795
+"child_vax_view","PCV","Texas",2021,"birth_cohort",81.8,"77.3 to 86.0",814
+"child_vax_view","PCV","Texas",2022,"birth_cohort",73.1,"66.6 to 79.2",541
+"child_vax_view","PCV","United States",2019,"birth_cohort",86.5,"85.3 to 87.7",17265
+"child_vax_view","PCV","United States",2020,"birth_cohort",83.3,"82.0 to 84.6",17387
+"child_vax_view","PCV","United States",2021,"birth_cohort",83.9,"82.7 to 85.0",17612
+"child_vax_view","PCV","United States",2022,"birth_cohort",82.9,"81.2 to 84.6",9780
+"child_vax_view","PCV","Utah",2019,"birth_cohort",91,"86.2 to 94.7",330
+"child_vax_view","PCV","Utah",2020,"birth_cohort",86,"81.2 to 90.2",333
+"child_vax_view","PCV","Utah",2021,"birth_cohort",82.5,"76.8 to 87.5",332
+"child_vax_view","PCV","Utah",2022,"birth_cohort",85,"76.0 to 91.9",149
+"child_vax_view","PCV","Vermont",2019,"birth_cohort",95.8,"87.0 to 99.3",334
+"child_vax_view","PCV","Vermont",2020,"birth_cohort",92.5,"87.7 to 96.0",307
+"child_vax_view","PCV","Vermont",2021,"birth_cohort",86.3,"78.7 to 92.2",281
+"child_vax_view","PCV","Vermont",2022,"birth_cohort",95.7,"88.9 to 98.9",187
+"child_vax_view","PCV","Virginia",2019,"birth_cohort",94.6,"87.0 to 98.5",452
+"child_vax_view","PCV","Virginia",2020,"birth_cohort",80.8,"74.4 to 86.5",494
+"child_vax_view","PCV","Virginia",2021,"birth_cohort",86.3,"80.9 to 90.8",450
+"child_vax_view","PCV","Virginia",2022,"birth_cohort",88.9,"82.8 to 93.6",241
+"child_vax_view","PCV","Washington",2019,"birth_cohort",89,"84.5 to 92.6",455
+"child_vax_view","PCV","Washington",2020,"birth_cohort",87.2,"82.4 to 91.1",445
+"child_vax_view","PCV","Washington",2021,"birth_cohort",85.6,"79.5 to 90.7",394
+"child_vax_view","PCV","Washington",2022,"birth_cohort",83.3,"77.1 to 88.6",211
+"child_vax_view","PCV","West Virginia",2019,"birth_cohort",82.1,"75.2 to 88.0",201
+"child_vax_view","PCV","West Virginia",2020,"birth_cohort",81.1,"74.7 to 86.6",271
+"child_vax_view","PCV","West Virginia",2021,"birth_cohort",89.1,"83.8 to 93.3",279
+"child_vax_view","PCV","West Virginia",2022,"birth_cohort",91,"84.7 to 95.5",180
+"child_vax_view","PCV","Wisconsin",2019,"birth_cohort",84.8,"77.8 to 90.5",224
+"child_vax_view","PCV","Wisconsin",2020,"birth_cohort",86.7,"80.7 to 91.6",287
+"child_vax_view","PCV","Wisconsin",2021,"birth_cohort",85.8,"78.6 to 91.5",317
+"child_vax_view","PCV","Wisconsin",2022,"birth_cohort",87.2,"78.6 to 93.6",164
+"child_vax_view","PCV","Wyoming",2019,"birth_cohort",84,"77.6 to 89.3",260
+"child_vax_view","PCV","Wyoming",2020,"birth_cohort",80,"74.1 to 85.4",296
+"child_vax_view","PCV","Wyoming",2021,"birth_cohort",76.2,"68.9 to 82.8",306
+"child_vax_view","PCV","Wyoming",2022,"birth_cohort",78,"69.1 to 85.8",157

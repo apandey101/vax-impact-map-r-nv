@@ -20,7 +20,12 @@ get_data <- function() {
   read_path_get_data_cdc_r <- here("R/get_data_cdc.R")
   source(read_path_get_data_cdc_r)
   get_data_cdc()
-  
+
+  # Get CDC coverage time series data (baseline coverage over time)
+  read_path_get_data_cdc_coverage_timeseries_r <- here("R/get_data_cdc_coverage_timeseries.R")
+  source(read_path_get_data_cdc_coverage_timeseries_r)
+  get_data_cdc_coverage_timeseries(refresh_raw = FALSE)  # reuse the data-raw pulls just saved by get_data_cdc()
+
   # Get census data
   read_path_get_data_census_r <- here("R/get_data_census.R")
   source(read_path_get_data_census_r)
