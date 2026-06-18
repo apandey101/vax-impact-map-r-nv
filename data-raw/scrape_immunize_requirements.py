@@ -53,6 +53,11 @@ PAGES = {
     "tdap-school": "Tdap",
     "varicella-child-school": "Varicella",
 }
+# Exemptions table (childcare/K-12): Jurisdiction | Medical | Religious | Personal Belief | Comment
+EXEMPTIONS_STEM = "exemptions-child-school"
+EXEMPTION_COLS = ["jurisdiction", "medical", "religious", "personal_belief",
+                  "nonmedical_any", "comment", "source_year", "source_url"]
+
 # pages with no CHILDCARE/SCHOOL/COLLEGE group-header row -> single implied setting
 SINGLE_SETTING = {
     "menacwy-school": "School",
@@ -163,12 +168,44 @@ def parse_table(table, slug, vaccine, url):
     return records
 
 
+def parse_exemptions(table, url):
+    """Parse the exemptions table: Jurisdiction | Medical | Religious | Personal Belief | Comment."""
+    grid = [expand_row(tr) for tr in table.find_all("tr")]
+    grid = [g for g in grid if any(c for c in g)]
+    h = next(i for i, g in enumerate(grid) if any("jurisdiction" in c.lower() for c in g))
+    # column order is fixed; sub-header row (Medical/Religious/Personal Belief) follows the group row
+    sub = grid[h + 1] if h + 1 < len(grid) else []
+    has_sub = sub and clean(sub[0]) not in ALLJ and any(
+        k in " ".join(sub).lower() for k in ("medical", "religious", "personal"))
+    data_start = h + 2 if has_sub else h + 1
+
+    def yn(v):
+        v = clean(v).lower()
+        return True if v == "yes" else (False if v in ("", "no") else clean(v))
+
+    records = []
+    for g in grid[data_start:]:
+        juris = clean(g[0])
+        if juris not in ALLJ:
+            if records:
+                break
+            continue
+        med, rel, pb = (yn(g[i]) if i < len(g) else False for i in (1, 2, 3))
+        records.append({
+            "jurisdiction": juris, "medical": med, "religious": rel, "personal_belief": pb,
+            "nonmedical_any": bool(rel) or bool(pb),
+            "comment": clean(g[4]) if len(g) > 4 else "",
+            "source_year": YEAR, "source_url": url,
+        })
+    return records
+
+
 def main():
+    global YEAR
     ap = argparse.ArgumentParser()
     ap.add_argument("--year", type=int, default=YEAR)
     ap.add_argument("--repo", default=str(Path(__file__).resolve().parents[1]))
     args = ap.parse_args()
-    global YEAR
     YEAR = args.year
 
     repo = Path(args.repo)
@@ -194,6 +231,20 @@ def main():
         nreq = sum(1 for r in recs if r["required_bool"] is True)
         summary.append((slug, nj, len(recs), nreq))
 
+    # Exemptions permitted by jurisdiction (separate table shape)
+    exempt_rows = []
+    ex_url = f"{BASE}/{EXEMPTIONS_STEM}-{YEAR}/"
+    resp = session.get(ex_url, timeout=30)
+    resp.raise_for_status()
+    soup = BeautifulSoup(resp.text, "html.parser")
+    ex_table = next((t for t in soup.find_all("table")
+                     if "jurisdiction" in t.get_text(" ", strip=True).lower()
+                     and "alabama" in t.get_text(" ", strip=True).lower()), None)
+    if ex_table is not None:
+        exempt_rows = parse_exemptions(ex_table, ex_url)
+    else:
+        print(f"!! {EXEMPTIONS_STEM}-{YEAR}: no exemptions table found", file=sys.stderr)
+
     (repo / "data-raw/csv").mkdir(parents=True, exist_ok=True)
     (repo / "data/csv").mkdir(parents=True, exist_ok=True)
 
@@ -218,11 +269,22 @@ def main():
                 if v != "":
                     w.writerow([r["jurisdiction"], r["vaccine"], r["setting"], k, v, r["source_year"], r["source_url"]])
 
+    for p in (repo / "data-raw/csv/vaccine_exemptions_by_state.csv",
+              repo / "data/csv/vaccine_exemptions_by_state.csv"):
+        with open(p, "w", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=EXEMPTION_COLS)
+            w.writeheader()
+            for r in exempt_rows:
+                w.writerow({k: r.get(k, "") for k in EXEMPTION_COLS})
+
     print(f"\nValidation summary ({YEAR}):")
     print(f"{'slug':30} {'#juris':>6} {'#rows':>6} {'#req=yes':>8}")
     for s in summary:
         print(f"{s[0]:30} {s[1]:>6} {s[2]:>6} {s[3]:>8}")
-    print(f"\nWrote {len(allrows)} rows across {len({r['vaccine'] for r in allrows})} vaccines.")
+    print(f"{'exemptions-child-school':30} {len({r['jurisdiction'] for r in exempt_rows}):>6} "
+          f"{len(exempt_rows):>6} {sum(1 for r in exempt_rows if r['nonmedical_any']):>8}  (nonmedical_any)")
+    print(f"\nWrote {len(allrows)} requirement rows across {len({r['vaccine'] for r in allrows})} vaccines, "
+          f"plus {len(exempt_rows)} exemption rows.")
 
 
 if __name__ == "__main__":

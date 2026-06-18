@@ -26,6 +26,11 @@ get_data <- function() {
   source(read_path_get_data_cdc_coverage_timeseries_r)
   get_data_cdc_coverage_timeseries(refresh_raw = FALSE)  # reuse the data-raw pulls just saved by get_data_cdc()
 
+  # Get CDC school exemption rate time series data (by state, over time)
+  read_path_get_data_cdc_school_exemptions_timeseries_r <- here("R/get_data_cdc_school_exemptions_timeseries.R")
+  source(read_path_get_data_cdc_school_exemptions_timeseries_r)
+  get_data_cdc_school_exemptions_timeseries(refresh_raw = FALSE)  # reuse the data-raw pull just saved by get_data_cdc()
+
   # Get census data
   read_path_get_data_census_r <- here("R/get_data_census.R")
   source(read_path_get_data_census_r)
