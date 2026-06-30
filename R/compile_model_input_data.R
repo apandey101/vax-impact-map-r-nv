@@ -33,10 +33,15 @@ compile_model_input_data <- function() {
   df_census_0_14_dtap <- left_join(df_census_0_14, cdc_school_vax_view_dtap_df, by = c("state_name" = "state_name")) %>% mutate(vaccine_coverage_estimate = as.numeric(vaccine_coverage_estimate)) # Add on DTaP vaccine coverage data
   df_census_0_14_dtap_w_model_input_params <- left_join(df_census_0_14_dtap, model_input_parameters_df, by = c("vaccine" = "vaccine")) %>% select(-ends_with("_source")) %>% filter(disease == 'Pertussis') # add on model input parameters for pertussis
   
-  # Union rotavirus, PCV, and pertussis data to create the start of the model input data frame
+  # Create varicella data table (0-14 years, same age band as pertussis; coverage from SchoolVaxView UTD)
+  df_census_0_14_varicella <- left_join(df_census_0_14, cdc_school_vax_view_varicella_df, by = c("state_name" = "state_name")) %>% mutate(vaccine_coverage_estimate = as.numeric(vaccine_coverage_estimate)) # Add on varicella vaccine coverage data
+  df_census_0_14_varicella_w_model_input_params <- left_join(df_census_0_14_varicella, model_input_parameters_df, by = c("vaccine" = "vaccine")) %>% select(-ends_with("_source")) %>% filter(disease == 'Varicella') # add on model input parameters for varicella
+  
+  # Union rotavirus, PCV, pertussis, and varicella data to create the start of the model input data frame
   df_model_input_data <- union(df_census_0_4_rota_w_model_input_params,
                                df_census_0_4_pcv_w_model_input_params) %>%
-                         union(df_census_0_14_dtap_w_model_input_params)
+                         union(df_census_0_14_dtap_w_model_input_params) %>%
+                         union(df_census_0_14_varicella_w_model_input_params)
   
   # Next, add rows for declining vaccination coverage among births, ranging from 0 to 100%, and 1 to 5 years as the time horizons of interest
   declining_coverage_among_new_births <- 0:20 # Create vector 0 to 20

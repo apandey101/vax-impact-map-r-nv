@@ -40,6 +40,10 @@ read_data <- function() {
   read_path_cdc_school_vax_view_dtap_rds <- here("data-raw/cdc_school_vax_view_dtap.rds")
   cdc_school_vax_view_dtap_df <- readRDS(read_path_cdc_school_vax_view_dtap_rds)
   
+  # Read cdc_school_vax_view_varicella.rds from the project `data-raw` folder
+  read_path_cdc_school_vax_view_varicella_rds <- here("data-raw/cdc_school_vax_view_varicella.rds")
+  cdc_school_vax_view_varicella_df <- readRDS(read_path_cdc_school_vax_view_varicella_rds)
+  
   # Read cdc_child_vax_view_rotavirus.rds from the project `data-raw` folder
   read_path_cdc_child_vax_view_rotavirus_rds <- here("data-raw/cdc_child_vax_view_rotavirus.rds")
   cdc_child_vax_view_rotavirus_df <- readRDS(read_path_cdc_child_vax_view_rotavirus_rds)
@@ -47,6 +51,10 @@ read_data <- function() {
   # Read cdc_child_vax_view_pcv.rds from the project `data-raw` folder
   read_path_cdc_child_vax_view_pcv_rds <- here("data-raw/cdc_child_vax_view_pcv.rds")
   cdc_child_vax_view_pcv_df <- readRDS(read_path_cdc_child_vax_view_pcv_rds)
+  
+  # Read cdc_child_vax_view_varicella.rds from the project `data-raw` folder
+  read_path_cdc_child_vax_view_varicella_rds <- here("data-raw/cdc_child_vax_view_varicella.rds")
+  cdc_child_vax_view_varicella_df <- readRDS(read_path_cdc_child_vax_view_varicella_rds)
   
   ## Model input parameters
   
@@ -68,6 +76,7 @@ read_data <- function() {
                            cdc_school_vax_view_dtap_df=cdc_school_vax_view_dtap_df,
                            cdc_child_vax_view_rotavirus_df=cdc_child_vax_view_rotavirus_df,
                            cdc_child_vax_view_pcv_df=cdc_child_vax_view_pcv_df,
+                           cdc_school_vax_view_varicella_df=cdc_school_vax_view_varicella_df,
                            model_input_parameters_df=model_input_parameters_df,
                            tigris_states_df=tigris_states_df)
   

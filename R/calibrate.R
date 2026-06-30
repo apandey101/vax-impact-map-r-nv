@@ -32,10 +32,17 @@ calibrate <- function(df) {
   source(read_path_calibrate_pneumo_r)
   df_pneumo_calibrated <- calibrate_pneumo(df)
   
+  ## Run varicella calibration based on observed data
+  # --------------------------------------------------------------------------
+  read_path_calibrate_varicella_r <- here("R/calibrate_varicella.R")
+  source(read_path_calibrate_varicella_r)
+  df_varicella_calibrated <- calibrate_varicella(df)
+  
   # Union the calibrated results for each disease
   df_calibrated <- union(df_rota_calibrated, 
                          df_pertussis_calibrated) %>%
-                   union(df_pneumo_calibrated)
+                   union(df_pneumo_calibrated) %>%
+                   union(df_varicella_calibrated)
   
   return(df_calibrated)
   
