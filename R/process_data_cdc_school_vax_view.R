@@ -20,5 +20,10 @@ process_data_cdc_school_vax_view <- function() {
   read_path_process_data_cdc_school_vax_view_dtap_r <- here("R/process_data_cdc_school_vax_view_dtap.R")
   source(read_path_process_data_cdc_school_vax_view_dtap_r)
   process_data_cdc_school_vax_view_dtap()
+  
+  # process_data_cdc_school_vax_view_varicella.R
+  read_path_process_data_cdc_school_vax_view_varicella_r <- here("R/process_data_cdc_school_vax_view_varicella.R")
+  source(read_path_process_data_cdc_school_vax_view_varicella_r)
+  process_data_cdc_school_vax_view_varicella()
 
 }

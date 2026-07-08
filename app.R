@@ -141,8 +141,8 @@ ui <- fluidPage(
 
       selectInput("accrual_label",
                   "Years of Lower Coverage:",
-                  choices = unique(data$accrual_label),
-                  selected = unique(data$accrual_label)[2]),
+                  choices = levels(data$accrual_label),
+                  selected = "5 Years"),
 
       radioButtons("burden_type",
                    "Burden Type:",
@@ -253,14 +253,16 @@ server <- function(input, output, session) {
   disease_images <- list(
     "Rotavirus" = here("img/rotavirus.jpg"),
     "Pertussis" = here("img/pertussis.jpg"),
-    "Pneumococcal" = here("img/pneumococcal.jpg")
+    "Pneumococcal" = here("img/pneumococcal.jpg"),
+    "Varicella" = here("img/varicella.jpg")
   )
   
   # Disease image captions
   disease_image_captions <- list(
     "Rotavirus" = "Rotavirus virions\nIllustrator: Alissa Eckert, MS\nCDC, 2016",
     "Pertussis" = "Bordetella pertussis bacteria\nIllustrator: Meredith Newlove\nCDC, 2016",
-    "Pneumococcal" = "Drug-resistant Streptococcus pneumoniae\nIllustrator: Meredith Newlove\nCDC, 2019"
+    "Pneumococcal" = "Drug-resistant Streptococcus pneumoniae\nIllustrator: Meredith Newlove\nCDC, 2019",
+    "Varicella" = "Varicella (chickenpox) virus\nCDC"
   )
 
   # Show modal dialog on startup
@@ -365,9 +367,8 @@ server <- function(input, output, session) {
     
     current_year_char <- format(current_date, "%Y")
     
-    example_year <- ifelse(input$accrual_label=='5 Years',
-                           as.character(as.numeric(current_year_char)+5),
-                           as.character(as.numeric(current_year_char)+1))
+     accrual_years_num <- as.numeric(gsub("[^0-9]", "", input$accrual_label))
+    example_year <- as.character(as.numeric(current_year_char) + accrual_years_num)
     
     paste0("Annual ", input$disease, " Burden Among Children Ages ", 
           tools::toTitleCase(age_groups), " in ", example_year, sep="")
@@ -587,7 +588,7 @@ server <- function(input, output, session) {
     )
     
     # Add disease image credit if applicable
-    if (!is.null(disease_images[[input$disease]])) {
+    if (!is.null(disease_images[[input$disease]]) && file.exists(disease_images[[input$disease]])) {
       attribution_base <- paste0(
         attribution_base,
         "Disease image: Centers for Disease Control and Prevention (CDC)\n"
@@ -698,21 +699,32 @@ server <- function(input, output, session) {
       just = c("left", "top")  # Anchor at top-left of the logo
     )
     
-    # Add disease image for bottom section
-    disease_img <- magick::image_read(disease_images[[input$disease]])
-    disease_img <- magick::image_scale(disease_img, "200x200")
-    disease_img_raster <- as.raster(disease_img)
-    disease_img_grob <- rasterGrob(disease_img_raster, 
-                                   width = unit(2, "inches"),
-                                   height = unit(2, "inches"))
-    
-    # Add caption from lookup table
-    caption_text <- disease_image_captions[[input$disease]]
-    disease_caption_grob <- textGrob(
-      caption_text,
-      x = 0.5, just = "center",
-      gp = gpar(fontsize = 7, col = "gray40", lineheight = 1.2)
-    )
+    # Add disease image for bottom section (guarded: diseases without an image are skipped)
+    if (!is.null(disease_images[[input$disease]]) && file.exists(disease_images[[input$disease]])) {
+      disease_img <- magick::image_read(disease_images[[input$disease]])
+      disease_img <- magick::image_scale(disease_img, "200x200")
+      disease_img_raster <- as.raster(disease_img)
+      disease_img_grob <- rasterGrob(disease_img_raster, 
+                                     width = unit(2, "inches"),
+                                     height = unit(2, "inches"))
+      
+      # Add caption from lookup table
+      caption_text <- disease_image_captions[[input$disease]]
+      disease_caption_grob <- textGrob(
+        caption_text,
+        x = 0.5, just = "center",
+        gp = gpar(fontsize = 7, col = "gray40", lineheight = 1.2)
+      )
+      
+      disease_with_caption <- arrangeGrob(
+        disease_img_grob,
+        disease_caption_grob,
+        ncol = 1,
+        heights = c(2, 0.5)
+      )
+    } else {
+      disease_with_caption <- nullGrob()
+    }
     
     param_grob <- textGrob(
       param_text,
@@ -727,13 +739,7 @@ server <- function(input, output, session) {
     )
     
     # Create bottom section with parameters and disease image side by side
-    # Combine disease image and its caption
-    disease_with_caption <- arrangeGrob(
-      disease_img_grob,
-      disease_caption_grob,
-      ncol = 1,
-      heights = c(2, 0.5)
-    )
+    # (disease_with_caption is built above, guarded for diseases without an image)
     
     bottom_section <- arrangeGrob(
       nullGrob(),

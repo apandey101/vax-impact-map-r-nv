@@ -53,8 +53,8 @@ read_data <- function() {
   cdc_child_vax_view_pcv_df <- readRDS(read_path_cdc_child_vax_view_pcv_rds)
   
   # Read cdc_child_vax_view_varicella.rds from the project `data-raw` folder
-  read_path_cdc_child_vax_view_varicella_rds <- here("data-raw/cdc_child_vax_view_varicella.rds")
-  cdc_child_vax_view_varicella_df <- readRDS(read_path_cdc_child_vax_view_varicella_rds)
+  read_path_cdc_school_vax_view_varicella_rds <- here("data-raw/cdc_school_vax_view_varicella.rds")
+  cdc_school_vax_view_varicella_df <- readRDS(read_path_cdc_school_vax_view_varicella_rds)
   
   ## Model input parameters
   

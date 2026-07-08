@@ -45,7 +45,7 @@ compile_model_input_data <- function() {
   
   # Next, add rows for declining vaccination coverage among births, ranging from 0 to 100%, and 1 to 5 years as the time horizons of interest
   declining_coverage_among_new_births <- 0:20 # Create vector 0 to 20
-  time_horizon <- c(1, 5) # 1 to 5 years as the time horizons of interest
+  time_horizon <- c(1, 5, 10, 20) # accrual horizons of interest (years)
   df_model_input_data_expanded <- df_model_input_data %>% crossing(declining_coverage_among_new_births, time_horizon)
   
   # Organize dataframe columns (and drop age_group_target from the dataframe, originally sourced from model_input_parameters.csv, as it is not needed)
