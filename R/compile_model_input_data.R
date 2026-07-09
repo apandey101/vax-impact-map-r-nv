@@ -73,8 +73,9 @@ compile_model_input_data <- function() {
                                                                           duration_hospitalized_days,
                                                                           cost_hospitalization_daily,
                                                                           death_rate,
-                                                                          model_type
-                                                                          )
+                                                                          model_type,,
+                                                                          severe_adverse_event_rate
+                                                                            )                                                                          
   
   # Perform minor reformatting to convert vaccine coverage data to percentages
   df_model_input_data_expanded_clean <- df_model_input_data_expanded %>% 

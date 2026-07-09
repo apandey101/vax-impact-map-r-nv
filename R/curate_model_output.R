@@ -23,7 +23,7 @@ curate_model_output <- function() {
   # Clean and process the model outputs
   df <- df %>%
         mutate(declining_coverage_among_new_births = declining_coverage_among_new_births*100,
-                accrual_label = factor(paste0(time_horizon, ifelse(time_horizon==1, " Year", " Years")),
+               accrual_label = factor(paste0(time_horizon, ifelse(time_horizon==1, " Year", " Years")),
                                       levels = c("1 Year","5 Years","10 Years","20 Years"))) %>%
         rename(percent_decline = declining_coverage_among_new_births,
                accrual_years = time_horizon,
@@ -63,7 +63,9 @@ curate_model_output <- function() {
                total_cost,
                additional_total_cost,
                total_cost_per_100k,
-               additional_total_cost_per_100k
+               additional_total_cost_per_100k,
+               vaccine_adverse_events_avoided,
+               vaccine_adverse_events_avoided_per_100k
                )
   
   # Write data as a csv called vax_impact_map_model_output_curated.csv to the project `data` folder

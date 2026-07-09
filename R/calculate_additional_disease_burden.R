@@ -22,7 +22,8 @@ calculate_additional_disease_burden <- function(df) {
                            select(state_fips_code, disease, time_horizon,
                                   infections, cases, hospitalizations, deaths, 
                                   workdays_lost, 
-                                  productivity_cost, hospitalization_cost, total_cost) %>%
+                                  productivity_cost, hospitalization_cost, total_cost,
+                                  vaccine_adverse_events) %>%
                            rename(baseline_infections=infections, 
                                   baseline_cases=cases, 
                                   baseline_hospitalizations=hospitalizations, 
@@ -30,7 +31,8 @@ calculate_additional_disease_burden <- function(df) {
                                   baseline_workdays_lost=workdays_lost, 
                                   baseline_productivity_cost=productivity_cost, 
                                   baseline_hospitalization_cost=hospitalization_cost, 
-                                  baseline_total_cost=total_cost), 
+                                  baseline_total_cost=total_cost,
+                                  baseline_vaccine_adverse_events=vaccine_adverse_events), 
                          by = c("state_fips_code" = "state_fips_code", "disease" = "disease", "time_horizon" = "time_horizon"))
   
   # Calculate additional morbidity, mortality, and economic burden
@@ -58,6 +60,12 @@ calculate_additional_disease_burden <- function(df) {
   
   df_joined$additional_total_cost <- df_joined$total_cost - df_joined$baseline_total_cost
   df_joined$additional_total_cost_per_100k <- df_joined$additional_total_cost / df_joined$age_group_population * 100000
+  
+  # Severe vaccine adverse events AVOIDED under declining coverage (baseline minus scenario;
+  # positive because fewer vaccinations means fewer adverse events). This is the counter-
+  # weight to the additional disease burden above.
+  df_joined$vaccine_adverse_events_avoided <- df_joined$baseline_vaccine_adverse_events - df_joined$vaccine_adverse_events
+  df_joined$vaccine_adverse_events_avoided_per_100k <- df_joined$vaccine_adverse_events_avoided / df_joined$age_group_population * 100000
   
   # Organize columns
   # --------------------------------------------------------------------------
@@ -120,7 +128,10 @@ calculate_additional_disease_burden <- function(df) {
            total_cost,
            total_cost_per_100k,
            additional_total_cost,
-           additional_total_cost_per_100k
+           additional_total_cost_per_100k,
+           vaccine_adverse_events,
+           vaccine_adverse_events_avoided,
+           vaccine_adverse_events_avoided_per_100k
            )
   
   return(df_joined)
