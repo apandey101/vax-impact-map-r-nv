@@ -27,6 +27,7 @@ calculate_vaccine_adverse_events <- function(df) {
   ## Severe vaccine adverse events occurring per year at this coverage
   # --------------------------------------------------------------------------
   df$vaccine_adverse_events <- df$annual_vaccinated_cohort * df$severe_adverse_event_rate
+  df$vaccine_adverse_events_per_100k <- df$vaccine_adverse_events / df$age_group_population * 100000
   
   return(df)
   

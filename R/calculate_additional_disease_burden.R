@@ -130,6 +130,7 @@ calculate_additional_disease_burden <- function(df) {
            additional_total_cost,
            additional_total_cost_per_100k,
            vaccine_adverse_events,
+           vaccine_adverse_events_per_100k,
            vaccine_adverse_events_avoided,
            vaccine_adverse_events_avoided_per_100k
            )

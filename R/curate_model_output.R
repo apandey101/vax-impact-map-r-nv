@@ -64,6 +64,8 @@ curate_model_output <- function() {
                additional_total_cost,
                total_cost_per_100k,
                additional_total_cost_per_100k,
+               vaccine_adverse_events,
+               vaccine_adverse_events_per_100k,
                vaccine_adverse_events_avoided,
                vaccine_adverse_events_avoided_per_100k
                )
