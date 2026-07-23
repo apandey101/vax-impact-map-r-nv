@@ -26,4 +26,9 @@ process_data_cdc_child_vax_view <- function() {
   source(read_path_process_data_cdc_child_vax_view_pcv_r)
   process_data_cdc_child_vax_view_pcv()
 
+  # process_data_cdc_child_vax_view_hib.R
+  read_path_process_data_cdc_child_vax_view_hib_r <- here("R/process_data_cdc_child_vax_view_hib.R")
+  source(read_path_process_data_cdc_child_vax_view_hib_r)
+  process_data_cdc_child_vax_view_hib()
+
 }

@@ -34,6 +34,9 @@ read_data <- function() {
   read_path_census_acs_state_population_0_14_years_rds <- here("data-raw/census_acs_state_population_0_14_years.rds")
   census_acs_state_population_0_14_years_df <- readRDS(read_path_census_acs_state_population_0_14_years_rds)
   
+   # Read census_acs_state_population_0_14_years.rds from the project `data-raw` folder
+  read_path_census_acs_state_population_0_19_years_rds <- here("data-raw/census_acs_state_population_0_19_years.rds")
+  census_acs_state_population_0_19_years_df <- readRDS(read_path_census_acs_state_population_0_19_years_rds)
   ## CDC data
   
   # Read cdc_school_vax_view_dtap.rds from the project `data-raw` folder
@@ -56,6 +59,10 @@ read_data <- function() {
   read_path_cdc_school_vax_view_varicella_rds <- here("data-raw/cdc_school_vax_view_varicella.rds")
   cdc_school_vax_view_varicella_df <- readRDS(read_path_cdc_school_vax_view_varicella_rds)
   
+  # Read cdc_child_vax_view_hib.rds from the project `data-raw` folder
+  read_path_cdc_child_vax_view_hib_rds <- here("data-raw/cdc_child_vax_view_hib.rds")
+  cdc_child_vax_view_hib_df <- readRDS(read_path_cdc_child_vax_view_hib_rds)
+
   ## Model input parameters
   
   # Read model_input_parameters.rds from the project `data-raw` folder
@@ -73,10 +80,12 @@ read_data <- function() {
                            census_acs_state_population_df=census_acs_state_population_df,
                            census_acs_state_population_0_4_years_df=census_acs_state_population_0_4_years_df,
                            census_acs_state_population_0_14_years_df=census_acs_state_population_0_14_years_df,
+                           census_acs_state_population_0_19_years_df=census_acs_state_population_0_19_years_df,
                            cdc_school_vax_view_dtap_df=cdc_school_vax_view_dtap_df,
                            cdc_child_vax_view_rotavirus_df=cdc_child_vax_view_rotavirus_df,
                            cdc_child_vax_view_pcv_df=cdc_child_vax_view_pcv_df,
                            cdc_school_vax_view_varicella_df=cdc_school_vax_view_varicella_df,
+                           cdc_child_vax_view_hib_df=cdc_child_vax_view_hib_df,
                            model_input_parameters_df=model_input_parameters_df,
                            tigris_states_df=tigris_states_df)
   

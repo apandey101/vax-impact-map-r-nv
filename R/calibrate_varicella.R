@@ -18,19 +18,19 @@ calibrate_varicella <- function(df) {
   # --------------------------------------------------------------------------
   df <- df %>% filter(disease=='Varicella')
   
-  ## Run varicella case calibration (anchored to NNDSS national reported cases)
-  # --------------------------------------------------------------------------
-  read_path_calibrate_varicella_cases_r <- here("R/calibrate_varicella_cases.R")
-  source(read_path_calibrate_varicella_cases_r)
-  df <- calibrate_varicella_cases(df)
-  
-  ## Run varicella hospitalization calibration based on observed data
+  ## Run varicella hospitalization calibration based on observed data (NIS, <20y)
   # --------------------------------------------------------------------------
   read_path_calibrate_varicella_hospitalizations_r <- here("R/calibrate_varicella_hospitalizations.R")
   source(read_path_calibrate_varicella_hospitalizations_r)
   df <- calibrate_varicella_hospitalizations(df)
   
-  ## Run varicella death calibration
+  ## Run varicella case calibration (derived from calibrated hospitalizations)
+  # --------------------------------------------------------------------------
+  read_path_calibrate_varicella_cases_r <- here("R/calibrate_varicella_cases.R")
+  source(read_path_calibrate_varicella_cases_r)
+  df <- calibrate_varicella_cases(df)
+  
+  ## Run varicella death calibration (derived from calibrated cases)
   # --------------------------------------------------------------------------
   read_path_calibrate_varicella_deaths_r <- here("R/calibrate_varicella_deaths.R")
   source(read_path_calibrate_varicella_deaths_r)

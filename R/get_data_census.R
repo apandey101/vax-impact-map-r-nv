@@ -31,6 +31,11 @@ get_data_census <- function() {
   source(read_path_get_data_census_acs_state_population_0_14_years_r)
   get_data_census_acs_state_population_0_14_years()
   
+   # get_data_census_acs_state_population_0_19_years.R
+  read_path_get_data_census_acs_state_population_0_19_years_r <- here("R/get_data_census_acs_state_population_0_19_years.R")
+  source(read_path_get_data_census_acs_state_population_0_19_years_r)
+  get_data_census_acs_state_population_0_19_years()
+
   # get_data_census_acs_state_population.R
   read_path_get_data_census_acs_state_population_r <- here("R/get_data_census_acs_state_population.R")
   source(read_path_get_data_census_acs_state_population_r)

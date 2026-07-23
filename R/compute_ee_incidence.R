@@ -31,19 +31,22 @@ compute_ee_incidence <- function(df) {
   # --------------------------------------------------------------------------
   ee_incidence_core = 1 - 1 / (df$basic_reproduction_number * (1 - df$effective_structural_vaccine_coverage))
   
-  # If SIR, then incidence_rate_annual is annual_turnover_rate * ee_incidence_core
-  # If SIRS, then incidence_rate_annual is (((recovery_rate_annual + population_turnover_rate_annual) * (population_turnover_rate_annual + waning_rate_annual)) / (recovery_rate_annual + population_turnover_rate_annual + waning_rate_annual)) * ee_incidence_core
-  # Note that with high enough vaccination coverage that ee_incidence can fall below 0. So setting lower bound of 0 using pmax.
+  ## Importation smoothing.
+  # An external/out-of-band force of infection (e.g. older-to-child transmission for
+  # varicella, importation for Hib) keeps incidence strictly positive even when the
+  # within-band effective reproduction number is below 1, and smooths the herd threshold.
+  # rel = 0.5 * (core + sqrt(core^2 + 4*delta)); with delta = 0 this equals pmax(core, 0),
+  # so all diseases with importation_delta = 0 are unchanged.
+  # --------------------------------------------------------------------------
+  importation_delta = df$importation_delta
+  ee_incidence_rel = 0.5 * (ee_incidence_core + sqrt(ee_incidence_core^2 + 4 * importation_delta))
+  
+  # If SIR, then incidence_rate_annual is annual_turnover_rate * ee_incidence_rel
+  # If SIRS, then incidence_rate_annual is (((recovery_rate_annual + population_turnover_rate_annual) * (population_turnover_rate_annual + waning_rate_annual)) / (recovery_rate_annual + population_turnover_rate_annual + waning_rate_annual)) * ee_incidence_rel
   df$endemic_equilibrium_incidence_rate_annual <- ifelse(
                                                     df$model_type=='SIR', 
-                                                    pmax(
-                                                      population_turnover_rate_annual * ee_incidence_core,
-                                                      0
-                                                    ), 
-                                                    pmax(
-                                                      (((recovery_rate_annual + population_turnover_rate_annual) * (population_turnover_rate_annual + waning_rate_annual)) / (recovery_rate_annual + population_turnover_rate_annual + waning_rate_annual)) * ee_incidence_core,
-                                                      0
-                                                    )
+                                                    population_turnover_rate_annual * ee_incidence_rel, 
+                                                    (((recovery_rate_annual + population_turnover_rate_annual) * (population_turnover_rate_annual + waning_rate_annual)) / (recovery_rate_annual + population_turnover_rate_annual + waning_rate_annual)) * ee_incidence_rel
                                                   )
   
   return(df)

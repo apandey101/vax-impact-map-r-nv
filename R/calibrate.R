@@ -37,12 +37,20 @@ calibrate <- function(df) {
   read_path_calibrate_varicella_r <- here("R/calibrate_varicella.R")
   source(read_path_calibrate_varicella_r)
   df_varicella_calibrated <- calibrate_varicella(df)
+
+  ## Run Hib calibration based on observed data
+  # --------------------------------------------------------------------------
+  read_path_calibrate_hib_r <- here("R/calibrate_hib.R")
+  source(read_path_calibrate_hib_r)
+  df_hib_calibrated <- calibrate_hib(df)
+
   
   # Union the calibrated results for each disease
   df_calibrated <- union(df_rota_calibrated, 
                          df_pertussis_calibrated) %>%
                    union(df_pneumo_calibrated) %>%
-                   union(df_varicella_calibrated)
+                   union(df_varicella_calibrated) %>%
+                   union(df_hib_calibrated)
   
   return(df_calibrated)
   
