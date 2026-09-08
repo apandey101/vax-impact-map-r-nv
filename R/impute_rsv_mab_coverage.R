@@ -283,7 +283,7 @@ impute_rsv_mab_coverage <- function(
           error = function(e) NULL
         )
         if (!is.null(extracted)) {
-          extracted$source <- paste0("cached Child VaxView: ", cached_path)
+          extracted$source <- paste0("cached Child VaxView: ", basename(cached_path))
           return(extracted)
         }
       }
