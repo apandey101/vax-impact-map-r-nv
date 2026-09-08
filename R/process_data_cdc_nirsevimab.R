@@ -85,9 +85,12 @@ process_data_cdc_nirsevimab <- function() {
   # -- national row from reporting states + DC --
 # This is a population-weighted aggregate among reporting jurisdictions,
 # not a nationally representative estimate.
-national_estimate <- sum(reporting$numerator, na.rm = TRUE) /
-  sum(reporting$population, na.rm = TRUE)
+denom <- sum(reporting$population, na.rm = TRUE)
+if (!is.finite(denom) || denom <= 0) {
+  stop('Unable to compute national mAb coverage: reporting population denominator is missing/zero.')
+}
 
+national_estimate <- sum(reporting$numerator, na.rm = TRUE) / denom
 # -- assemble all 50 states + DC + United States --
 # Non-reporting states remain NA. No state-level imputation occurs here.
 out <- data.frame(
