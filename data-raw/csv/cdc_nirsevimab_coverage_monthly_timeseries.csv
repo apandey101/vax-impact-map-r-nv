@@ -1,0 +1,766 @@
+"source","vaccine","state_name","season","season_start","month","month_rank","vaccine_coverage_estimate","sample_size"
+"cdc_iis","nirsevimab","Alabama","2024-25",2024,"SEP",1,0.476478327347722,28123
+"cdc_iis","nirsevimab","Alabama","2024-25",2024,"OCT",2,15.5257543431881,32810
+"cdc_iis","nirsevimab","Alabama","2024-25",2024,"NOV",3,23.3458676694136,37497
+"cdc_iis","nirsevimab","Alabama","2024-25",2024,"DEC",4,26.720398245822,42185
+"cdc_iis","nirsevimab","Alabama","2024-25",2024,"JAN",5,27.705239802014,46872
+"cdc_iis","nirsevimab","Alabama","2024-25",2024,"FEB",6,27.2134835819159,51559
+"cdc_iis","nirsevimab","Alabama","2024-25",2024,"MAR",7,26.6810084272659,56246
+"cdc_iis","nirsevimab","Alabama","2025-26",2025,"SEP",1,0.978029271018897,28629
+"cdc_iis","nirsevimab","Alabama","2025-26",2025,"OCT",2,23.0831412233167,33401
+"cdc_iis","nirsevimab","Alabama","2025-26",2025,"NOV",3,31.1222885884942,38172
+"cdc_iis","nirsevimab","Alabama","2025-26",2025,"DEC",4,34.4308867362146,42944
+"cdc_iis","nirsevimab","Alabama","2025-26",2025,"JAN",5,34.8716336581788,47715
+"cdc_iis","nirsevimab","Alabama","2025-26",2025,"FEB",6,34.177986930097,52487
+"cdc_iis","nirsevimab","Alabama","2025-26",2025,"MAR",7,33.7647141010863,57258
+"cdc_iis","nirsevimab","Alabama","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Alaska","2024-25",2024,"SEP",1,9.14898001236349,4853
+"cdc_iis","nirsevimab","Alaska","2024-25",2024,"OCT",2,25.1324620275521,5662
+"cdc_iis","nirsevimab","Alaska","2024-25",2024,"NOV",3,33.7042188224386,6471
+"cdc_iis","nirsevimab","Alaska","2024-25",2024,"DEC",4,37.3901098901099,7280
+"cdc_iis","nirsevimab","Alaska","2024-25",2024,"JAN",5,39.1196834817013,8088
+"cdc_iis","nirsevimab","Alaska","2024-25",2024,"FEB",6,39.2154658873778,8897
+"cdc_iis","nirsevimab","Alaska","2024-25",2024,"MAR",7,39.5940655264785,9706
+"cdc_iis","nirsevimab","Alaska","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Alaska","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Alaska","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Alaska","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Alaska","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Alaska","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Alaska","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Alaska","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Arizona","2024-25",2024,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Arizona","2024-25",2024,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Arizona","2024-25",2024,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Arizona","2024-25",2024,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Arizona","2024-25",2024,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Arizona","2024-25",2024,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Arizona","2024-25",2024,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Arizona","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Arizona","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Arizona","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Arizona","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Arizona","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Arizona","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Arizona","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Arizona","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Arkansas","2024-25",2024,"SEP",1,1.25430125430125,18018
+"cdc_iis","nirsevimab","Arkansas","2024-25",2024,"OCT",2,17.6070409134158,21020
+"cdc_iis","nirsevimab","Arkansas","2024-25",2024,"NOV",3,26.1083128668359,24023
+"cdc_iis","nirsevimab","Arkansas","2024-25",2024,"DEC",4,31.3068896618071,27026
+"cdc_iis","nirsevimab","Arkansas","2024-25",2024,"JAN",5,33.4842985114389,30029
+"cdc_iis","nirsevimab","Arkansas","2024-25",2024,"FEB",6,33.6310244611286,33032
+"cdc_iis","nirsevimab","Arkansas","2024-25",2024,"MAR",7,33.1705286526988,36035
+"cdc_iis","nirsevimab","Arkansas","2025-26",2025,"SEP",1,1.09365106774881,17373
+"cdc_iis","nirsevimab","Arkansas","2025-26",2025,"OCT",2,25.3786570625093,20269
+"cdc_iis","nirsevimab","Arkansas","2025-26",2025,"NOV",3,35.6458297357969,23164
+"cdc_iis","nirsevimab","Arkansas","2025-26",2025,"DEC",4,40.0460475825019,26060
+"cdc_iis","nirsevimab","Arkansas","2025-26",2025,"JAN",5,41.1258849939561,28955
+"cdc_iis","nirsevimab","Arkansas","2025-26",2025,"FEB",6,41.1980785532636,31851
+"cdc_iis","nirsevimab","Arkansas","2025-26",2025,"MAR",7,41.1989869337478,34746
+"cdc_iis","nirsevimab","Arkansas","2025-26",2025,"APR",8,43.0351695159155,34746
+"cdc_iis","nirsevimab","California","2024-25",2024,"SEP",1,1.06699129936625,223432
+"cdc_iis","nirsevimab","California","2024-25",2024,"OCT",2,20.6658968584921,260671
+"cdc_iis","nirsevimab","California","2024-25",2024,"NOV",3,30.3414801164114,297909
+"cdc_iis","nirsevimab","California","2024-25",2024,"DEC",4,33.6878035972168,335148
+"cdc_iis","nirsevimab","California","2024-25",2024,"JAN",5,34.4421260677736,372387
+"cdc_iis","nirsevimab","California","2024-25",2024,"FEB",6,34.0330790357034,409625
+"cdc_iis","nirsevimab","California","2024-25",2024,"MAR",7,33.8239374843353,446864
+"cdc_iis","nirsevimab","California","2025-26",2025,"SEP",1,1.79559173809913,201939
+"cdc_iis","nirsevimab","California","2025-26",2025,"OCT",2,28.087913207355,235596
+"cdc_iis","nirsevimab","California","2025-26",2025,"NOV",3,38.585414407321,269252
+"cdc_iis","nirsevimab","California","2025-26",2025,"DEC",4,41.1932296498288,302909
+"cdc_iis","nirsevimab","California","2025-26",2025,"JAN",5,41.0622019520746,336565
+"cdc_iis","nirsevimab","California","2025-26",2025,"FEB",6,39.8844477097525,370222
+"cdc_iis","nirsevimab","California","2025-26",2025,"MAR",7,39.7015930553286,403878
+"cdc_iis","nirsevimab","California","2025-26",2025,"APR",8,42.7176028404617,403878
+"cdc_iis","nirsevimab","Colorado","2024-25",2024,"SEP",1,1.1446508973302,31538
+"cdc_iis","nirsevimab","Colorado","2024-25",2024,"OCT",2,25.6971245311736,36794
+"cdc_iis","nirsevimab","Colorado","2024-25",2024,"NOV",3,35.8445696891869,42051
+"cdc_iis","nirsevimab","Colorado","2024-25",2024,"DEC",4,38.8673980594838,47307
+"cdc_iis","nirsevimab","Colorado","2024-25",2024,"JAN",5,39.4364857409204,52563
+"cdc_iis","nirsevimab","Colorado","2024-25",2024,"FEB",6,38.6942234520927,57820
+"cdc_iis","nirsevimab","Colorado","2024-25",2024,"MAR",7,38.5741010844061,63076
+"cdc_iis","nirsevimab","Colorado","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Colorado","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Colorado","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Colorado","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Colorado","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Colorado","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Colorado","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Colorado","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Connecticut","2024-25",2024,"SEP",1,3.00303809301239,17116
+"cdc_iis","nirsevimab","Connecticut","2024-25",2024,"OCT",2,31.6841103710752,19969
+"cdc_iis","nirsevimab","Connecticut","2024-25",2024,"NOV",3,41.4924849918934,22821
+"cdc_iis","nirsevimab","Connecticut","2024-25",2024,"DEC",4,44.605437407494,25674
+"cdc_iis","nirsevimab","Connecticut","2024-25",2024,"JAN",5,49.6827566866477,28527
+"cdc_iis","nirsevimab","Connecticut","2024-25",2024,"FEB",6,48.7905924344307,31379
+"cdc_iis","nirsevimab","Connecticut","2024-25",2024,"MAR",7,47.3212199111942,34232
+"cdc_iis","nirsevimab","Connecticut","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Connecticut","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Connecticut","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Connecticut","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Connecticut","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Connecticut","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Connecticut","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Connecticut","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Delaware","2024-25",2024,"SEP",1,1.02876738426367,5249
+"cdc_iis","nirsevimab","Delaware","2024-25",2024,"OCT",2,28.7440796994937,6123
+"cdc_iis","nirsevimab","Delaware","2024-25",2024,"NOV",3,39.5255787367819,6998
+"cdc_iis","nirsevimab","Delaware","2024-25",2024,"DEC",4,44.0492823574241,7873
+"cdc_iis","nirsevimab","Delaware","2024-25",2024,"JAN",5,45.6675811614083,8748
+"cdc_iis","nirsevimab","Delaware","2024-25",2024,"FEB",6,45.4479318229058,9622
+"cdc_iis","nirsevimab","Delaware","2024-25",2024,"MAR",7,45.898828236639,10497
+"cdc_iis","nirsevimab","Delaware","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Delaware","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Delaware","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Delaware","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Delaware","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Delaware","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Delaware","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Delaware","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","District of Columbia","2024-25",2024,"SEP",1,1.19228267938435,4613
+"cdc_iis","nirsevimab","District of Columbia","2024-25",2024,"OCT",2,24.6050919903364,5381
+"cdc_iis","nirsevimab","District of Columbia","2024-25",2024,"NOV",3,31.4471544715447,6150
+"cdc_iis","nirsevimab","District of Columbia","2024-25",2024,"DEC",4,33.4441393264923,6919
+"cdc_iis","nirsevimab","District of Columbia","2024-25",2024,"JAN",5,33.7799167533819,7688
+"cdc_iis","nirsevimab","District of Columbia","2024-25",2024,"FEB",6,33.3491012298959,8456
+"cdc_iis","nirsevimab","District of Columbia","2024-25",2024,"MAR",7,32.4227642276423,9225
+"cdc_iis","nirsevimab","District of Columbia","2025-26",2025,"SEP",1,3.06962815073621,4007
+"cdc_iis","nirsevimab","District of Columbia","2025-26",2025,"OCT",2,45.4214805305948,4674
+"cdc_iis","nirsevimab","District of Columbia","2025-26",2025,"NOV",3,52.2650692624485,5342
+"cdc_iis","nirsevimab","District of Columbia","2025-26",2025,"DEC",4,53.5440931780366,6010
+"cdc_iis","nirsevimab","District of Columbia","2025-26",2025,"JAN",5,52.3659778376759,6678
+"cdc_iis","nirsevimab","District of Columbia","2025-26",2025,"FEB",6,51.0142954390742,7345
+"cdc_iis","nirsevimab","District of Columbia","2025-26",2025,"MAR",7,49.856483214776,8013
+"cdc_iis","nirsevimab","District of Columbia","2025-26",2025,"APR",8,50.1809559465868,8013
+"cdc_iis","nirsevimab","Florida","2024-25",2024,"SEP",1,9.94816859326465,109779
+"cdc_iis","nirsevimab","Florida","2024-25",2024,"OCT",2,17.4943002592211,128076
+"cdc_iis","nirsevimab","Florida","2024-25",2024,"NOV",3,22.3738146640068,146372
+"cdc_iis","nirsevimab","Florida","2024-25",2024,"DEC",4,25.5051041786857,164669
+"cdc_iis","nirsevimab","Florida","2024-25",2024,"JAN",5,26.6351487989506,182965
+"cdc_iis","nirsevimab","Florida","2024-25",2024,"FEB",6,26.3542049666604,201262
+"cdc_iis","nirsevimab","Florida","2024-25",2024,"MAR",7,25.9056832363202,219558
+"cdc_iis","nirsevimab","Florida","2025-26",2025,"SEP",1,14.4977963349571,112086
+"cdc_iis","nirsevimab","Florida","2025-26",2025,"OCT",2,23.5923436340973,130767
+"cdc_iis","nirsevimab","Florida","2025-26",2025,"NOV",3,27.353996038756,149448
+"cdc_iis","nirsevimab","Florida","2025-26",2025,"DEC",4,29.5576610816694,168129
+"cdc_iis","nirsevimab","Florida","2025-26",2025,"JAN",5,30.0428242599433,186810
+"cdc_iis","nirsevimab","Florida","2025-26",2025,"FEB",6,29.6056761609997,205491
+"cdc_iis","nirsevimab","Florida","2025-26",2025,"MAR",7,29.1249576218261,224172
+"cdc_iis","nirsevimab","Florida","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Georgia","2024-25",2024,"SEP",1,0,62497
+"cdc_iis","nirsevimab","Georgia","2024-25",2024,"OCT",2,0,72913
+"cdc_iis","nirsevimab","Georgia","2024-25",2024,"NOV",3,21.8975386720109,83329
+"cdc_iis","nirsevimab","Georgia","2024-25",2024,"DEC",4,24.8642594271695,93745
+"cdc_iis","nirsevimab","Georgia","2024-25",2024,"JAN",5,24.3824464050844,104161
+"cdc_iis","nirsevimab","Georgia","2024-25",2024,"FEB",6,22.3168698778987,114577
+"cdc_iis","nirsevimab","Georgia","2024-25",2024,"MAR",7,20.5459505732321,124993
+"cdc_iis","nirsevimab","Georgia","2025-26",2025,"SEP",1,2.29182704644598,62352
+"cdc_iis","nirsevimab","Georgia","2025-26",2025,"OCT",2,22.6880936997374,72743
+"cdc_iis","nirsevimab","Georgia","2025-26",2025,"NOV",3,30.8053166536356,83135
+"cdc_iis","nirsevimab","Georgia","2025-26",2025,"DEC",4,34.2382413634565,93527
+"cdc_iis","nirsevimab","Georgia","2025-26",2025,"JAN",5,35.4285549322068,103919
+"cdc_iis","nirsevimab","Georgia","2025-26",2025,"FEB",6,35.2844433169161,114311
+"cdc_iis","nirsevimab","Georgia","2025-26",2025,"MAR",7,34.836371218014,124703
+"cdc_iis","nirsevimab","Georgia","2025-26",2025,"APR",8,35.7256842257203,124703
+"cdc_iis","nirsevimab","Hawaii","2024-25",2024,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Hawaii","2024-25",2024,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Hawaii","2024-25",2024,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Hawaii","2024-25",2024,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Hawaii","2024-25",2024,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Hawaii","2024-25",2024,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Hawaii","2024-25",2024,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Hawaii","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Hawaii","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Hawaii","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Hawaii","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Hawaii","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Hawaii","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Hawaii","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Hawaii","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Idaho","2024-25",2024,"SEP",1,0.473361796918507,10774
+"cdc_iis","nirsevimab","Idaho","2024-25",2024,"OCT",2,9.06197788209086,12569
+"cdc_iis","nirsevimab","Idaho","2024-25",2024,"NOV",3,22.262443438914,14365
+"cdc_iis","nirsevimab","Idaho","2024-25",2024,"DEC",4,28.3292079207921,16160
+"cdc_iis","nirsevimab","Idaho","2024-25",2024,"JAN",5,29.7560703942972,17956
+"cdc_iis","nirsevimab","Idaho","2024-25",2024,"FEB",6,30.0035441243481,19751
+"cdc_iis","nirsevimab","Idaho","2024-25",2024,"MAR",7,29.9763308117139,21547
+"cdc_iis","nirsevimab","Idaho","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Idaho","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Idaho","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Idaho","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Idaho","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Idaho","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Idaho","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Idaho","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Illinois","2024-25",2024,"SEP",1,0.952503355896381,70026
+"cdc_iis","nirsevimab","Illinois","2024-25",2024,"OCT",2,21.211305188685,81697
+"cdc_iis","nirsevimab","Illinois","2024-25",2024,"NOV",3,30.952788964099,93368
+"cdc_iis","nirsevimab","Illinois","2024-25",2024,"DEC",4,34.5328877845372,105039
+"cdc_iis","nirsevimab","Illinois","2024-25",2024,"JAN",5,35.1915002998886,116710
+"cdc_iis","nirsevimab","Illinois","2024-25",2024,"FEB",6,34.3158255505098,128381
+"cdc_iis","nirsevimab","Illinois","2024-25",2024,"MAR",7,33.5689601005341,140052
+"cdc_iis","nirsevimab","Illinois","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Illinois","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Illinois","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Illinois","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Illinois","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Illinois","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Illinois","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Illinois","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Indiana","2024-25",2024,"SEP",1,2.272218769422,40225
+"cdc_iis","nirsevimab","Indiana","2024-25",2024,"OCT",2,23.7358562935498,46929
+"cdc_iis","nirsevimab","Indiana","2024-25",2024,"NOV",3,33.3842969813361,53633
+"cdc_iis","nirsevimab","Indiana","2024-25",2024,"DEC",4,37.135801650701,60338
+"cdc_iis","nirsevimab","Indiana","2024-25",2024,"JAN",5,38.0045344709287,67042
+"cdc_iis","nirsevimab","Indiana","2024-25",2024,"FEB",6,37.4135546334716,73746
+"cdc_iis","nirsevimab","Indiana","2024-25",2024,"MAR",7,36.9073958980733,80450
+"cdc_iis","nirsevimab","Indiana","2025-26",2025,"SEP",1,2.19671632715111,39468
+"cdc_iis","nirsevimab","Indiana","2025-26",2025,"OCT",2,32.0577695732436,46045
+"cdc_iis","nirsevimab","Indiana","2025-26",2025,"NOV",3,42.9698040780647,52623
+"cdc_iis","nirsevimab","Indiana","2025-26",2025,"DEC",4,46.524551950136,59201
+"cdc_iis","nirsevimab","Indiana","2025-26",2025,"JAN",5,46.8523388923517,65779
+"cdc_iis","nirsevimab","Indiana","2025-26",2025,"FEB",6,46.2318780491176,72357
+"cdc_iis","nirsevimab","Indiana","2025-26",2025,"MAR",7,45.5628048394248,78935
+"cdc_iis","nirsevimab","Indiana","2025-26",2025,"APR",8,46.0771520871603,78935
+"cdc_iis","nirsevimab","Iowa","2024-25",2024,"SEP",1,1.39557526910802,18487
+"cdc_iis","nirsevimab","Iowa","2024-25",2024,"OCT",2,23.4885014836795,21568
+"cdc_iis","nirsevimab","Iowa","2024-25",2024,"NOV",3,33.8066453000122,24649
+"cdc_iis","nirsevimab","Iowa","2024-25",2024,"DEC",4,37.4995492409217,27731
+"cdc_iis","nirsevimab","Iowa","2024-25",2024,"JAN",5,38.192911852525,30812
+"cdc_iis","nirsevimab","Iowa","2024-25",2024,"FEB",6,37.5918331218836,33893
+"cdc_iis","nirsevimab","Iowa","2024-25",2024,"MAR",7,36.8015362146373,36974
+"cdc_iis","nirsevimab","Iowa","2025-26",2025,"SEP",1,3.1318923687693,18136
+"cdc_iis","nirsevimab","Iowa","2025-26",2025,"OCT",2,31.9580320431022,21159
+"cdc_iis","nirsevimab","Iowa","2025-26",2025,"NOV",3,42.4093296389727,24181
+"cdc_iis","nirsevimab","Iowa","2025-26",2025,"DEC",4,44.4787531245405,27204
+"cdc_iis","nirsevimab","Iowa","2025-26",2025,"JAN",5,43.7456578555596,30227
+"cdc_iis","nirsevimab","Iowa","2025-26",2025,"FEB",6,42.2388643267467,33249
+"cdc_iis","nirsevimab","Iowa","2025-26",2025,"MAR",7,41.4727613586237,36272
+"cdc_iis","nirsevimab","Iowa","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Kansas","2024-25",2024,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Kansas","2024-25",2024,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Kansas","2024-25",2024,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Kansas","2024-25",2024,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Kansas","2024-25",2024,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Kansas","2024-25",2024,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Kansas","2024-25",2024,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Kansas","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Kansas","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Kansas","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Kansas","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Kansas","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Kansas","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Kansas","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Kansas","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Kentucky","2024-25",2024,"SEP",1,1.19591712370506,26256
+"cdc_iis","nirsevimab","Kentucky","2024-25",2024,"OCT",2,21.0081290196206,30631
+"cdc_iis","nirsevimab","Kentucky","2024-25",2024,"NOV",3,30.6195903676408,35007
+"cdc_iis","nirsevimab","Kentucky","2024-25",2024,"DEC",4,35.2385547063454,39383
+"cdc_iis","nirsevimab","Kentucky","2024-25",2024,"JAN",5,35.0396489864942,43759
+"cdc_iis","nirsevimab","Kentucky","2024-25",2024,"FEB",6,35.3422665420172,48135
+"cdc_iis","nirsevimab","Kentucky","2024-25",2024,"MAR",7,35.6991868370437,52511
+"cdc_iis","nirsevimab","Kentucky","2025-26",2025,"SEP",1,1.18735015412718,26277
+"cdc_iis","nirsevimab","Kentucky","2025-26",2025,"OCT",2,28.9721760120038,30657
+"cdc_iis","nirsevimab","Kentucky","2025-26",2025,"NOV",3,38.3776686836397,35036
+"cdc_iis","nirsevimab","Kentucky","2025-26",2025,"DEC",4,41.2472092551248,39416
+"cdc_iis","nirsevimab","Kentucky","2025-26",2025,"JAN",5,41.1097157209727,43795
+"cdc_iis","nirsevimab","Kentucky","2025-26",2025,"FEB",6,40.3217436429683,48175
+"cdc_iis","nirsevimab","Kentucky","2025-26",2025,"MAR",7,39.9836358792861,52554
+"cdc_iis","nirsevimab","Kentucky","2025-26",2025,"APR",8,42.2441679034897,52554
+"cdc_iis","nirsevimab","Louisiana","2024-25",2024,"SEP",1,2.86344383379424,28567
+"cdc_iis","nirsevimab","Louisiana","2024-25",2024,"OCT",2,20.0462073931829,33328
+"cdc_iis","nirsevimab","Louisiana","2024-25",2024,"NOV",3,28.6381895035312,38089
+"cdc_iis","nirsevimab","Louisiana","2024-25",2024,"DEC",4,33.380784579123,42851
+"cdc_iis","nirsevimab","Louisiana","2024-25",2024,"JAN",5,34.7664454339242,47612
+"cdc_iis","nirsevimab","Louisiana","2024-25",2024,"FEB",6,34.7488209573635,52373
+"cdc_iis","nirsevimab","Louisiana","2024-25",2024,"MAR",7,34.0427766303777,57134
+"cdc_iis","nirsevimab","Louisiana","2025-26",2025,"SEP",1,3.00067430883345,26694
+"cdc_iis","nirsevimab","Louisiana","2025-26",2025,"OCT",2,29.5090389493626,31143
+"cdc_iis","nirsevimab","Louisiana","2025-26",2025,"NOV",3,39.2897280287705,35592
+"cdc_iis","nirsevimab","Louisiana","2025-26",2025,"DEC",4,44.5568292500187,40041
+"cdc_iis","nirsevimab","Louisiana","2025-26",2025,"JAN",5,46.1676781299168,44490
+"cdc_iis","nirsevimab","Louisiana","2025-26",2025,"FEB",6,46.1983285314371,48939
+"cdc_iis","nirsevimab","Louisiana","2025-26",2025,"MAR",7,45.6450887839964,53388
+"cdc_iis","nirsevimab","Louisiana","2025-26",2025,"APR",8,45.8829699557953,53388
+"cdc_iis","nirsevimab","Maine","2024-25",2024,"SEP",1,0.863754889178618,6136
+"cdc_iis","nirsevimab","Maine","2024-25",2024,"OCT",2,25.7996926945104,7159
+"cdc_iis","nirsevimab","Maine","2024-25",2024,"NOV",3,36.4747585869698,8181
+"cdc_iis","nirsevimab","Maine","2024-25",2024,"DEC",4,38.722294654498,9204
+"cdc_iis","nirsevimab","Maine","2024-25",2024,"JAN",5,38.838369023174,10227
+"cdc_iis","nirsevimab","Maine","2024-25",2024,"FEB",6,38.4478620321806,11249
+"cdc_iis","nirsevimab","Maine","2024-25",2024,"MAR",7,39.3008474576271,12272
+"cdc_iis","nirsevimab","Maine","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Maine","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Maine","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Maine","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Maine","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Maine","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Maine","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Maine","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Maryland","2024-25",2024,"SEP",1,2.15854219360773,34792
+"cdc_iis","nirsevimab","Maryland","2024-25",2024,"OCT",2,21.7689085981769,40590
+"cdc_iis","nirsevimab","Maryland","2024-25",2024,"NOV",3,29.5910668477441,46389
+"cdc_iis","nirsevimab","Maryland","2024-25",2024,"DEC",4,33.0982811811371,52187
+"cdc_iis","nirsevimab","Maryland","2024-25",2024,"JAN",5,34.2272272617528,57986
+"cdc_iis","nirsevimab","Maryland","2024-25",2024,"FEB",6,33.8078514988085,63784
+"cdc_iis","nirsevimab","Maryland","2024-25",2024,"MAR",7,33.594412428323,69583
+"cdc_iis","nirsevimab","Maryland","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Maryland","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Maryland","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Maryland","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Maryland","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Maryland","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Maryland","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Maryland","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Massachusetts","2024-25",2024,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Massachusetts","2024-25",2024,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Massachusetts","2024-25",2024,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Massachusetts","2024-25",2024,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Massachusetts","2024-25",2024,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Massachusetts","2024-25",2024,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Massachusetts","2024-25",2024,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Massachusetts","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Massachusetts","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Massachusetts","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Massachusetts","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Massachusetts","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Massachusetts","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Massachusetts","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Massachusetts","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Michigan","2024-25",2024,"SEP",1,1.02735280482151,53925
+"cdc_iis","nirsevimab","Michigan","2024-25",2024,"OCT",2,19.505022889115,62912
+"cdc_iis","nirsevimab","Michigan","2024-25",2024,"NOV",3,27.7569924477392,71899
+"cdc_iis","nirsevimab","Michigan","2024-25",2024,"DEC",4,30.7107446190364,80887
+"cdc_iis","nirsevimab","Michigan","2024-25",2024,"JAN",5,31.5452744954047,89874
+"cdc_iis","nirsevimab","Michigan","2024-25",2024,"FEB",6,30.137970099735,98862
+"cdc_iis","nirsevimab","Michigan","2024-25",2024,"MAR",7,28.1328524140233,107849
+"cdc_iis","nirsevimab","Michigan","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Michigan","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Michigan","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Michigan","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Michigan","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Michigan","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Michigan","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Michigan","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Minnesota","2024-25",2024,"SEP",1,7.50414219008887,33195
+"cdc_iis","nirsevimab","Minnesota","2024-25",2024,"OCT",2,28.3851476967569,38728
+"cdc_iis","nirsevimab","Minnesota","2024-25",2024,"NOV",3,38.0772706732942,44260
+"cdc_iis","nirsevimab","Minnesota","2024-25",2024,"DEC",4,39.144056393469,49793
+"cdc_iis","nirsevimab","Minnesota","2024-25",2024,"JAN",5,38.4654315408947,55325
+"cdc_iis","nirsevimab","Minnesota","2024-25",2024,"FEB",6,36.9466627230602,60858
+"cdc_iis","nirsevimab","Minnesota","2024-25",2024,"MAR",7,35.7840036150023,66390
+"cdc_iis","nirsevimab","Minnesota","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Minnesota","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Minnesota","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Minnesota","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Minnesota","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Minnesota","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Minnesota","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Minnesota","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Mississippi","2024-25",2024,"SEP",1,2.97571993224167,17710
+"cdc_iis","nirsevimab","Mississippi","2024-25",2024,"OCT",2,17.9516964328929,20661
+"cdc_iis","nirsevimab","Mississippi","2024-25",2024,"NOV",3,27.2773472239868,23613
+"cdc_iis","nirsevimab","Mississippi","2024-25",2024,"DEC",4,32.047131456106,26564
+"cdc_iis","nirsevimab","Mississippi","2024-25",2024,"JAN",5,33.8460496002168,29516
+"cdc_iis","nirsevimab","Mississippi","2024-25",2024,"FEB",6,33.4863091754705,32467
+"cdc_iis","nirsevimab","Mississippi","2024-25",2024,"MAR",7,32.4938592280979,35419
+"cdc_iis","nirsevimab","Mississippi","2025-26",2025,"SEP",1,1.98227332614684,16698
+"cdc_iis","nirsevimab","Mississippi","2025-26",2025,"OCT",2,23.1160164271047,19480
+"cdc_iis","nirsevimab","Mississippi","2025-26",2025,"NOV",3,33.2165476350896,22263
+"cdc_iis","nirsevimab","Mississippi","2025-26",2025,"DEC",4,38.3773856104767,25046
+"cdc_iis","nirsevimab","Mississippi","2025-26",2025,"JAN",5,39.9008228826045,27829
+"cdc_iis","nirsevimab","Mississippi","2025-26",2025,"FEB",6,39.9418528681563,30612
+"cdc_iis","nirsevimab","Mississippi","2025-26",2025,"MAR",7,39.3561910465639,33395
+"cdc_iis","nirsevimab","Mississippi","2025-26",2025,"APR",8,39.8981883515496,33395
+"cdc_iis","nirsevimab","Missouri","2024-25",2024,"SEP",1,0.988136775994417,35825
+"cdc_iis","nirsevimab","Missouri","2024-25",2024,"OCT",2,23.0506041392511,41795
+"cdc_iis","nirsevimab","Missouri","2024-25",2024,"NOV",3,31.3046937151949,47766
+"cdc_iis","nirsevimab","Missouri","2024-25",2024,"DEC",4,33.7142006438767,53737
+"cdc_iis","nirsevimab","Missouri","2024-25",2024,"JAN",5,33.7057010785824,59708
+"cdc_iis","nirsevimab","Missouri","2024-25",2024,"FEB",6,33.1252474192271,65678
+"cdc_iis","nirsevimab","Missouri","2024-25",2024,"MAR",7,32.610364415414,71649
+"cdc_iis","nirsevimab","Missouri","2025-26",2025,"SEP",1,1.00871842175737,33607
+"cdc_iis","nirsevimab","Missouri","2025-26",2025,"OCT",2,29.0705978371761,39208
+"cdc_iis","nirsevimab","Missouri","2025-26",2025,"NOV",3,37.2335914660001,44809
+"cdc_iis","nirsevimab","Missouri","2025-26",2025,"DEC",4,39.2930114459146,50411
+"cdc_iis","nirsevimab","Missouri","2025-26",2025,"JAN",5,38.8523887738342,56012
+"cdc_iis","nirsevimab","Missouri","2025-26",2025,"FEB",6,37.8166945287521,61613
+"cdc_iis","nirsevimab","Missouri","2025-26",2025,"MAR",7,37.2571190525783,67214
+"cdc_iis","nirsevimab","Missouri","2025-26",2025,"APR",8,38.3089832475377,67214
+"cdc_iis","nirsevimab","Montana","2024-25",2024,"SEP",1,0.651064578567658,5683
+"cdc_iis","nirsevimab","Montana","2024-25",2024,"OCT",2,18.2503770739065,6630
+"cdc_iis","nirsevimab","Montana","2024-25",2024,"NOV",3,27.5702784743302,7577
+"cdc_iis","nirsevimab","Montana","2024-25",2024,"DEC",4,29.622243078367,8524
+"cdc_iis","nirsevimab","Montana","2024-25",2024,"JAN",5,29.2894097772147,9471
+"cdc_iis","nirsevimab","Montana","2024-25",2024,"FEB",6,28.44115953158,10418
+"cdc_iis","nirsevimab","Montana","2024-25",2024,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Montana","2025-26",2025,"SEP",1,0.673400673400673,5643
+"cdc_iis","nirsevimab","Montana","2025-26",2025,"OCT",2,22.6796293483214,6583
+"cdc_iis","nirsevimab","Montana","2025-26",2025,"NOV",3,32.3009437724312,7523
+"cdc_iis","nirsevimab","Montana","2025-26",2025,"DEC",4,34.9007561436673,8464
+"cdc_iis","nirsevimab","Montana","2025-26",2025,"JAN",5,33.9749042960442,9404
+"cdc_iis","nirsevimab","Montana","2025-26",2025,"FEB",6,32.2861285645239,10345
+"cdc_iis","nirsevimab","Montana","2025-26",2025,"MAR",7,31.298183429331,11285
+"cdc_iis","nirsevimab","Montana","2025-26",2025,"APR",8,31.7589720868409,11285
+"cdc_iis","nirsevimab","Nebraska","2024-25",2024,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Nebraska","2024-25",2024,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Nebraska","2024-25",2024,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Nebraska","2024-25",2024,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Nebraska","2024-25",2024,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Nebraska","2024-25",2024,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Nebraska","2024-25",2024,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Nebraska","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Nebraska","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Nebraska","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Nebraska","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Nebraska","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Nebraska","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Nebraska","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Nebraska","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Nevada","2024-25",2024,"SEP",1,1.04190006721936,17852
+"cdc_iis","nirsevimab","Nevada","2024-25",2024,"OCT",2,8.23450328899986,20827
+"cdc_iis","nirsevimab","Nevada","2024-25",2024,"NOV",3,13.6285342183758,23803
+"cdc_iis","nirsevimab","Nevada","2024-25",2024,"DEC",4,17.7272387781014,26778
+"cdc_iis","nirsevimab","Nevada","2024-25",2024,"JAN",5,19.893792222633,29753
+"cdc_iis","nirsevimab","Nevada","2024-25",2024,"FEB",6,20.9997250145131,32729
+"cdc_iis","nirsevimab","Nevada","2024-25",2024,"MAR",7,21.2749271790276,35704
+"cdc_iis","nirsevimab","Nevada","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Nevada","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Nevada","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Nevada","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Nevada","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Nevada","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Nevada","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Nevada","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","New Hampshire","2024-25",2024,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","New Hampshire","2024-25",2024,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","New Hampshire","2024-25",2024,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","New Hampshire","2024-25",2024,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","New Hampshire","2024-25",2024,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","New Hampshire","2024-25",2024,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","New Hampshire","2024-25",2024,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","New Hampshire","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","New Hampshire","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","New Hampshire","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","New Hampshire","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","New Hampshire","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","New Hampshire","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","New Hampshire","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","New Hampshire","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","New Jersey","2024-25",2024,"SEP",1,2.04811770144514,49753
+"cdc_iis","nirsevimab","New Jersey","2024-25",2024,"OCT",2,18.7010078387458,58045
+"cdc_iis","nirsevimab","New Jersey","2024-25",2024,"NOV",3,26.1166468185176,66337
+"cdc_iis","nirsevimab","New Jersey","2024-25",2024,"DEC",4,29.4452632989414,74630
+"cdc_iis","nirsevimab","New Jersey","2024-25",2024,"JAN",5,30.8675622874509,82922
+"cdc_iis","nirsevimab","New Jersey","2024-25",2024,"FEB",6,30.6268774530226,91214
+"cdc_iis","nirsevimab","New Jersey","2024-25",2024,"MAR",7,30.0373846803208,99506
+"cdc_iis","nirsevimab","New Jersey","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","New Jersey","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","New Jersey","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","New Jersey","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","New Jersey","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","New Jersey","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","New Jersey","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","New Jersey","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","New Mexico","2024-25",2024,"SEP",1,1.69206236711552,11288
+"cdc_iis","nirsevimab","New Mexico","2024-25",2024,"OCT",2,16.3338142607639,13169
+"cdc_iis","nirsevimab","New Mexico","2024-25",2024,"NOV",3,25.752441698226,15051
+"cdc_iis","nirsevimab","New Mexico","2024-25",2024,"DEC",4,29.9373966454052,16932
+"cdc_iis","nirsevimab","New Mexico","2024-25",2024,"JAN",5,32.4190719183543,18813
+"cdc_iis","nirsevimab","New Mexico","2024-25",2024,"FEB",6,33.2930659579609,20695
+"cdc_iis","nirsevimab","New Mexico","2024-25",2024,"MAR",7,33.1901133947555,22576
+"cdc_iis","nirsevimab","New Mexico","2025-26",2025,"SEP",1,0.725478816018572,10338
+"cdc_iis","nirsevimab","New Mexico","2025-26",2025,"OCT",2,27.8358208955224,12060
+"cdc_iis","nirsevimab","New Mexico","2025-26",2025,"NOV",3,39.4181237756657,13783
+"cdc_iis","nirsevimab","New Mexico","2025-26",2025,"DEC",4,43.2155294724623,15506
+"cdc_iis","nirsevimab","New Mexico","2025-26",2025,"JAN",5,43.3803470892101,17229
+"cdc_iis","nirsevimab","New Mexico","2025-26",2025,"FEB",6,42.4546222034614,18952
+"cdc_iis","nirsevimab","New Mexico","2025-26",2025,"MAR",7,41.509068923821,20675
+"cdc_iis","nirsevimab","New Mexico","2025-26",2025,"APR",8,43.1438935912938,20675
+"cdc_iis","nirsevimab","New York","2024-25",2024,"SEP",1,0.65709682674728,110486
+"cdc_iis","nirsevimab","New York","2024-25",2024,"OCT",2,10.0767255490648,128901
+"cdc_iis","nirsevimab","New York","2024-25",2024,"NOV",3,31.2778739435903,147315
+"cdc_iis","nirsevimab","New York","2024-25",2024,"DEC",4,36.724189947505,165730
+"cdc_iis","nirsevimab","New York","2024-25",2024,"JAN",5,37.2770075430508,184143
+"cdc_iis","nirsevimab","New York","2024-25",2024,"FEB",6,35.704835158325,202558
+"cdc_iis","nirsevimab","New York","2024-25",2024,"MAR",7,33.9477399851565,220972
+"cdc_iis","nirsevimab","New York","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","New York","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","New York","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","New York","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","New York","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","New York","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","New York","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","New York","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","North Carolina","2024-25",2024,"SEP",1,5.81692164652185,59155
+"cdc_iis","nirsevimab","North Carolina","2024-25",2024,"OCT",2,28.3768510736952,69014
+"cdc_iis","nirsevimab","North Carolina","2024-25",2024,"NOV",3,38.0332940296426,78873
+"cdc_iis","nirsevimab","North Carolina","2024-25",2024,"DEC",4,41.3548663390885,88732
+"cdc_iis","nirsevimab","North Carolina","2024-25",2024,"JAN",5,42.5373512795286,98591
+"cdc_iis","nirsevimab","North Carolina","2024-25",2024,"FEB",6,41.8248040571692,108450
+"cdc_iis","nirsevimab","North Carolina","2024-25",2024,"MAR",7,41.2555257841753,118309
+"cdc_iis","nirsevimab","North Carolina","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","North Carolina","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","North Carolina","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","North Carolina","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","North Carolina","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","North Carolina","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","North Carolina","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","North Carolina","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","North Dakota","2024-25",2024,"SEP",1,0.229445506692161,5230
+"cdc_iis","nirsevimab","North Dakota","2024-25",2024,"OCT",2,26.2252089821341,6101
+"cdc_iis","nirsevimab","North Dakota","2024-25",2024,"NOV",3,37.243654094364,6973
+"cdc_iis","nirsevimab","North Dakota","2024-25",2024,"DEC",4,38.9469658337583,7844
+"cdc_iis","nirsevimab","North Dakota","2024-25",2024,"JAN",5,38.4235888022028,8716
+"cdc_iis","nirsevimab","North Dakota","2024-25",2024,"FEB",6,37.2170647752164,9587
+"cdc_iis","nirsevimab","North Dakota","2024-25",2024,"MAR",7,36.361028779042,10459
+"cdc_iis","nirsevimab","North Dakota","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","North Dakota","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","North Dakota","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","North Dakota","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","North Dakota","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","North Dakota","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","North Dakota","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","North Dakota","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Ohio","2024-25",2024,"SEP",1,0.692282112518516,66158
+"cdc_iis","nirsevimab","Ohio","2024-25",2024,"OCT",2,25.6996268656716,77184
+"cdc_iis","nirsevimab","Ohio","2024-25",2024,"NOV",3,33.4096654612237,88211
+"cdc_iis","nirsevimab","Ohio","2024-25",2024,"DEC",4,38.4705301450064,99237
+"cdc_iis","nirsevimab","Ohio","2024-25",2024,"JAN",5,39.011273047169,110263
+"cdc_iis","nirsevimab","Ohio","2024-25",2024,"FEB",6,38.2381070162421,121290
+"cdc_iis","nirsevimab","Ohio","2024-25",2024,"MAR",7,37.2902747966988,132316
+"cdc_iis","nirsevimab","Ohio","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Ohio","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Ohio","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Ohio","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Ohio","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Ohio","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Ohio","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Ohio","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Oklahoma","2024-25",2024,"SEP",1,1.36823075026707,24338
+"cdc_iis","nirsevimab","Oklahoma","2024-25",2024,"OCT",2,14.6439388603226,28394
+"cdc_iis","nirsevimab","Oklahoma","2024-25",2024,"NOV",3,22.5947611710324,32450
+"cdc_iis","nirsevimab","Oklahoma","2024-25",2024,"DEC",4,26.6120637703391,36506
+"cdc_iis","nirsevimab","Oklahoma","2024-25",2024,"JAN",5,28.880999926041,40563
+"cdc_iis","nirsevimab","Oklahoma","2024-25",2024,"FEB",6,29.1266052578498,44619
+"cdc_iis","nirsevimab","Oklahoma","2024-25",2024,"MAR",7,28.9306625577812,48675
+"cdc_iis","nirsevimab","Oklahoma","2025-26",2025,"SEP",1,1.3161792712345,23629
+"cdc_iis","nirsevimab","Oklahoma","2025-26",2025,"OCT",2,23.0275329197954,27567
+"cdc_iis","nirsevimab","Oklahoma","2025-26",2025,"NOV",3,32.8487541660054,31505
+"cdc_iis","nirsevimab","Oklahoma","2025-26",2025,"DEC",4,36.8186434939623,35444
+"cdc_iis","nirsevimab","Oklahoma","2025-26",2025,"JAN",5,37.7659844599055,39382
+"cdc_iis","nirsevimab","Oklahoma","2025-26",2025,"FEB",6,37.590027700831,43320
+"cdc_iis","nirsevimab","Oklahoma","2025-26",2025,"MAR",7,36.9397773921876,47258
+"cdc_iis","nirsevimab","Oklahoma","2025-26",2025,"APR",8,37.2466037496297,47258
+"cdc_iis","nirsevimab","Oregon","2024-25",2024,"SEP",1,0.828216478652006,21009
+"cdc_iis","nirsevimab","Oregon","2024-25",2024,"OCT",2,23.2018277508058,24511
+"cdc_iis","nirsevimab","Oregon","2024-25",2024,"NOV",3,31.8791946308725,28012
+"cdc_iis","nirsevimab","Oregon","2024-25",2024,"DEC",4,33.9848956019547,31514
+"cdc_iis","nirsevimab","Oregon","2024-25",2024,"JAN",5,33.9111809224618,35015
+"cdc_iis","nirsevimab","Oregon","2024-25",2024,"FEB",6,33.2502531349794,38517
+"cdc_iis","nirsevimab","Oregon","2024-25",2024,"MAR",7,NA,42018
+"cdc_iis","nirsevimab","Oregon","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Oregon","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Oregon","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Oregon","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Oregon","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Oregon","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Oregon","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Oregon","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Pennsylvania","2024-25",2024,"SEP",1,0.718494468494469,66528
+"cdc_iis","nirsevimab","Pennsylvania","2024-25",2024,"OCT",2,17.5427746856318,77616
+"cdc_iis","nirsevimab","Pennsylvania","2024-25",2024,"NOV",3,34.6639910713279,88703
+"cdc_iis","nirsevimab","Pennsylvania","2024-25",2024,"DEC",4,38.0294816165787,99791
+"cdc_iis","nirsevimab","Pennsylvania","2024-25",2024,"JAN",5,38.7509018759019,110880
+"cdc_iis","nirsevimab","Pennsylvania","2024-25",2024,"FEB",6,38.0373379684669,121967
+"cdc_iis","nirsevimab","Pennsylvania","2024-25",2024,"MAR",7,37.4799894780354,133055
+"cdc_iis","nirsevimab","Pennsylvania","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Pennsylvania","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Pennsylvania","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Pennsylvania","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Pennsylvania","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Pennsylvania","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Pennsylvania","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Pennsylvania","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Rhode Island","2024-25",2024,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Rhode Island","2024-25",2024,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Rhode Island","2024-25",2024,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Rhode Island","2024-25",2024,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Rhode Island","2024-25",2024,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Rhode Island","2024-25",2024,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Rhode Island","2024-25",2024,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Rhode Island","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Rhode Island","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Rhode Island","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Rhode Island","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Rhode Island","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Rhode Island","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Rhode Island","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Rhode Island","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","South Carolina","2024-25",2024,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","South Carolina","2024-25",2024,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","South Carolina","2024-25",2024,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","South Carolina","2024-25",2024,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","South Carolina","2024-25",2024,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","South Carolina","2024-25",2024,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","South Carolina","2024-25",2024,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","South Carolina","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","South Carolina","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","South Carolina","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","South Carolina","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","South Carolina","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","South Carolina","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","South Carolina","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","South Carolina","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","South Dakota","2024-25",2024,"SEP",1,1.4225232853514,5905
+"cdc_iis","nirsevimab","South Dakota","2024-25",2024,"OCT",2,26.1866744084773,6889
+"cdc_iis","nirsevimab","South Dakota","2024-25",2024,"NOV",3,35.9456369871713,7873
+"cdc_iis","nirsevimab","South Dakota","2024-25",2024,"DEC",4,36.7464438925265,8858
+"cdc_iis","nirsevimab","South Dakota","2024-25",2024,"JAN",5,36.0902255639098,9842
+"cdc_iis","nirsevimab","South Dakota","2024-25",2024,"FEB",6,34.869757990024,10826
+"cdc_iis","nirsevimab","South Dakota","2024-25",2024,"MAR",7,34.1320914479255,11810
+"cdc_iis","nirsevimab","South Dakota","2025-26",2025,"SEP",1,0.737359550561798,5696
+"cdc_iis","nirsevimab","South Dakota","2025-26",2025,"OCT",2,40.7223476297968,6645
+"cdc_iis","nirsevimab","South Dakota","2025-26",2025,"NOV",3,55.339038841343,7595
+"cdc_iis","nirsevimab","South Dakota","2025-26",2025,"DEC",4,57.5374531835206,8544
+"cdc_iis","nirsevimab","South Dakota","2025-26",2025,"JAN",5,55.8095438744338,9493
+"cdc_iis","nirsevimab","South Dakota","2025-26",2025,"FEB",6,54.1032270420377,10443
+"cdc_iis","nirsevimab","South Dakota","2025-26",2025,"MAR",7,52.9933286516854,11392
+"cdc_iis","nirsevimab","South Dakota","2025-26",2025,"APR",8,53.8623595505618,11392
+"cdc_iis","nirsevimab","Tennessee","2024-25",2024,"SEP",1,5.34221198618135,39946
+"cdc_iis","nirsevimab","Tennessee","2024-25",2024,"OCT",2,22.3826792266592,46603
+"cdc_iis","nirsevimab","Tennessee","2024-25",2024,"NOV",3,26.9615666247348,53261
+"cdc_iis","nirsevimab","Tennessee","2024-25",2024,"DEC",4,26.446143062185,59918
+"cdc_iis","nirsevimab","Tennessee","2024-25",2024,"JAN",5,24.7296322999279,66576
+"cdc_iis","nirsevimab","Tennessee","2024-25",2024,"FEB",6,22.6960523261371,73233
+"cdc_iis","nirsevimab","Tennessee","2024-25",2024,"MAR",7,20.8847054111227,79891
+"cdc_iis","nirsevimab","Tennessee","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Tennessee","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Tennessee","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Tennessee","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Tennessee","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Tennessee","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Tennessee","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Tennessee","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Texas","2024-25",2024,"SEP",1,0.511909182536735,188510
+"cdc_iis","nirsevimab","Texas","2024-25",2024,"OCT",2,13.2788912735077,219928
+"cdc_iis","nirsevimab","Texas","2024-25",2024,"NOV",3,20.5684594145123,251346
+"cdc_iis","nirsevimab","Texas","2024-25",2024,"DEC",4,23.7753037869036,282764
+"cdc_iis","nirsevimab","Texas","2024-25",2024,"JAN",5,24.8157920702266,314183
+"cdc_iis","nirsevimab","Texas","2024-25",2024,"FEB",6,24.609882494553,345601
+"cdc_iis","nirsevimab","Texas","2024-25",2024,"MAR",7,23.9481299350961,377019
+"cdc_iis","nirsevimab","Texas","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Texas","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Texas","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Texas","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Texas","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Texas","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Texas","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Texas","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Utah","2024-25",2024,"SEP",1,0.472255017709563,23716
+"cdc_iis","nirsevimab","Utah","2024-25",2024,"OCT",2,26.9661703050455,27668
+"cdc_iis","nirsevimab","Utah","2024-25",2024,"NOV",3,37.0228645520382,31621
+"cdc_iis","nirsevimab","Utah","2024-25",2024,"DEC",4,42.8948921935176,35573
+"cdc_iis","nirsevimab","Utah","2024-25",2024,"JAN",5,44.1557455851844,39526
+"cdc_iis","nirsevimab","Utah","2024-25",2024,"FEB",6,43.833663001978,43478
+"cdc_iis","nirsevimab","Utah","2024-25",2024,"MAR",7,43.3724779152875,47431
+"cdc_iis","nirsevimab","Utah","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Utah","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Utah","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Utah","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Utah","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Utah","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Utah","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Utah","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Vermont","2024-25",2024,"SEP",1,0.712945590994371,2665
+"cdc_iis","nirsevimab","Vermont","2024-25",2024,"OCT",2,33.1617883563847,3109
+"cdc_iis","nirsevimab","Vermont","2024-25",2024,"NOV",3,43.7376864621447,3553
+"cdc_iis","nirsevimab","Vermont","2024-25",2024,"DEC",4,46.2231115557779,3998
+"cdc_iis","nirsevimab","Vermont","2024-25",2024,"JAN",5,44.912201710941,4442
+"cdc_iis","nirsevimab","Vermont","2024-25",2024,"FEB",6,43.6348751534998,4886
+"cdc_iis","nirsevimab","Vermont","2024-25",2024,"MAR",7,43.9399624765478,5330
+"cdc_iis","nirsevimab","Vermont","2025-26",2025,"SEP",1,0.517104216388226,2514
+"cdc_iis","nirsevimab","Vermont","2025-26",2025,"OCT",2,42.4139106716672,2933
+"cdc_iis","nirsevimab","Vermont","2025-26",2025,"NOV",3,52.3568019093079,3352
+"cdc_iis","nirsevimab","Vermont","2025-26",2025,"DEC",4,53.3545478652877,3771
+"cdc_iis","nirsevimab","Vermont","2025-26",2025,"JAN",5,52.0763723150358,4190
+"cdc_iis","nirsevimab","Vermont","2025-26",2025,"FEB",6,50.2495118246908,4609
+"cdc_iis","nirsevimab","Vermont","2025-26",2025,"MAR",7,50.2187748607796,5028
+"cdc_iis","nirsevimab","Vermont","2025-26",2025,"APR",8,50.8750994431185,5028
+"cdc_iis","nirsevimab","Virginia","2024-25",2024,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Virginia","2024-25",2024,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Virginia","2024-25",2024,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Virginia","2024-25",2024,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Virginia","2024-25",2024,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Virginia","2024-25",2024,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Virginia","2024-25",2024,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Virginia","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Virginia","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Virginia","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Virginia","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Virginia","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Virginia","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Virginia","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Virginia","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Washington","2024-25",2024,"SEP",1,1.56795633773502,43241
+"cdc_iis","nirsevimab","Washington","2024-25",2024,"OCT",2,23.2085158681388,50447
+"cdc_iis","nirsevimab","Washington","2024-25",2024,"NOV",3,34.3653519270129,57654
+"cdc_iis","nirsevimab","Washington","2024-25",2024,"DEC",4,37.6451180216155,64861
+"cdc_iis","nirsevimab","Washington","2024-25",2024,"JAN",5,37.9780207581728,72068
+"cdc_iis","nirsevimab","Washington","2024-25",2024,"FEB",6,37.1471100234629,79274
+"cdc_iis","nirsevimab","Washington","2024-25",2024,"MAR",7,37.2070165701137,86481
+"cdc_iis","nirsevimab","Washington","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Washington","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Washington","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Washington","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Washington","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Washington","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Washington","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Washington","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","West Virginia","2024-25",2024,"SEP",1,2.51031636863824,8724
+"cdc_iis","nirsevimab","West Virginia","2024-25",2024,"OCT",2,17.9915495725656,10177
+"cdc_iis","nirsevimab","West Virginia","2024-25",2024,"NOV",3,26.5239446307282,11631
+"cdc_iis","nirsevimab","West Virginia","2024-25",2024,"DEC",4,30.0267481849446,13085
+"cdc_iis","nirsevimab","West Virginia","2024-25",2024,"JAN",5,31.3983079991746,14539
+"cdc_iis","nirsevimab","West Virginia","2024-25",2024,"FEB",6,31.1886450322016,15993
+"cdc_iis","nirsevimab","West Virginia","2024-25",2024,"MAR",7,30.4923482547143,17447
+"cdc_iis","nirsevimab","West Virginia","2025-26",2025,"SEP",1,4.10212971926428,8264
+"cdc_iis","nirsevimab","West Virginia","2025-26",2025,"OCT",2,28.6381080800747,9641
+"cdc_iis","nirsevimab","West Virginia","2025-26",2025,"NOV",3,37.46256466104,11019
+"cdc_iis","nirsevimab","West Virginia","2025-26",2025,"DEC",4,40.6340755082285,12396
+"cdc_iis","nirsevimab","West Virginia","2025-26",2025,"JAN",5,41.1965439628258,13773
+"cdc_iis","nirsevimab","West Virginia","2025-26",2025,"FEB",6,40.9675928981585,15151
+"cdc_iis","nirsevimab","West Virginia","2025-26",2025,"MAR",7,40.3920619554695,16528
+"cdc_iis","nirsevimab","West Virginia","2025-26",2025,"APR",8,40.8881897386254,16528
+"cdc_iis","nirsevimab","Wisconsin","2024-25",2024,"SEP",1,0.793499043977055,31380
+"cdc_iis","nirsevimab","Wisconsin","2024-25",2024,"OCT",2,25.94170832309,36609
+"cdc_iis","nirsevimab","Wisconsin","2024-25",2024,"NOV",3,37.1041372881761,41839
+"cdc_iis","nirsevimab","Wisconsin","2024-25",2024,"DEC",4,39.2955023476173,47069
+"cdc_iis","nirsevimab","Wisconsin","2024-25",2024,"JAN",5,38.8324824566435,52299
+"cdc_iis","nirsevimab","Wisconsin","2024-25",2024,"FEB",6,37.3150932573137,57529
+"cdc_iis","nirsevimab","Wisconsin","2024-25",2024,"MAR",7,36.2816488471773,62759
+"cdc_iis","nirsevimab","Wisconsin","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Wisconsin","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Wisconsin","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Wisconsin","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Wisconsin","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Wisconsin","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Wisconsin","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Wisconsin","2025-26",2025,"APR",8,NA,NA
+"cdc_iis","nirsevimab","Wyoming","2024-25",2024,"SEP",1,1.58127767235927,3162
+"cdc_iis","nirsevimab","Wyoming","2024-25",2024,"OCT",2,12.4457700650759,3688
+"cdc_iis","nirsevimab","Wyoming","2024-25",2024,"NOV",3,23.0130486358244,4215
+"cdc_iis","nirsevimab","Wyoming","2024-25",2024,"DEC",4,28.4900885702235,4742
+"cdc_iis","nirsevimab","Wyoming","2024-25",2024,"JAN",5,30.1195672803188,5269
+"cdc_iis","nirsevimab","Wyoming","2024-25",2024,"FEB",6,29.848171152519,5796
+"cdc_iis","nirsevimab","Wyoming","2024-25",2024,"MAR",7,29.2266329274079,6323
+"cdc_iis","nirsevimab","Wyoming","2025-26",2025,"SEP",1,NA,NA
+"cdc_iis","nirsevimab","Wyoming","2025-26",2025,"OCT",2,NA,NA
+"cdc_iis","nirsevimab","Wyoming","2025-26",2025,"NOV",3,NA,NA
+"cdc_iis","nirsevimab","Wyoming","2025-26",2025,"DEC",4,NA,NA
+"cdc_iis","nirsevimab","Wyoming","2025-26",2025,"JAN",5,NA,NA
+"cdc_iis","nirsevimab","Wyoming","2025-26",2025,"FEB",6,NA,NA
+"cdc_iis","nirsevimab","Wyoming","2025-26",2025,"MAR",7,NA,NA
+"cdc_iis","nirsevimab","Wyoming","2025-26",2025,"APR",8,NA,NA

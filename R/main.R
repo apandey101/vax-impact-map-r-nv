@@ -31,6 +31,13 @@ main <- function() {
   source(read_path_curate_model_output_r)
   curate_model_output()
   
+  ## Merge the age-structured producers (Hib, Varicella) into the single curated
+  ## output file. Requires the ACS band populations in data-raw/csv (produced by
+  ## get_data_census_acs_state_population_{hib,vzv}_bands(); see runbook).
+  read_path_combine_model_output_r <- here("R/combine_model_output.R")
+  source(read_path_combine_model_output_r)
+  combine_model_output()
+  
 }
 
 main()

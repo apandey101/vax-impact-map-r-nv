@@ -17,6 +17,9 @@
 "school_vax_view","Alabama","2024-25",2024,"any",2.3,53589,1214
 "school_vax_view","Alabama","2024-25",2024,"medical",0.1,53589,44
 "school_vax_view","Alabama","2024-25",2024,"non_medical",2.2,53589,1169
+"school_vax_view","Alabama","2025-26",2025,"any",3,53378,1626
+"school_vax_view","Alabama","2025-26",2025,"medical",0.1,53378,63
+"school_vax_view","Alabama","2025-26",2025,"non_medical",2.9,53378,1563
 "school_vax_view","Alaska","2019-20",2019,"any",5.9,10381,608
 "school_vax_view","Alaska","2019-20",2019,"medical",0.5,10381,51
 "school_vax_view","Alaska","2019-20",2019,"non_medical",5.4,10381,557
@@ -35,6 +38,9 @@
 "school_vax_view","Alaska","2024-25",2024,"any",9.4,7338,686
 "school_vax_view","Alaska","2024-25",2024,"medical",0.4,7338,26
 "school_vax_view","Alaska","2024-25",2024,"non_medical",9,7338,660
+"school_vax_view","Alaska","2025-26",2025,"any",8.6,8253,711
+"school_vax_view","Alaska","2025-26",2025,"medical",0.4,8253,37
+"school_vax_view","Alaska","2025-26",2025,"non_medical",8.2,8253,675
 "school_vax_view","Arizona","2019-20",2019,"any",5.5,83976,4638
 "school_vax_view","Arizona","2019-20",2019,"medical",0.2,83976,144
 "school_vax_view","Arizona","2019-20",2019,"non_medical",5.4,83976,4494
@@ -53,6 +59,9 @@
 "school_vax_view","Arizona","2024-25",2024,"any",9.1,75024,6852
 "school_vax_view","Arizona","2024-25",2024,"medical",0.1,75024,68
 "school_vax_view","Arizona","2024-25",2024,"non_medical",9,75024,6784
+"school_vax_view","Arizona","2025-26",2025,"any",10.6,73907,7800
+"school_vax_view","Arizona","2025-26",2025,"medical",0.1,73907,80
+"school_vax_view","Arizona","2025-26",2025,"non_medical",10.4,73907,7720
 "school_vax_view","Arkansas","2019-20",2019,"any",1.9,39510,769
 "school_vax_view","Arkansas","2019-20",2019,"medical",0.1,39510,15
 "school_vax_view","Arkansas","2019-20",2019,"non_medical",1.9,39510,753
@@ -71,6 +80,9 @@
 "school_vax_view","Arkansas","2024-25",2024,"any",3.6,37570,1337
 "school_vax_view","Arkansas","2024-25",2024,"medical",0.1,37570,13
 "school_vax_view","Arkansas","2024-25",2024,"non_medical",3.5,37570,1324
+"school_vax_view","Arkansas","2025-26",2025,"any",4.6,35543,1629
+"school_vax_view","Arkansas","2025-26",2025,"medical",0.1,35543,14
+"school_vax_view","Arkansas","2025-26",2025,"non_medical",4.5,35543,1615
 "school_vax_view","California","2019-20",2019,"any",0.8,566155,4249
 "school_vax_view","California","2019-20",2019,"medical",0.8,566155,4249
 "school_vax_view","California","2019-20",2019,"non_medical",NA,566155,NA
@@ -84,6 +96,10 @@
 "school_vax_view","California","2023-24",2023,"medical",0.1,569680,648
 "school_vax_view","California","2024-25",2024,"any",0.1,590849,492
 "school_vax_view","California","2024-25",2024,"medical",0.1,590849,492
+"school_vax_view","California","2024-25",2024,"non_medical",NA,590849,NA
+"school_vax_view","California","2025-26",2025,"any",0.1,614405,558
+"school_vax_view","California","2025-26",2025,"medical",0.1,614405,558
+"school_vax_view","California","2025-26",2025,"non_medical",NA,614405,NA
 "school_vax_view","Colorado","2019-20",2019,"any",4.9,69088,3376
 "school_vax_view","Colorado","2019-20",2019,"medical",0.2,69088,121
 "school_vax_view","Colorado","2019-20",2019,"non_medical",4.7,69088,3254
@@ -102,6 +118,9 @@
 "school_vax_view","Colorado","2024-25",2024,"any",4.2,60055,2545
 "school_vax_view","Colorado","2024-25",2024,"medical",0.2,60055,92
 "school_vax_view","Colorado","2024-25",2024,"non_medical",4.1,60055,2453
+"school_vax_view","Colorado","2025-26",2025,"any",4.7,60049,2814
+"school_vax_view","Colorado","2025-26",2025,"medical",0.2,60049,98
+"school_vax_view","Colorado","2025-26",2025,"non_medical",4.5,60049,2716
 "school_vax_view","Connecticut","2019-20",2019,"any",2.5,38888,975
 "school_vax_view","Connecticut","2019-20",2019,"medical",0.2,38888,84
 "school_vax_view","Connecticut","2019-20",2019,"non_medical",2.3,38888,891
@@ -120,6 +139,9 @@
 "school_vax_view","Connecticut","2024-25",2024,"any",0.4,30112,126
 "school_vax_view","Connecticut","2024-25",2024,"medical",0.4,30112,120
 "school_vax_view","Connecticut","2024-25",2024,"non_medical",0.1,30112,6
+"school_vax_view","Connecticut","2025-26",2025,"any",0.5,33118,173
+"school_vax_view","Connecticut","2025-26",2025,"medical",0.5,33118,169
+"school_vax_view","Connecticut","2025-26",2025,"non_medical",0.1,33118,4
 "school_vax_view","Delaware","2019-20",2019,"any",NA,NA,NA
 "school_vax_view","Delaware","2019-20",2019,"medical",NA,NA,NA
 "school_vax_view","Delaware","2019-20",2019,"non_medical",NA,NA,NA
@@ -138,6 +160,9 @@
 "school_vax_view","Delaware","2024-25",2024,"any",2.6,10393,275
 "school_vax_view","Delaware","2024-25",2024,"medical",0.1,10393,1
 "school_vax_view","Delaware","2024-25",2024,"non_medical",2.6,10393,273
+"school_vax_view","Delaware","2025-26",2025,"any",2.2,10729,233
+"school_vax_view","Delaware","2025-26",2025,"medical",0.1,10729,4
+"school_vax_view","Delaware","2025-26",2025,"non_medical",2.1,10729,229
 "school_vax_view","District of Columbia","2019-20",2019,"any",NA,NA,NA
 "school_vax_view","District of Columbia","2019-20",2019,"medical",NA,NA,NA
 "school_vax_view","District of Columbia","2019-20",2019,"non_medical",NA,NA,NA
@@ -155,6 +180,9 @@
 "school_vax_view","District of Columbia","2024-25",2024,"any",2.7,7997,217
 "school_vax_view","District of Columbia","2024-25",2024,"medical",0.3,7997,20
 "school_vax_view","District of Columbia","2024-25",2024,"non_medical",2.5,7997,197
+"school_vax_view","District of Columbia","2025-26",2025,"any",3.4,7871,264
+"school_vax_view","District of Columbia","2025-26",2025,"medical",0.2,7871,17
+"school_vax_view","District of Columbia","2025-26",2025,"non_medical",3.1,7871,247
 "school_vax_view","Florida","2019-20",2019,"any",3.4,228298,7758
 "school_vax_view","Florida","2019-20",2019,"medical",0.4,228298,855
 "school_vax_view","Florida","2019-20",2019,"non_medical",3,228298,6903
@@ -173,6 +201,9 @@
 "school_vax_view","Florida","2024-25",2024,"any",5.1,221053,11287
 "school_vax_view","Florida","2024-25",2024,"medical",0.3,221053,731
 "school_vax_view","Florida","2024-25",2024,"non_medical",4.8,221053,10556
+"school_vax_view","Florida","2025-26",2025,"any",5.9,213535,12540
+"school_vax_view","Florida","2025-26",2025,"medical",0.3,213535,737
+"school_vax_view","Florida","2025-26",2025,"non_medical",5.5,213535,11803
 "school_vax_view","Georgia","2019-20",2019,"any",3,130102,3899
 "school_vax_view","Georgia","2019-20",2019,"medical",0.1,130102,158
 "school_vax_view","Georgia","2019-20",2019,"non_medical",2.9,130102,3741
@@ -191,6 +222,9 @@
 "school_vax_view","Georgia","2024-25",2024,"any",4.8,114568,5535
 "school_vax_view","Georgia","2024-25",2024,"medical",0.1,114568,94
 "school_vax_view","Georgia","2024-25",2024,"non_medical",4.7,114568,5441
+"school_vax_view","Georgia","2025-26",2025,"any",5.1,118864,6087
+"school_vax_view","Georgia","2025-26",2025,"medical",0.1,118864,85
+"school_vax_view","Georgia","2025-26",2025,"non_medical",5,118864,6002
 "school_vax_view","Hawaii","2019-20",2019,"any",6.1,15695,943
 "school_vax_view","Hawaii","2019-20",2019,"medical",0.2,15695,29
 "school_vax_view","Hawaii","2019-20",2019,"non_medical",5.9,15695,913
@@ -206,9 +240,12 @@
 "school_vax_view","Hawaii","2023-24",2023,"any",5.3,13995,745
 "school_vax_view","Hawaii","2023-24",2023,"medical",0.1,13995,0
 "school_vax_view","Hawaii","2023-24",2023,"non_medical",5.3,13995,745
-"school_vax_view","Hawaii","2024-25",2024,"any",5.5,13804,765
+"school_vax_view","Hawaii","2024-25",2024,"any",5.6,13804,765
 "school_vax_view","Hawaii","2024-25",2024,"medical",0.2,13804,21
-"school_vax_view","Hawaii","2024-25",2024,"non_medical",5.4,13804,744
+"school_vax_view","Hawaii","2024-25",2024,"non_medical",5.5,13804,744
+"school_vax_view","Hawaii","2025-26",2025,"any",6,13791,835
+"school_vax_view","Hawaii","2025-26",2025,"medical",0.1,13791,3
+"school_vax_view","Hawaii","2025-26",2025,"non_medical",6,13791,833
 "school_vax_view","Idaho","2019-20",2019,"any",7.6,23301,1764
 "school_vax_view","Idaho","2019-20",2019,"medical",0.3,23301,75
 "school_vax_view","Idaho","2019-20",2019,"non_medical",7.2,23301,1689
@@ -227,6 +264,9 @@
 "school_vax_view","Idaho","2024-25",2024,"any",15.4,22242,3427
 "school_vax_view","Idaho","2024-25",2024,"medical",0.3,22242,64
 "school_vax_view","Idaho","2024-25",2024,"non_medical",15.1,22242,3363
+"school_vax_view","Idaho","2025-26",2025,"any",17.5,21728,3796
+"school_vax_view","Idaho","2025-26",2025,"medical",0.4,21728,92
+"school_vax_view","Idaho","2025-26",2025,"non_medical",17,21728,3704
 "school_vax_view","Illinois","2019-20",2019,"any",2,145891,2894
 "school_vax_view","Illinois","2019-20",2019,"medical",0.3,145891,407
 "school_vax_view","Illinois","2019-20",2019,"non_medical",1.7,145891,2487
@@ -243,6 +283,9 @@
 "school_vax_view","Illinois","2024-25",2024,"any",2.8,132769,3776
 "school_vax_view","Illinois","2024-25",2024,"medical",0.3,132769,399
 "school_vax_view","Illinois","2024-25",2024,"non_medical",2.5,132769,3377
+"school_vax_view","Illinois","2025-26",2025,"any",3.5,128598,4559
+"school_vax_view","Illinois","2025-26",2025,"medical",0.4,128598,571
+"school_vax_view","Illinois","2025-26",2025,"non_medical",3.1,128598,3989
 "school_vax_view","Indiana","2019-20",2019,"any",2.2,88253,1901
 "school_vax_view","Indiana","2019-20",2019,"medical",0.2,88253,199
 "school_vax_view","Indiana","2019-20",2019,"non_medical",1.9,88253,1701
@@ -261,6 +304,9 @@
 "school_vax_view","Indiana","2024-25",2024,"any",2.6,73744,1937
 "school_vax_view","Indiana","2024-25",2024,"medical",0.1,73744,86
 "school_vax_view","Indiana","2024-25",2024,"non_medical",2.6,73744,1904
+"school_vax_view","Indiana","2025-26",2025,"any",3.8,70886,2680
+"school_vax_view","Indiana","2025-26",2025,"medical",0.4,70886,314
+"school_vax_view","Indiana","2025-26",2025,"non_medical",3.4,70886,2442
 "school_vax_view","Iowa","2019-20",2019,"any",2.5,40812,1004
 "school_vax_view","Iowa","2019-20",2019,"medical",0.2,40812,68
 "school_vax_view","Iowa","2019-20",2019,"non_medical",2.3,40812,936
@@ -279,6 +325,9 @@
 "school_vax_view","Iowa","2024-25",2024,"any",3.9,38268,1499
 "school_vax_view","Iowa","2024-25",2024,"medical",0.2,38268,62
 "school_vax_view","Iowa","2024-25",2024,"non_medical",3.8,38268,1437
+"school_vax_view","Iowa","2025-26",2025,"any",4.9,37490,1838
+"school_vax_view","Iowa","2025-26",2025,"medical",0.1,37490,46
+"school_vax_view","Iowa","2025-26",2025,"non_medical",4.8,37490,1792
 "school_vax_view","Kansas","2019-20",2019,"any",2.1,37865,805
 "school_vax_view","Kansas","2019-20",2019,"medical",0.3,37865,99
 "school_vax_view","Kansas","2019-20",2019,"non_medical",1.9,37865,705
@@ -297,6 +346,9 @@
 "school_vax_view","Kansas","2024-25",2024,"any",3.6,33892,1219
 "school_vax_view","Kansas","2024-25",2024,"medical",0.3,33892,104
 "school_vax_view","Kansas","2024-25",2024,"non_medical",3.3,33892,1115
+"school_vax_view","Kansas","2025-26",2025,"any",4.5,33420,1496
+"school_vax_view","Kansas","2025-26",2025,"medical",0.4,33420,118
+"school_vax_view","Kansas","2025-26",2025,"non_medical",4.1,33420,1379
 "school_vax_view","Kentucky","2019-20",2019,"any",1.8,59233,1082
 "school_vax_view","Kentucky","2019-20",2019,"medical",0.5,59233,274
 "school_vax_view","Kentucky","2019-20",2019,"non_medical",1.4,59233,809
@@ -315,6 +367,9 @@
 "school_vax_view","Kentucky","2024-25",2024,"any",2.2,51319,1114
 "school_vax_view","Kentucky","2024-25",2024,"medical",0.1,51319,73
 "school_vax_view","Kentucky","2024-25",2024,"non_medical",2,51319,1041
+"school_vax_view","Kentucky","2025-26",2025,"any",2.6,49937,1322
+"school_vax_view","Kentucky","2025-26",2025,"medical",0.2,49937,103
+"school_vax_view","Kentucky","2025-26",2025,"non_medical",2.4,49937,1219
 "school_vax_view","Louisiana","2019-20",2019,"any",1.5,59685,884
 "school_vax_view","Louisiana","2019-20",2019,"medical",0.2,59685,92
 "school_vax_view","Louisiana","2019-20",2019,"non_medical",1.3,59685,792
@@ -333,6 +388,9 @@
 "school_vax_view","Louisiana","2024-25",2024,"any",3.1,49229,1519
 "school_vax_view","Louisiana","2024-25",2024,"medical",0.1,49229,61
 "school_vax_view","Louisiana","2024-25",2024,"non_medical",3,49229,1458
+"school_vax_view","Louisiana","2025-26",2025,"any",4,50223,2014
+"school_vax_view","Louisiana","2025-26",2025,"medical",0.2,50223,81
+"school_vax_view","Louisiana","2025-26",2025,"non_medical",3.8,50223,1933
 "school_vax_view","Maine","2019-20",2019,"any",5.9,13450,795
 "school_vax_view","Maine","2019-20",2019,"medical",0.3,13450,40
 "school_vax_view","Maine","2019-20",2019,"non_medical",5.6,13450,755
@@ -350,6 +408,10 @@
 "school_vax_view","Maine","2023-24",2023,"non_medical",0.1,12087,7
 "school_vax_view","Maine","2024-25",2024,"any",0.8,11761,97
 "school_vax_view","Maine","2024-25",2024,"medical",0.8,11761,97
+"school_vax_view","Maine","2024-25",2024,"non_medical",NA,11761,NA
+"school_vax_view","Maine","2025-26",2025,"any",0.8,11634,92
+"school_vax_view","Maine","2025-26",2025,"medical",0.8,11634,92
+"school_vax_view","Maine","2025-26",2025,"non_medical",NA,11634,NA
 "school_vax_view","Maryland","2019-20",2019,"any",1.4,72443,991
 "school_vax_view","Maryland","2019-20",2019,"medical",0.4,72443,273
 "school_vax_view","Maryland","2019-20",2019,"non_medical",1,72443,718
@@ -368,6 +430,9 @@
 "school_vax_view","Maryland","2024-25",2024,"any",2.2,66135,1472
 "school_vax_view","Maryland","2024-25",2024,"medical",0.5,66135,346
 "school_vax_view","Maryland","2024-25",2024,"non_medical",1.7,66135,1126
+"school_vax_view","Maryland","2025-26",2025,"any",2.5,66945,1660
+"school_vax_view","Maryland","2025-26",2025,"medical",0.4,66945,254
+"school_vax_view","Maryland","2025-26",2025,"non_medical",2.1,66945,1406
 "school_vax_view","Massachusetts","2019-20",2019,"any",1.3,66756,890
 "school_vax_view","Massachusetts","2019-20",2019,"medical",0.2,66756,153
 "school_vax_view","Massachusetts","2019-20",2019,"non_medical",1.1,66756,737
@@ -386,6 +451,9 @@
 "school_vax_view","Massachusetts","2024-25",2024,"any",1.5,65581,968
 "school_vax_view","Massachusetts","2024-25",2024,"medical",0.1,65581,98
 "school_vax_view","Massachusetts","2024-25",2024,"non_medical",1.3,65581,870
+"school_vax_view","Massachusetts","2025-26",2025,"any",1.8,65331,1170
+"school_vax_view","Massachusetts","2025-26",2025,"medical",0.2,65331,102
+"school_vax_view","Massachusetts","2025-26",2025,"non_medical",1.6,65331,1069
 "school_vax_view","Michigan","2019-20",2019,"any",4.4,120565,5320
 "school_vax_view","Michigan","2019-20",2019,"medical",0.2,120565,290
 "school_vax_view","Michigan","2019-20",2019,"non_medical",4.2,120565,5030
@@ -404,6 +472,9 @@
 "school_vax_view","Michigan","2024-25",2024,"any",6.8,107636,7306
 "school_vax_view","Michigan","2024-25",2024,"medical",0.3,107636,277
 "school_vax_view","Michigan","2024-25",2024,"non_medical",6.5,107636,7029
+"school_vax_view","Michigan","2025-26",2025,"any",7.7,104614,8050
+"school_vax_view","Michigan","2025-26",2025,"medical",0.2,104614,232
+"school_vax_view","Michigan","2025-26",2025,"non_medical",7.5,104614,7818
 "school_vax_view","Minnesota","2019-20",2019,"any",3.8,71223,2699
 "school_vax_view","Minnesota","2019-20",2019,"medical",0.2,71223,133
 "school_vax_view","Minnesota","2019-20",2019,"non_medical",3.4,71223,2565
@@ -422,6 +493,9 @@
 "school_vax_view","Minnesota","2024-25",2024,"any",5.9,64898,3852
 "school_vax_view","Minnesota","2024-25",2024,"medical",0.2,64898,117
 "school_vax_view","Minnesota","2024-25",2024,"non_medical",5.8,64898,3735
+"school_vax_view","Minnesota","2025-26",2025,"any",6.9,63451,4404
+"school_vax_view","Minnesota","2025-26",2025,"medical",0.2,63451,111
+"school_vax_view","Minnesota","2025-26",2025,"non_medical",6.8,63451,4293
 "school_vax_view","Mississippi","2019-20",2019,"any",0.2,37870,62
 "school_vax_view","Mississippi","2019-20",2019,"medical",0.2,37870,62
 "school_vax_view","Mississippi","2019-20",2019,"non_medical",NA,37870,NA
@@ -437,6 +511,9 @@
 "school_vax_view","Mississippi","2024-25",2024,"any",1.2,35293,441
 "school_vax_view","Mississippi","2024-25",2024,"medical",0.1,35293,47
 "school_vax_view","Mississippi","2024-25",2024,"non_medical",1.1,35293,394
+"school_vax_view","Mississippi","2025-26",2025,"any",2,34969,700
+"school_vax_view","Mississippi","2025-26",2025,"medical",0.1,34969,34
+"school_vax_view","Mississippi","2025-26",2025,"non_medical",1.9,34969,666
 "school_vax_view","Missouri","2019-20",2019,"any",2.7,72324,1970
 "school_vax_view","Missouri","2019-20",2019,"medical",0.2,72324,150
 "school_vax_view","Missouri","2019-20",2019,"non_medical",2.5,72324,1820
@@ -455,6 +532,9 @@
 "school_vax_view","Missouri","2024-25",2024,"any",5.2,68163,3551
 "school_vax_view","Missouri","2024-25",2024,"medical",0.2,68163,154
 "school_vax_view","Missouri","2024-25",2024,"non_medical",5,68163,3397
+"school_vax_view","Missouri","2025-26",2025,"any",6.3,66610,4219
+"school_vax_view","Missouri","2025-26",2025,"medical",0.2,66610,143
+"school_vax_view","Missouri","2025-26",2025,"non_medical",6.1,66610,4076
 "school_vax_view","Montana","2019-20",2019,"any",4.3,12501,535
 "school_vax_view","Montana","2019-20",2019,"medical",0.2,12501,30
 "school_vax_view","Montana","2019-20",2019,"non_medical",4,12501,505
@@ -479,6 +559,9 @@
 "school_vax_view","Nebraska","2024-25",2024,"any",4,24102,966
 "school_vax_view","Nebraska","2024-25",2024,"medical",0.5,24102,122
 "school_vax_view","Nebraska","2024-25",2024,"non_medical",3.5,24102,844
+"school_vax_view","Nebraska","2025-26",2025,"any",4.7,23807,1123
+"school_vax_view","Nebraska","2025-26",2025,"medical",0.8,23807,187
+"school_vax_view","Nebraska","2025-26",2025,"non_medical",3.9,23807,936
 "school_vax_view","Nevada","2019-20",2019,"any",4,37724,1492
 "school_vax_view","Nevada","2019-20",2019,"medical",0.5,37724,170
 "school_vax_view","Nevada","2019-20",2019,"non_medical",3.5,37724,1322
@@ -497,6 +580,9 @@
 "school_vax_view","Nevada","2024-25",2024,"any",7.1,33272,2376
 "school_vax_view","Nevada","2024-25",2024,"medical",0.5,33272,153
 "school_vax_view","Nevada","2024-25",2024,"non_medical",6.7,33272,2222
+"school_vax_view","Nevada","2025-26",2025,"any",8.7,32815,2856
+"school_vax_view","Nevada","2025-26",2025,"medical",0.4,32815,127
+"school_vax_view","Nevada","2025-26",2025,"non_medical",8.3,32815,2729
 "school_vax_view","New Hampshire","2019-20",2019,"any",3.1,12447,389
 "school_vax_view","New Hampshire","2019-20",2019,"medical",0.2,12447,29
 "school_vax_view","New Hampshire","2019-20",2019,"non_medical",2.9,12447,360
@@ -515,6 +601,9 @@
 "school_vax_view","New Hampshire","2024-25",2024,"any",4.1,11713,481
 "school_vax_view","New Hampshire","2024-25",2024,"medical",0.2,11713,24
 "school_vax_view","New Hampshire","2024-25",2024,"non_medical",3.9,11713,457
+"school_vax_view","New Hampshire","2025-26",2025,"any",5.4,11544,620
+"school_vax_view","New Hampshire","2025-26",2025,"medical",0.2,11544,20
+"school_vax_view","New Hampshire","2025-26",2025,"non_medical",5.2,11544,600
 "school_vax_view","New Jersey","2019-20",2019,"any",2.6,107900,2776
 "school_vax_view","New Jersey","2019-20",2019,"medical",0.2,107900,188
 "school_vax_view","New Jersey","2019-20",2019,"non_medical",2.4,107900,2588
@@ -533,6 +622,9 @@
 "school_vax_view","New Jersey","2024-25",2024,"any",4.7,104339,4930
 "school_vax_view","New Jersey","2024-25",2024,"medical",0.1,104339,140
 "school_vax_view","New Jersey","2024-25",2024,"non_medical",4.6,104339,4790
+"school_vax_view","New Jersey","2025-26",2025,"any",5.7,101602,5832
+"school_vax_view","New Jersey","2025-26",2025,"medical",0.1,101602,146
+"school_vax_view","New Jersey","2025-26",2025,"non_medical",5.6,101602,5687
 "school_vax_view","New Mexico","2019-20",2019,"any",1.5,23087,344
 "school_vax_view","New Mexico","2019-20",2019,"medical",0.2,23087,46
 "school_vax_view","New Mexico","2019-20",2019,"non_medical",1.3,23087,298
@@ -551,6 +643,9 @@
 "school_vax_view","New Mexico","2024-25",2024,"any",2,20180,401
 "school_vax_view","New Mexico","2024-25",2024,"medical",0.1,20180,19
 "school_vax_view","New Mexico","2024-25",2024,"non_medical",1.9,20180,382
+"school_vax_view","New Mexico","2025-26",2025,"any",2.2,19843,428
+"school_vax_view","New Mexico","2025-26",2025,"medical",0.1,19843,29
+"school_vax_view","New Mexico","2025-26",2025,"non_medical",2,19843,399
 "school_vax_view","New York","2019-20",2019,"any",0.1,234165,320
 "school_vax_view","New York","2019-20",2019,"medical",0.1,234165,320
 "school_vax_view","New York","2020-21",2020,"any",0.1,216804,264
@@ -561,8 +656,12 @@
 "school_vax_view","New York","2022-23",2022,"medical",0.1,205906,247
 "school_vax_view","New York","2023-24",2023,"any",0.1,200894,255
 "school_vax_view","New York","2023-24",2023,"medical",0.1,200894,255
-"school_vax_view","New York","2024-25",2024,"any",0.3,234054,632
-"school_vax_view","New York","2024-25",2024,"medical",0.3,234054,632
+"school_vax_view","New York","2024-25",2024,"any",0.1,234054,632
+"school_vax_view","New York","2024-25",2024,"medical",0.1,234054,632
+"school_vax_view","New York","2024-25",2024,"non_medical",NA,234054,NA
+"school_vax_view","New York","2025-26",2025,"any",0.1,203514,272
+"school_vax_view","New York","2025-26",2025,"medical",0.1,203514,272
+"school_vax_view","New York","2025-26",2025,"non_medical",NA,203514,NA
 "school_vax_view","North Carolina","2019-20",2019,"any",1.7,124548,2161
 "school_vax_view","North Carolina","2019-20",2019,"medical",0.1,124548,158
 "school_vax_view","North Carolina","2019-20",2019,"non_medical",1.6,124548,2003
@@ -581,6 +680,9 @@
 "school_vax_view","North Carolina","2024-25",2024,"any",3.2,124028,3948
 "school_vax_view","North Carolina","2024-25",2024,"medical",0.1,124028,145
 "school_vax_view","North Carolina","2024-25",2024,"non_medical",3.1,124028,3803
+"school_vax_view","North Carolina","2025-26",2025,"any",3.9,120045,4666
+"school_vax_view","North Carolina","2025-26",2025,"medical",0.1,120045,123
+"school_vax_view","North Carolina","2025-26",2025,"non_medical",3.8,120045,4543
 "school_vax_view","North Dakota","2019-20",2019,"any",3.9,10587,413
 "school_vax_view","North Dakota","2019-20",2019,"medical",0.3,10587,32
 "school_vax_view","North Dakota","2019-20",2019,"non_medical",3.6,10587,381
@@ -599,6 +701,9 @@
 "school_vax_view","North Dakota","2024-25",2024,"any",7,9659,672
 "school_vax_view","North Dakota","2024-25",2024,"medical",0.2,9659,23
 "school_vax_view","North Dakota","2024-25",2024,"non_medical",6.7,9659,649
+"school_vax_view","North Dakota","2025-26",2025,"any",8.1,9344,760
+"school_vax_view","North Dakota","2025-26",2025,"medical",0.2,9344,16
+"school_vax_view","North Dakota","2025-26",2025,"non_medical",8,9344,745
 "school_vax_view","Ohio","2019-20",2019,"any",2.8,139103,3921
 "school_vax_view","Ohio","2019-20",2019,"medical",0.2,139103,346
 "school_vax_view","Ohio","2019-20",2019,"non_medical",2.6,139103,3575
@@ -617,6 +722,9 @@
 "school_vax_view","Ohio","2024-25",2024,"any",4.7,131589,6129
 "school_vax_view","Ohio","2024-25",2024,"medical",0.2,131589,224
 "school_vax_view","Ohio","2024-25",2024,"non_medical",4.5,131589,5905
+"school_vax_view","Ohio","2025-26",2025,"any",5.7,129087,7337
+"school_vax_view","Ohio","2025-26",2025,"medical",0.2,129087,249
+"school_vax_view","Ohio","2025-26",2025,"non_medical",5.5,129087,7089
 "school_vax_view","Oklahoma","2019-20",2019,"any",2.7,55348,1468
 "school_vax_view","Oklahoma","2019-20",2019,"medical",0.1,55348,73
 "school_vax_view","Oklahoma","2019-20",2019,"non_medical",2.5,55348,1395
@@ -635,6 +743,9 @@
 "school_vax_view","Oklahoma","2024-25",2024,"any",5.7,47544,2709
 "school_vax_view","Oklahoma","2024-25",2024,"medical",0.3,47544,119
 "school_vax_view","Oklahoma","2024-25",2024,"non_medical",5.4,47544,2589
+"school_vax_view","Oklahoma","2025-26",2025,"any",7.4,47844,3547
+"school_vax_view","Oklahoma","2025-26",2025,"medical",0.2,47844,108
+"school_vax_view","Oklahoma","2025-26",2025,"non_medical",7.2,47844,3440
 "school_vax_view","Oregon","2019-20",2019,"any",7.1,45959,3265
 "school_vax_view","Oregon","2019-20",2019,"medical",0.2,45959,73
 "school_vax_view","Oregon","2019-20",2019,"non_medical",6.9,45959,3192
@@ -653,6 +764,9 @@
 "school_vax_view","Oregon","2024-25",2024,"any",9.8,38247,3746
 "school_vax_view","Oregon","2024-25",2024,"medical",0.1,38247,31
 "school_vax_view","Oregon","2024-25",2024,"non_medical",9.7,38247,3715
+"school_vax_view","Oregon","2025-26",2025,"any",11,37309,4095
+"school_vax_view","Oregon","2025-26",2025,"medical",0.1,37309,35
+"school_vax_view","Oregon","2025-26",2025,"non_medical",10.9,37309,4060
 "school_vax_view","Pennsylvania","2019-20",2019,"any",3,140197,4137
 "school_vax_view","Pennsylvania","2019-20",2019,"medical",0.4,140197,507
 "school_vax_view","Pennsylvania","2019-20",2019,"non_medical",2.6,140197,3630
@@ -671,6 +785,9 @@
 "school_vax_view","Pennsylvania","2024-25",2024,"any",6,140160,8343
 "school_vax_view","Pennsylvania","2024-25",2024,"medical",0.3,140160,464
 "school_vax_view","Pennsylvania","2024-25",2024,"non_medical",5.6,140160,7878
+"school_vax_view","Pennsylvania","2025-26",2025,"any",6,134313,8097
+"school_vax_view","Pennsylvania","2025-26",2025,"medical",0.3,134313,377
+"school_vax_view","Pennsylvania","2025-26",2025,"non_medical",5.7,134313,7720
 "school_vax_view","Rhode Island","2019-20",2019,"any",1.3,11219,141
 "school_vax_view","Rhode Island","2019-20",2019,"medical",0.2,11219,24
 "school_vax_view","Rhode Island","2019-20",2019,"non_medical",1,11219,117
@@ -689,6 +806,9 @@
 "school_vax_view","Rhode Island","2024-25",2024,"any",1.9,10088,192
 "school_vax_view","Rhode Island","2024-25",2024,"medical",0.2,10088,20
 "school_vax_view","Rhode Island","2024-25",2024,"non_medical",1.7,10088,172
+"school_vax_view","Rhode Island","2025-26",2025,"any",2.2,10123,221
+"school_vax_view","Rhode Island","2025-26",2025,"medical",0.2,10123,20
+"school_vax_view","Rhode Island","2025-26",2025,"non_medical",2,10123,202
 "school_vax_view","South Carolina","2019-20",2019,"any",2.6,65938,1731
 "school_vax_view","South Carolina","2019-20",2019,"medical",0.2,65938,115
 "school_vax_view","South Carolina","2019-20",2019,"non_medical",2.5,65938,1616
@@ -707,6 +827,9 @@
 "school_vax_view","South Carolina","2024-25",2024,"any",4.6,57718,2681
 "school_vax_view","South Carolina","2024-25",2024,"medical",0.1,57718,80
 "school_vax_view","South Carolina","2024-25",2024,"non_medical",4.5,57718,2601
+"school_vax_view","South Carolina","2025-26",2025,"any",5.7,57542,3295
+"school_vax_view","South Carolina","2025-26",2025,"medical",0.2,57542,99
+"school_vax_view","South Carolina","2025-26",2025,"non_medical",5.6,57542,3197
 "school_vax_view","South Dakota","2019-20",2019,"any",2.7,12367,337
 "school_vax_view","South Dakota","2019-20",2019,"medical",0.1,12367,18
 "school_vax_view","South Dakota","2019-20",2019,"non_medical",2.6,12367,319
@@ -725,6 +848,9 @@
 "school_vax_view","South Dakota","2024-25",2024,"any",6.8,11367,768
 "school_vax_view","South Dakota","2024-25",2024,"medical",0.1,11367,7
 "school_vax_view","South Dakota","2024-25",2024,"non_medical",6.7,11367,761
+"school_vax_view","South Dakota","2025-26",2025,"any",6.9,11009,758
+"school_vax_view","South Dakota","2025-26",2025,"medical",0.1,11009,11
+"school_vax_view","South Dakota","2025-26",2025,"non_medical",6.8,11009,747
 "school_vax_view","Tennessee","2019-20",2019,"any",2,80595,1610
 "school_vax_view","Tennessee","2019-20",2019,"medical",0.1,80595,101
 "school_vax_view","Tennessee","2019-20",2019,"non_medical",1.9,80595,1509
@@ -743,6 +869,9 @@
 "school_vax_view","Tennessee","2024-25",2024,"any",3.8,78299,2985
 "school_vax_view","Tennessee","2024-25",2024,"medical",0.1,78299,100
 "school_vax_view","Tennessee","2024-25",2024,"non_medical",3.7,78299,2884
+"school_vax_view","Tennessee","2025-26",2025,"any",4.8,73415,3510
+"school_vax_view","Tennessee","2025-26",2025,"medical",0.2,73415,114
+"school_vax_view","Tennessee","2025-26",2025,"non_medical",4.6,73415,3397
 "school_vax_view","Texas","2019-20",2019,"any",2.5,398680,9894
 "school_vax_view","Texas","2019-20",2019,"medical",0.2,398680,929
 "school_vax_view","Texas","2019-20",2019,"non_medical",2.2,398680,8965
@@ -761,6 +890,9 @@
 "school_vax_view","Texas","2024-25",2024,"any",4.3,378860,16417
 "school_vax_view","Texas","2024-25",2024,"medical",0.3,378860,1210
 "school_vax_view","Texas","2024-25",2024,"non_medical",4,378860,15207
+"school_vax_view","Texas","2025-26",2025,"any",5.2,358586,18585
+"school_vax_view","Texas","2025-26",2025,"medical",0.2,358586,762
+"school_vax_view","Texas","2025-26",2025,"non_medical",5,358586,17824
 "school_vax_view","United States","2019-20",2019,"any",2.5,NA,NA
 "school_vax_view","United States","2019-20",2019,"medical",0.3,NA,NA
 "school_vax_view","United States","2019-20",2019,"non_medical",2.2,NA,NA
@@ -776,9 +908,12 @@
 "school_vax_view","United States","2023-24",2023,"any",3.3,3823506,127591
 "school_vax_view","United States","2023-24",2023,"medical",0.2,3823506,8154
 "school_vax_view","United States","2023-24",2023,"non_medical",3.1,3823506,118409
-"school_vax_view","United States","2024-25",2024,"any",3.6,3785644,137938
-"school_vax_view","United States","2024-25",2024,"medical",0.2,3785644,8293
-"school_vax_view","United States","2024-25",2024,"non_medical",3.4,3785644,128894
+"school_vax_view","United States","2024-25",2024,"any",3.6,3785644,137634
+"school_vax_view","United States","2024-25",2024,"medical",0.2,3785644,7978
+"school_vax_view","United States","2024-25",2024,"non_medical",3.4,3785644,128905
+"school_vax_view","United States","2025-26",2025,"any",4.2,3725852,157029
+"school_vax_view","United States","2025-26",2025,"medical",0.2,3725852,7737
+"school_vax_view","United States","2025-26",2025,"non_medical",4,3725852,148608
 "school_vax_view","Utah","2019-20",2019,"any",5.4,49208,2639
 "school_vax_view","Utah","2019-20",2019,"medical",0.1,49208,59
 "school_vax_view","Utah","2019-20",2019,"non_medical",5.2,49208,2580
@@ -797,6 +932,9 @@
 "school_vax_view","Utah","2024-25",2024,"any",10.3,45818,4729
 "school_vax_view","Utah","2024-25",2024,"medical",0.3,45818,138
 "school_vax_view","Utah","2024-25",2024,"non_medical",10,45818,4591
+"school_vax_view","Utah","2025-26",2025,"any",12.7,44001,5574
+"school_vax_view","Utah","2025-26",2025,"medical",0.4,44001,186
+"school_vax_view","Utah","2025-26",2025,"non_medical",12.2,44001,5388
 "school_vax_view","Vermont","2019-20",2019,"any",3.7,6293,232
 "school_vax_view","Vermont","2019-20",2019,"medical",0.1,6293,9
 "school_vax_view","Vermont","2019-20",2019,"non_medical",3.5,6293,223
@@ -815,6 +953,9 @@
 "school_vax_view","Vermont","2024-25",2024,"any",3.9,5432,212
 "school_vax_view","Vermont","2024-25",2024,"medical",0.2,5432,11
 "school_vax_view","Vermont","2024-25",2024,"non_medical",3.7,5432,201
+"school_vax_view","Vermont","2025-26",2025,"any",3.8,5298,200
+"school_vax_view","Vermont","2025-26",2025,"medical",0.2,5298,8
+"school_vax_view","Vermont","2025-26",2025,"non_medical",3.6,5298,192
 "school_vax_view","Virginia","2019-20",2019,"any",1.7,99399,1711
 "school_vax_view","Virginia","2019-20",2019,"medical",0.3,99399,333
 "school_vax_view","Virginia","2019-20",2019,"non_medical",1.4,99399,1378
@@ -833,6 +974,9 @@
 "school_vax_view","Virginia","2024-25",2024,"any",2.7,91453,2433
 "school_vax_view","Virginia","2024-25",2024,"medical",0.3,91453,301
 "school_vax_view","Virginia","2024-25",2024,"non_medical",2.4,91453,2131
+"school_vax_view","Virginia","2025-26",2025,"any",3,88950,2667
+"school_vax_view","Virginia","2025-26",2025,"medical",0.3,88950,250
+"school_vax_view","Virginia","2025-26",2025,"non_medical",2.7,88950,2417
 "school_vax_view","Washington","2019-20",2019,"any",4.6,87757,NA
 "school_vax_view","Washington","2019-20",2019,"medical",0.7,87757,647
 "school_vax_view","Washington","2019-20",2019,"non_medical",5,87757,4359
@@ -851,6 +995,9 @@
 "school_vax_view","Washington","2024-25",2024,"any",4.8,76756,3654
 "school_vax_view","Washington","2024-25",2024,"medical",0.4,76756,273
 "school_vax_view","Washington","2024-25",2024,"non_medical",3.9,76756,3006
+"school_vax_view","Washington","2025-26",2025,"any",5.3,75631,3988
+"school_vax_view","Washington","2025-26",2025,"medical",0.3,75631,235
+"school_vax_view","Washington","2025-26",2025,"non_medical",4.4,75631,3364
 "school_vax_view","West Virginia","2019-20",2019,"any",0.1,17114,21
 "school_vax_view","West Virginia","2019-20",2019,"medical",0.1,17114,21
 "school_vax_view","West Virginia","2019-20",2019,"non_medical",NA,17114,NA
@@ -862,6 +1009,9 @@
 "school_vax_view","West Virginia","2022-23",2022,"medical",0,19175,7
 "school_vax_view","West Virginia","2023-24",2023,"any",0.1,18261,7
 "school_vax_view","West Virginia","2023-24",2023,"medical",0.1,18261,7
+"school_vax_view","West Virginia","2025-26",2025,"any",0.1,15445,6
+"school_vax_view","West Virginia","2025-26",2025,"medical",0.1,15445,6
+"school_vax_view","West Virginia","2025-26",2025,"non_medical",NA,15445,NA
 "school_vax_view","Wisconsin","2019-20",2019,"any",5.7,67391,3861
 "school_vax_view","Wisconsin","2019-20",2019,"medical",0.2,67391,168
 "school_vax_view","Wisconsin","2019-20",2019,"non_medical",5.5,67391,3693
@@ -880,6 +1030,9 @@
 "school_vax_view","Wisconsin","2024-25",2024,"any",7.6,61120,4641
 "school_vax_view","Wisconsin","2024-25",2024,"medical",0.5,61120,331
 "school_vax_view","Wisconsin","2024-25",2024,"non_medical",6.3,61120,3881
+"school_vax_view","Wisconsin","2025-26",2025,"any",8.2,59360,4893
+"school_vax_view","Wisconsin","2025-26",2025,"medical",0.4,59360,209
+"school_vax_view","Wisconsin","2025-26",2025,"non_medical",7.3,59360,4314
 "school_vax_view","Wyoming","2019-20",2019,"any",3.5,7913,280
 "school_vax_view","Wyoming","2019-20",2019,"medical",0.3,7913,24
 "school_vax_view","Wyoming","2019-20",2019,"non_medical",3.2,7913,256
@@ -898,3 +1051,6 @@
 "school_vax_view","Wyoming","2024-25",2024,"any",5.9,6564,386
 "school_vax_view","Wyoming","2024-25",2024,"medical",0.2,6564,15
 "school_vax_view","Wyoming","2024-25",2024,"non_medical",5.7,6564,371
+"school_vax_view","Wyoming","2025-26",2025,"any",7.2,6146,443
+"school_vax_view","Wyoming","2025-26",2025,"medical",0.1,6146,4
+"school_vax_view","Wyoming","2025-26",2025,"non_medical",7.1,6146,439

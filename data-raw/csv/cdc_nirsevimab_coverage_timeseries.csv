@@ -1,0 +1,105 @@
+"source","vaccine","state_name","year","year_type","vaccine_coverage_estimate","ci_95","sample_size"
+"cdc_iis","nirsevimab","Alabama",2024,"rsv_season",26.6810084272659,NA,56246
+"cdc_iis","nirsevimab","Alabama",2025,"rsv_season",33.7647141010863,NA,57258
+"cdc_iis","nirsevimab","Alaska",2024,"rsv_season",39.5940655264785,NA,9706
+"cdc_iis","nirsevimab","Alaska",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Arizona",2024,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Arizona",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Arkansas",2024,"rsv_season",33.1705286526988,NA,36035
+"cdc_iis","nirsevimab","Arkansas",2025,"rsv_season",43.0351695159155,NA,34746
+"cdc_iis","nirsevimab","California",2024,"rsv_season",33.8239374843353,NA,446864
+"cdc_iis","nirsevimab","California",2025,"rsv_season",42.7176028404617,NA,403878
+"cdc_iis","nirsevimab","Colorado",2024,"rsv_season",38.5741010844061,NA,63076
+"cdc_iis","nirsevimab","Colorado",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Connecticut",2024,"rsv_season",47.3212199111942,NA,34232
+"cdc_iis","nirsevimab","Connecticut",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Delaware",2024,"rsv_season",45.898828236639,NA,10497
+"cdc_iis","nirsevimab","Delaware",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","District of Columbia",2024,"rsv_season",32.4227642276423,NA,9225
+"cdc_iis","nirsevimab","District of Columbia",2025,"rsv_season",50.1809559465868,NA,8013
+"cdc_iis","nirsevimab","Florida",2024,"rsv_season",25.9056832363202,NA,219558
+"cdc_iis","nirsevimab","Florida",2025,"rsv_season",29.1249576218261,NA,224172
+"cdc_iis","nirsevimab","Georgia",2024,"rsv_season",20.5459505732321,NA,124993
+"cdc_iis","nirsevimab","Georgia",2025,"rsv_season",35.7256842257203,NA,124703
+"cdc_iis","nirsevimab","Hawaii",2024,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Hawaii",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Idaho",2024,"rsv_season",29.9763308117139,NA,21547
+"cdc_iis","nirsevimab","Idaho",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Illinois",2024,"rsv_season",33.5689601005341,NA,140052
+"cdc_iis","nirsevimab","Illinois",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Indiana",2024,"rsv_season",36.9073958980733,NA,80450
+"cdc_iis","nirsevimab","Indiana",2025,"rsv_season",46.0771520871603,NA,78935
+"cdc_iis","nirsevimab","Iowa",2024,"rsv_season",36.8015362146373,NA,36974
+"cdc_iis","nirsevimab","Iowa",2025,"rsv_season",41.4727613586237,NA,36272
+"cdc_iis","nirsevimab","Kansas",2024,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Kansas",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Kentucky",2024,"rsv_season",35.6991868370437,NA,52511
+"cdc_iis","nirsevimab","Kentucky",2025,"rsv_season",42.2441679034897,NA,52554
+"cdc_iis","nirsevimab","Louisiana",2024,"rsv_season",34.0427766303777,NA,57134
+"cdc_iis","nirsevimab","Louisiana",2025,"rsv_season",45.8829699557953,NA,53388
+"cdc_iis","nirsevimab","Maine",2024,"rsv_season",39.3008474576271,NA,12272
+"cdc_iis","nirsevimab","Maine",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Maryland",2024,"rsv_season",33.594412428323,NA,69583
+"cdc_iis","nirsevimab","Maryland",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Massachusetts",2024,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Massachusetts",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Michigan",2024,"rsv_season",28.1328524140233,NA,107849
+"cdc_iis","nirsevimab","Michigan",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Minnesota",2024,"rsv_season",35.7840036150023,NA,66390
+"cdc_iis","nirsevimab","Minnesota",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Mississippi",2024,"rsv_season",32.4938592280979,NA,35419
+"cdc_iis","nirsevimab","Mississippi",2025,"rsv_season",39.8981883515496,NA,33395
+"cdc_iis","nirsevimab","Missouri",2024,"rsv_season",32.610364415414,NA,71649
+"cdc_iis","nirsevimab","Missouri",2025,"rsv_season",38.3089832475377,NA,67214
+"cdc_iis","nirsevimab","Montana",2024,"rsv_season",28.44115953158,NA,10418
+"cdc_iis","nirsevimab","Montana",2025,"rsv_season",31.7589720868409,NA,11285
+"cdc_iis","nirsevimab","Nebraska",2024,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Nebraska",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Nevada",2024,"rsv_season",21.2749271790276,NA,35704
+"cdc_iis","nirsevimab","Nevada",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","New Hampshire",2024,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","New Hampshire",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","New Jersey",2024,"rsv_season",30.0373846803208,NA,99506
+"cdc_iis","nirsevimab","New Jersey",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","New Mexico",2024,"rsv_season",33.1901133947555,NA,22576
+"cdc_iis","nirsevimab","New Mexico",2025,"rsv_season",43.1438935912938,NA,20675
+"cdc_iis","nirsevimab","New York",2024,"rsv_season",33.9477399851565,NA,220972
+"cdc_iis","nirsevimab","New York",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","North Carolina",2024,"rsv_season",41.2555257841753,NA,118309
+"cdc_iis","nirsevimab","North Carolina",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","North Dakota",2024,"rsv_season",36.361028779042,NA,10459
+"cdc_iis","nirsevimab","North Dakota",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Ohio",2024,"rsv_season",37.2902747966988,NA,132316
+"cdc_iis","nirsevimab","Ohio",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Oklahoma",2024,"rsv_season",28.9306625577812,NA,48675
+"cdc_iis","nirsevimab","Oklahoma",2025,"rsv_season",37.2466037496297,NA,47258
+"cdc_iis","nirsevimab","Oregon",2024,"rsv_season",33.2502531349794,NA,38517
+"cdc_iis","nirsevimab","Oregon",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Pennsylvania",2024,"rsv_season",37.4799894780354,NA,133055
+"cdc_iis","nirsevimab","Pennsylvania",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Rhode Island",2024,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Rhode Island",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","South Carolina",2024,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","South Carolina",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","South Dakota",2024,"rsv_season",34.1320914479255,NA,11810
+"cdc_iis","nirsevimab","South Dakota",2025,"rsv_season",53.8623595505618,NA,11392
+"cdc_iis","nirsevimab","Tennessee",2024,"rsv_season",20.8847054111227,NA,79891
+"cdc_iis","nirsevimab","Tennessee",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Texas",2024,"rsv_season",23.9481299350961,NA,377019
+"cdc_iis","nirsevimab","Texas",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","United States",2024,"rsv_season",31.9388325529114,NA,3327260
+"cdc_iis","nirsevimab","United States",2025,"rsv_season",39.1248424256272,NA,1286694
+"cdc_iis","nirsevimab","Utah",2024,"rsv_season",43.3724779152875,NA,47431
+"cdc_iis","nirsevimab","Utah",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Vermont",2024,"rsv_season",43.9399624765478,NA,5330
+"cdc_iis","nirsevimab","Vermont",2025,"rsv_season",50.8750994431185,NA,5028
+"cdc_iis","nirsevimab","Virginia",2024,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Virginia",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Washington",2024,"rsv_season",37.2070165701137,NA,86481
+"cdc_iis","nirsevimab","Washington",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","West Virginia",2024,"rsv_season",30.4923482547143,NA,17447
+"cdc_iis","nirsevimab","West Virginia",2025,"rsv_season",40.8881897386254,NA,16528
+"cdc_iis","nirsevimab","Wisconsin",2024,"rsv_season",36.2816488471773,NA,62759
+"cdc_iis","nirsevimab","Wisconsin",2025,"rsv_season",NA,NA,NA
+"cdc_iis","nirsevimab","Wyoming",2024,"rsv_season",29.2266329274079,NA,6323
+"cdc_iis","nirsevimab","Wyoming",2025,"rsv_season",NA,NA,NA

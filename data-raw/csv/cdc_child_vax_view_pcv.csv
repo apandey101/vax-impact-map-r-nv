@@ -1,54 +1,54 @@
 "","vaccine","state_name","vaccine_coverage_estimate"
-"1","PCV","United States",83.9
-"2","PCV","Connecticut",92.1
-"3","PCV","Maine",83.2
-"4","PCV","Massachusetts",94.5
-"5","PCV","New Hampshire",90.9
-"6","PCV","Rhode Island",93.8
-"7","PCV","Vermont",86.3
-"8","PCV","New Jersey",82.3
-"9","PCV","New York",85.5
-"10","PCV","Delaware",82.7
-"11","PCV","District of Columbia",85.4
-"12","PCV","Maryland",87.4
-"13","PCV","Pennsylvania",87.1
-"14","PCV","Virginia",86.3
-"15","PCV","West Virginia",89.1
-"16","PCV","Alabama",81.2
-"17","PCV","Florida",81.6
-"18","PCV","Georgia",83.4
-"19","PCV","Kentucky",80.8
-"20","PCV","Mississippi",78.2
-"21","PCV","North Carolina",88
-"22","PCV","South Carolina",81.1
-"23","PCV","Tennessee",87.2
-"24","PCV","Illinois",86.9
-"25","PCV","Indiana",85
-"26","PCV","Michigan",84.5
-"27","PCV","Minnesota",85.7
-"28","PCV","Ohio",86.1
-"29","PCV","Wisconsin",85.8
-"30","PCV","Arkansas",80.1
-"31","PCV","Louisiana",79.8
-"32","PCV","New Mexico",84
-"33","PCV","Oklahoma",78.2
-"34","PCV","Texas",81.8
-"35","PCV","Iowa",88.8
-"36","PCV","Kansas",85.4
-"37","PCV","Missouri",84.4
-"38","PCV","Nebraska",87.6
-"39","PCV","Colorado",84.8
-"40","PCV","Montana",80.8
-"41","PCV","North Dakota",78.5
-"42","PCV","South Dakota",84.7
-"43","PCV","Utah",82.5
-"44","PCV","Wyoming",76.2
-"45","PCV","Arizona",83.7
-"46","PCV","California",80.3
-"47","PCV","Hawaii",83.3
-"48","PCV","Nevada",75.2
-"49","PCV","Alaska",78.7
-"50","PCV","Idaho",81.4
-"51","PCV","Oregon",78.6
-"52","PCV","Washington",85.6
-"53","PCV","Puerto Rico",77.9
+"1","PCV","United States",82.9
+"2","PCV","Oregon",79
+"3","PCV","Washington",83.3
+"4","PCV","Puerto Rico",53.3
+"5","PCV","California",78.9
+"6","PCV","Hawaii",85.2
+"7","PCV","Nevada",93.5
+"8","PCV","Alaska",68.6
+"9","PCV","Idaho",83.4
+"10","PCV","North Dakota",79.2
+"11","PCV","South Dakota",86.6
+"12","PCV","Utah",85
+"13","PCV","Wyoming",78
+"14","PCV","Arizona",86.3
+"15","PCV","Kansas",78.6
+"16","PCV","Missouri",86.4
+"17","PCV","Nebraska",93.5
+"18","PCV","Colorado",87
+"19","PCV","Montana",84.7
+"20","PCV","Texas",73.1
+"21","PCV","Iowa",88.8
+"22","PCV","Wisconsin",87.2
+"23","PCV","Arkansas",80.6
+"24","PCV","Louisiana",80.5
+"25","PCV","New Mexico",86.6
+"26","PCV","Oklahoma",75.2
+"27","PCV","Indiana",82.1
+"28","PCV","Michigan",92
+"29","PCV","Minnesota",91
+"30","PCV","Ohio",86.7
+"31","PCV","Mississippi",79.4
+"32","PCV","North Carolina",86.4
+"33","PCV","South Carolina",88.1
+"34","PCV","Tennessee",85
+"35","PCV","Illinois",83.4
+"36","PCV","West Virginia",91
+"37","PCV","Alabama",82.1
+"38","PCV","Florida",88.3
+"39","PCV","Georgia",88.2
+"40","PCV","Kentucky",80.5
+"41","PCV","District of Columbia",68.9
+"42","PCV","Maryland",90.6
+"43","PCV","Pennsylvania",83.5
+"44","PCV","Virginia",88.9
+"45","PCV","New Jersey",80.1
+"46","PCV","New York",79
+"47","PCV","Delaware",84.7
+"48","PCV","Maine",80.6
+"49","PCV","Massachusetts",86.8
+"50","PCV","New Hampshire",87.5
+"51","PCV","Rhode Island",90.4
+"52","PCV","Vermont",95.7
+"53","PCV","Connecticut",89.1

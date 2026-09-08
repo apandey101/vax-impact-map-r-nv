@@ -23,7 +23,7 @@ process_data_cdc_child_vax_view_rotavirus <- function() {
   # Filter the data for rotavirus
   df_processed <- df %>% 
                     filter(Vaccine=='Rotavirus' & 
-                           Birth.Year.Birth.Cohort=='2021' &
+                           Birth.Year.Birth.Cohort=='2022' &
                            Dimension.Type=='Age' & 
                            Dimension=='8 Months' &
                            !Geography %in% c('Guam',

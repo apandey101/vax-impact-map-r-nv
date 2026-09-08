@@ -32,7 +32,7 @@ process_data_cdc_child_vax_view_hib <- function() {
                                              'TX-El Paso County','TX-Hidalgo County','TX-Rest of state',
                                              'TX-Tarrant County','TX-Travis County','U.S. Virgin Islands',
                                              'Region 1','Region 2','Region 3','Region 4','Region 5',
-                                             'Region 6','Region 7','Region 8','Region 9','Region 10')) %>%
+                                             'Region 6','Region 7','Region 8','Region 9','Region 10','Puerto Rico')) %>%
                       select(Vaccine, Geography, Birth.Year.Birth.Cohort, Estimate....) %>%
                         rename(vaccine = Vaccine,
                                state_name = Geography,

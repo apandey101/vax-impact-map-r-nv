@@ -23,7 +23,7 @@ process_data_cdc_child_vax_view_pcv <- function() {
   # Filter the data for PCV
   df_processed <- df %>% 
     filter(Vaccine=='PCV' & 
-             Birth.Year.Birth.Cohort=='2021' &
+             Birth.Year.Birth.Cohort=='2022' &
              Dimension.Type=='Age' & 
              Dimension=='35 Months' &
              Dose=='≥4 Doses' &

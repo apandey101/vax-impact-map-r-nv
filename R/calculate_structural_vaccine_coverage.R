@@ -34,7 +34,36 @@ calculate_structural_vaccine_coverage <- function(df) {
   ## Calculate effective structural vaccine coverage by multiplying structural vaccine coverage by vaccine effectiveness
   # --------------------------------------------------------------------------
   df$effective_structural_vaccine_coverage <- df$structural_vaccine_coverage * df$vaccine_effectiveness
-  
+
+  ## RSV (static_direct): two-product direct protection with a FIXED maternal layer.
+  # Infants are protected by EITHER the maternal RSV vaccine OR infant monoclonal
+  # antibody / nirsevimab, treated as mutually exclusive per CDC guidance. Maternal
+  # coverage and effectiveness are national fixed values, HARDWIRED here (not read
+  # from the parameter file): 41.6% cumulative maternal coverage (CDC RSVVaxView,
+  # applied uniformly to all states as a simplification) and 70% maternal VE against
+  # infant RSV hospitalization. Effective protection is additive:
+  #
+  #     v = m*VE_m + c*VE_mAb
+  #
+  # where c is the phased/declined mAb coverage (structural_vaccine_coverage) and
+  # VE_mAb is the vaccine_effectiveness column. Only the mAb term responds to the
+  # decline scenarios; maternal is a fixed floor. The mAb distinct fraction is
+  # capped at (1 - m) so m + c <= 1, and v is clamped to [0, 1].
+  # --------------------------------------------------------------------------
+  RSV_MATERNAL_COVERAGE <- 0.416   # CDC RSVVaxView cumulative, national, fixed
+  RSV_MATERNAL_VE       <- 0.70    # maternal VE vs infant RSV hospitalization
+
+  if (any(df$model_type == "static_direct", na.rm = TRUE)) {
+    is_static <- df$model_type == "static_direct" & !is.na(df$model_type)
+    m     <- RSV_MATERNAL_COVERAGE
+    ve_m  <- RSV_MATERNAL_VE
+    c_mab <- pmin(df$structural_vaccine_coverage, max(1 - m, 0))  # enforce m + c <= 1
+    v_rsv <- pmin(pmax(m * ve_m + c_mab * df$vaccine_effectiveness, 0), 1)
+    df$effective_structural_vaccine_coverage <- ifelse(
+      is_static, v_rsv, df$effective_structural_vaccine_coverage
+    )
+  }
+
   return(df)
   
 }

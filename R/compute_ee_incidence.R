@@ -27,26 +27,59 @@ compute_ee_incidence <- function(df) {
   # --------------------------------------------------------------------------
   waning_rate_annual = df$waning_rate_annual
   
-  ## Compute incidence at endemic equilibrium
+  ## RELATIVE INCIDENCE
+  # Three model types are supported. Only the relative term differs; the prefactor
+  # applied below is coverage-independent and cancels during calibration.
+  #
+  #   SIR / SIRS     : transmission at endemic equilibrium, with optional importation.
+  #   static_direct  : NO transmission. Used for RSV/nirsevimab, where a seasonal
+  #                    monoclonal antibody (and maternal vaccine) confer direct
+  #                    protection to the recipient only (no herd effect, no
+  #                    threshold). Relative incidence is just the unprotected
+  #                    fraction, 1 - effective_structural_vaccine_coverage.
+  #                    basic_reproduction_number and importation_delta are NOT used
+  #                    and may be blank/NA.
   # --------------------------------------------------------------------------
+  
+  # -- transmission branch (SIR / SIRS) --
   ee_incidence_core = 1 - 1 / (df$basic_reproduction_number * (1 - df$effective_structural_vaccine_coverage))
   
-  ## Importation smoothing.
-  # An external/out-of-band force of infection (e.g. older-to-child transmission for
-  # varicella, importation for Hib) keeps incidence strictly positive even when the
-  # within-band effective reproduction number is below 1, and smooths the herd threshold.
-  # rel = 0.5 * (core + sqrt(core^2 + 4*delta)); with delta = 0 this equals pmax(core, 0),
-  # so all diseases with importation_delta = 0 are unchanged.
-  # --------------------------------------------------------------------------
-  importation_delta = df$importation_delta
-  ee_incidence_rel = 0.5 * (ee_incidence_core + sqrt(ee_incidence_core^2 + 4 * importation_delta))
+  # Importation smoothing: an external/out-of-band force of infection keeps incidence
+  # strictly positive below the herd threshold and smooths the kink. With
+  # importation_delta = 0 this reduces exactly to pmax(core, 0), so diseases without
+  # an importation term are numerically unchanged.
+  #
+  # importation_delta is optional. Hib and Varicella are handled by the
+  # age-structured producers and are not in this data frame; the remaining
+  # transmission diseases carry importation_delta = 0. If the column has been
+  # removed from the parameter file, default to 0 so this branch is unaffected.
+  importation_delta = if ("importation_delta" %in% names(df)) {
+    ifelse(is.na(df$importation_delta), 0, df$importation_delta)
+  } else {
+    0
+  }
+  ee_incidence_rel_transmission = 0.5 * (ee_incidence_core + sqrt(ee_incidence_core^2 + 4 * importation_delta))
   
-  # If SIR, then incidence_rate_annual is annual_turnover_rate * ee_incidence_rel
-  # If SIRS, then incidence_rate_annual is (((recovery_rate_annual + population_turnover_rate_annual) * (population_turnover_rate_annual + waning_rate_annual)) / (recovery_rate_annual + population_turnover_rate_annual + waning_rate_annual)) * ee_incidence_rel
+  # -- static direct-protection branch (RSV / nirsevimab + maternal vaccine) --
+  ee_incidence_rel_static = pmax(0, 1 - df$effective_structural_vaccine_coverage)
+  
+  # -- select branch --
+  ee_incidence_rel = ifelse(
+                       df$model_type=='static_direct',
+                       ee_incidence_rel_static,
+                       ee_incidence_rel_transmission
+                     )
+  
+  ## Compute incidence at endemic equilibrium
+  # SIRS uses the waning-adjusted prefactor. SIR and static_direct use the population
+  # turnover rate (for static_direct, age_group_length = 1, so this is simply 1).
+  # --------------------------------------------------------------------------
+  sirs_prefactor = ((recovery_rate_annual + population_turnover_rate_annual) * (population_turnover_rate_annual + waning_rate_annual)) / (recovery_rate_annual + population_turnover_rate_annual + waning_rate_annual)
+  
   df$endemic_equilibrium_incidence_rate_annual <- ifelse(
-                                                    df$model_type=='SIR', 
-                                                    population_turnover_rate_annual * ee_incidence_rel, 
-                                                    (((recovery_rate_annual + population_turnover_rate_annual) * (population_turnover_rate_annual + waning_rate_annual)) / (recovery_rate_annual + population_turnover_rate_annual + waning_rate_annual)) * ee_incidence_rel
+                                                    df$model_type=='SIRS',
+                                                    sirs_prefactor * ee_incidence_rel,
+                                                    population_turnover_rate_annual * ee_incidence_rel
                                                   )
   
   return(df)

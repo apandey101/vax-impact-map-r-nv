@@ -41,4 +41,8 @@ get_data_census <- function() {
   source(read_path_get_data_census_acs_state_population_r)
   get_data_census_acs_state_population()
 
+  source(here("R/get_data_census_acs_state_population_hib_bands.R"))
+  source(here("R/get_data_census_acs_state_population_vzv_bands.R"))
+  get_data_census_acs_state_population_hib_bands()   # -> data-raw/csv/census_acs_state_population_hib_bands.csv
+  get_data_census_acs_state_population_vzv_bands()  
 }
