@@ -1,6 +1,6 @@
-# vax-impact-map-r-nv
+# VaxImpacMap: Quantifying the Health and Economic Impact of Declining Childhood Vaccination
 
-This repository contains the vaccine-impact model pipeline used for current outputs.
+VaxImpacMap is an interactive modeling tool that estimates the health and economic effects of declines in childhood vaccination coverage across U.S. states. Explore the live map at https://map.vaximpactmap.org/.
 
 ## Which entry point should I run?
 
