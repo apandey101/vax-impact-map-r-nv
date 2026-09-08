@@ -21,10 +21,11 @@ process_data_cdc_school_vax_view_dtap <- function() {
   df <- readRDS(read_path_rds)
   
   # Filter the data for DTaP
+  school_year <- '2025-26'
   df_processed <- df %>% 
                     filter(Vaccine.Exemption=='DTP, DTaP, or DT' & 
                            Geography.Type %in% c('States','National') &
-                           School.Year=='2025-26' &
+                           School.Year==school_year &
                            !Geography %in% c('NY-City of New York',
                                              'TX-City of Houston',
                                              'U.S. Median')) %>%
@@ -33,7 +34,20 @@ process_data_cdc_school_vax_view_dtap <- function() {
                                state_name = Geography,
                                school_year = School.Year,
                                vaccine_coverage_estimate = Estimate....) %>%
-                      select(-school_year)
+                      mutate(vaccine_coverage_estimate = suppressWarnings(as.numeric(vaccine_coverage_estimate)))
+  
+  missing_states <- df_processed %>%
+                      filter(is.na(vaccine_coverage_estimate)) %>%
+                      pull(state_name)
+  
+  if (length(missing_states) > 0) {
+    stop(sprintf("Missing DTaP coverage for School.Year %s in: %s",
+                 school_year,
+                 paste(missing_states, collapse = ", ")))
+  }
+  
+  df_processed <- df_processed %>%
+                    select(-school_year)
   
   # Write data as a rds called cdc_school_vax_view_dtap.rds to the project `data-raw` folder
   write_path_rds <- here("data-raw/cdc_school_vax_view_dtap.rds")
