@@ -66,10 +66,9 @@ compile_model_input_data <- function() {
                          union(df_census_0_14_dtap_w_model_input_params) %>%
                          union(df_census_0_1_rsv_w_model_input_params)
   
-  # Next, add rows for declining vaccination coverage among births. We report the
-  # five scenarios used in the map (0, 5, 10, 15, 20 percentage-point declines);
-  # the age-structured producers use the matching proportions c(0,.05,.10,.15,.20).
-  declining_coverage_among_new_births <- seq(0, 20, 1)
+  # Next, add rows for declining vaccination coverage among births. Scenarios are
+  # expressed as percentage-point declines from baseline and expanded from 0 to 20
+  # in 1pp steps (0.00 to 0.20 after dividing by 100).
   time_horizon <- c(1, 5, 10, 20) # accrual horizons of interest (years)
   df_model_input_data_expanded <- df_model_input_data %>% crossing(declining_coverage_among_new_births, time_horizon)
   
