@@ -1,94 +1,5 @@
 # Hib: deterministic-cohort, age-structured carriage model
 # =============================================================================
-#
-# PURPOSE
-# -------
-# Estimate the annual all-age health and economic burden of invasive
-# Haemophilus influenzae type b (Hib) disease following sustained declines in
-# Hib primary-series coverage among new birth cohorts.
-#
-# Hib transmission is represented through nasopharyngeal carriage. Invasive
-# disease is a rare, age-specific outcome of a new Hib carriage acquisition.
-# The transmission coefficient is calibrated once nationally to R0 = 1.3 by
-# default and then held fixed across states.
-#
-# IMPORTANT REVISION: DETERMINISTIC COHORT AGING
-# ----------------------------------------------
-# The previous version moved people between broad age groups using constant
-# aging hazards. That makes residence time in an age group exponentially
-# distributed and allows some of a newly affected birth cohort to appear in
-# chronologically impossible older ages.
-#
-# This version follows monthly birth cohorts deterministically from birth
-# through the twentieth birthday:
-#
-#   month 0 -> month 1 -> ... -> month 239 -> age 20.
-#
-# The vaccination-history composition of a cohort therefore advances exactly
-# one month per model month. During the supported 20-year projection horizon:
-#
-#   * a decline beginning at birth cannot directly affect people older than the
-#     elapsed time;
-#   * older age groups can still change immediately through the force of
-#     infection, which is a legitimate indirect effect; and
-#   * no exponential/Erlang approximation is used for cohort replacement.
-#
-# Adults age 20 and older remain five broad transmission groups. Their baseline
-# vaccination composition is held fixed during a projection because a cohort
-# born after the coverage change does not contribute person-time at age 20 or
-# older before the end of the supported 20-year horizon. Extend the
-# deterministic cohort grid before using this script beyond 20 years.
-#
-# MODEL STRUCTURE
-# ---------------
-# 1. Three vaccination histories:
-#      U = does not complete the primary series
-#      P = completes the primary series but not the booster
-#      B = completes the primary series and the booster
-#    The conditional probability of receiving the booster among primary-series
-#    completers is fixed, so P and B decline proportionally.
-#
-# 2. Three carriage/immunity states within each vaccination history:
-#      S = susceptible/uncolonized
-#      C = colonized
-#      R = temporarily protected after carriage
-#    Clearance moves C -> R; natural immunity wanes R -> S.
-#
-# 3. Separate vaccine effects against carriage and invasive disease.
-#    The supplied 0.92 efficacy estimate is used against invasive Hib disease,
-#    not automatically as the effect against carriage.
-#
-# 4. The supplied eight-band ENGAGED matrix is retained for transmission:
-#      <8mo, 8-19mo, 20mo-4y, 5-17y,
-#      18-49y, 50-59y, 60-74y, 75+y.
-#    Monthly cohorts are aggregated to these bands for force-of-infection
-#    calculations, avoiding a large 245 x 245 contact matrix.
-#
-# 5. The probability of invasive disease after acquisition is calibrated by
-#    age to the HIB COLUMN ONLY of the pooled 2020-2024 rate table. Hia, other
-#    non-b serotypes, and nontypeable infections are never used.
-#
-# 6. "Year 5 burden" means burden during years 4-5. Outputs at years 1, 5, 10,
-#    and 20 are trailing 12-month annual burdens, not cumulative burdens.
-#
-# IDENTIFIABILITY LIMITATION
-# --------------------------
-# Current invasive incidence cannot separately identify external acquisition,
-# carriage prevalence, and the probability of invasion after acquisition.
-# R0, carriage duration, vaccine effect on carriage, natural-immunity waning,
-# and external force of infection should be treated as sensitivity parameters.
-#
-# REFERENCES SUPPORTING THE STRUCTURE
-# -----------------------------------
-# Jackson ML et al. Emerg Infect Dis. 2012;18:13-20.
-#   https://wwwnc.cdc.gov/eid/article/18/1/11-0336_article
-# Charania NA, Moghadas SM. BMC Public Health. 2017;17:705.
-#   https://doi.org/10.1186/s12889-017-4735-9
-# Griffiths UK et al. Epidemiol Infect. 2012;140:1343-1355.
-#   https://doi.org/10.1017/S0950268812000957
-# Barbour ML. Emerg Infect Dis. 1996;2:176-182.
-#   https://wwwnc.cdc.gov/eid/article/2/3/96-0303_article
-# =============================================================================
 
 
 # -----------------------------------------------------------------------------
@@ -1368,10 +1279,10 @@ hib_trajectory_rates <- function(
 run_hib_agestructured <- function(
     coverage_df, pop_df, params, contact_matrix_path, hib_age_rates,
     hib_trend = NULL,
-    declines = c(0, 0.05, 0.10, 0.15, 0.20),
+    declines = seq(0,0.2,0.01),
     horizons = c(1, 5, 10, 20),
     national_name = "United States",
-    R0_pop = 1.3,
+    R0_pop = 1.4,
     dt = 1 / 52,
     verbose = TRUE) {
 
@@ -1840,7 +1751,7 @@ hib_agestructured_main <- function(
     declines = seq(0, 0.20,0.01),
     horizons = c(1, 5, 10, 20),
     national_name = "United States",
-    R0_pop = 1.3,
+    R0_pop = 1.4,
     dt = 1 / 52,
     write = TRUE,
     output_directory = "data",
@@ -1901,33 +1812,7 @@ hib_agestructured_main <- function(
 }
 
 
-# -----------------------------------------------------------------------------
-# 11. Example using the supplied inputs
-# -----------------------------------------------------------------------------
-#
-# parameter_table <- read.csv(
-#   "model_input_parameters.csv",
-#   check.names = FALSE,
-#   stringsAsFactors = FALSE
-# )
-# params <- parameter_table[parameter_table$disease == "Hib", , drop = FALSE]
-#
-# params$ve_carriage <- 0.64
-# params$booster_given_primary <- 1.00
-# params$external_foi_annual <- 1e-5
-#
-# result <- hib_agestructured_main(
-#   coverage_df = hib_coverage_df,
-#   pop_df = hib_population_df,
-#   params = params,
-#   contact_matrix_path =
-#     "engaged_withgrpone_symmetric_matrix_2026-06-29_deposition_pprasad.csv",
-#   hib_age_rates = "HFlu Data for COVE Age Groups.csv",
-#   hib_trend = "HFlu Data for COVE.csv",
-#   R0_pop = 1.3,
-#   write = TRUE
-# )
-#
+
 # result$by_age
 # result$curated
 # result$calibration$direct_coverage_diagnostic
