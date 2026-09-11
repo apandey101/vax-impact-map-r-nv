@@ -1,77 +1,6 @@
 # Varicella: age-structured model, n groups, per-state solve
 # =============================================================================
-# CALIBRATION STRATEGY (changed)
-# -----------------------------------------------------------------------------
-# Age-specific hospitalisation probability h is calibrated on the PREVACCINE era,
-# not the current era. The reason is identification: prevaccine, essentially
-# everyone is infected once, so annual infections are pinned by DEMOGRAPHY (the
-# birth cohort) rather than by the model's transmission assumptions. Consequently
-# h is almost R0-invariant and lands inside the plausible range, whereas
-# calibrating on current data made h swing from 0.003 to 0.043 across the
-# literature R0 range.
-#
-# Current burden then becomes a PREDICTION rather than a calibration target:
-#
-#   prevaccine targets (Marin rates x current population, no PPV correction): 12,809
-#     - Marin observed prevaccine total (also unadjusted)                     12,189   (ratio 1.051)
-#       The 5% overshoot is expected: 1993-95 rates applied to today's larger,
-#       older population. An earlier version applied a 0.43 PPV correction above
-#       age 50, which brought this ratio to 1.001 - but that was two offsetting
-#       adjustments, not a validation, and has been removed.
-#   predicted current hospitalisations at 94% coverage, R0 = 8.5               1,346
-#     - Marin observed 2018-19                                                 1,390   (-3%)
-#   predicted at 92.3% coverage                                                2,292
-#     - NIS 2023                                                               3,390   (-32%, see note)
-#   implied prevaccine deaths per year                                           107
-#     - commonly cited                                                       100-150
-#
-# R0 = 8.5 is chosen as the value reproducing the observed current level; it sits
-# inside the CDC 7-10 range. Report 7-10 as a sensitivity band.
-#
-# The NIS 2023 shortfall is expected: that extract excludes zoster codes only
-# (not incidental varicella, which Marin also excludes), and 2023 probably
-# includes post-pandemic catch-up transmission, so it is not a steady-state year.
-#
-# WHAT THIS DOES NOT FIX - state these in the methods
-#  1. CASES ARE OVERSTATED, roughly twofold. The model gives a 92.9% incidence
-#     decline against an observed ~97% (CDC Pink Book, NNDSS, four states). The
-#     hospitalisation level is nonetheless right because prevaccine wild-type h is
-#     applied to too many cases - two errors partly cancelling. Report
-#     hospitalisations as the headline outcome and flag cases accordingly.
-#  2. THE AGE DISTRIBUTION IS SKEWED YOUNG. The 0-4 band is a single homogeneous
-#     compartment five years wide, so a newborn faces the same force of infection
-#     as a four-year-old and infection is front-loaded. No parameter choice fixes
-#     this; only finer sub-5 bands would.
-#  3. Coverage is a single number applied to every birth cohort, whereas the real
-#     population is a mosaic (pre-1995 natural immunity, 1996-2006 one-dose,
-#     post-2007 two-dose) and the 92-94% figure is KINDERGARTEN coverage, which
-#     describes only recent cohorts.
-#  4. Susceptibility and infectiousness are age-INVARIANT; all age variation in
-#     infection risk comes from the contact matrix. Both severity parameters
-#     (hospitalisation probability h and case-fatality) ARE age-specific.
-#  5. h FOR THE OLDEST BANDS IS HIGH. Against the Pink Book reference of 14 per
-#     1,000 cases for adults, the model gives 14.8 (18-49) and 11.2 (50-59),
-#     which match well, but 26.5 (60-74) and 41.7 (75+), which are 2-3x high.
-#     This is most likely misclassification of herpes zoster as varicella in the
-#     source hospitalisation data, rising with age as zoster incidence rises. It
-#     is reported as an observation rather than corrected, because no defensible
-#     age-graded adjustment is available.
-#
-# OTHER STATED ASSUMPTIONS
-#  - Vaccination is all-or-nothing, applied at entry to the youngest band.
-#  - VE = 0.92, the two-dose meta-analytic estimate against ANY clinical
-#    varicella. (An earlier version used 0.82, which is the ONE-dose figure.)
-#  - No importation or heterogeneity term. At R0 = 9 the herd-immunity threshold
-#    is 96.6% coverage, comfortably clear of the operating range, so the model
-#    does not sit on a numerical cliff. States above ~96.6% coverage will still
-#    approach elimination.
-#  - The contact matrix is national; only age composition, population size and
-#    coverage vary by state.
-#  - The supplied ENGAGED matrix is not reciprocity-balanced against these
-#    populations, so it is symmetrised.
-#  - Case-fatality is age-specific (Pink Book); only the total is reported.
-#  - The population is treated as stationary at the observed age structure.
-#
+
 # Requires: tidyverse, here, tidycensus (census pull only).
 # =============================================================================
 
@@ -152,12 +81,7 @@ MARIN_CURRENT_RATE_INTERVALS <- list(
 # figure for infants under 1, although it states that complications are more
 # frequent there, so the 1-14 value is used for that interval and is likely an
 # UNDERestimate for the youngest.
-#
-# Replaces the earlier single age-invariant death rate, which understated total
-# deaths roughly 12-fold at current coverage because the adult-to-child gradient
-# is 21-fold and about a third of current infections fall in adults. With these
-# values the model gives ~103 prevaccine deaths per year against a commonly cited
-# 100-150; the flat rate gave 37.
+
 PINKBOOK_CFR_INTERVALS <- list(
   c(0,   1,  1.0e-5),
   c(1,  15,  1.0e-5),
@@ -191,10 +115,7 @@ vzv_cfr_by_band <- function(edges) {
 # possible misclassification of herpes zoster as varicella at >=50 years as a
 # LIMITATION and do not adjust their published figures, and the 43% positive
 # predictive value they cite comes from a small study validating DEATH
-# CERTIFICATES, not hospitalisation records. Applying it here would be treating a
-# limitation note as ground truth, and it was materially improving the fit -
-# which is precisely the circularity to avoid.
-#
+# CERTIFICATES, not hospitalisation records. 
 # The parameter is retained so the correction can be run as a SENSITIVITY.
 vzv_prevax_targets <- function(edges, N, ppv_50plus = 1) {
   rate <- vapply(edges, function(b)
@@ -251,9 +172,7 @@ vzv_build_model <- function(C, N, first_band_years, labels = colnames(C),
        gamma = gamma, q = q, ve = ve_infection, R0_pop = R0_pop,
        first_band_years = first_band_years,
        threshold_coverage = (1 - 1 / R0_pop) / ve_infection,
-       # Age-patterned external importation FOI (per-capita annual, vector by band).
-       # external_foi_mean is the population-weighted mean hazard; epsilon spreads it
-       # across ages via the natural-exposure pattern above. Keeps a small endemic
+       #  Keeps a small endemic
        # floor under above-threshold states and seeds realistic re-emergence when a
        # decline pushes R_eff > 1, without over-loading the adult bands. Negligible
        # at pre-vaccine endemicity, so it does not disturb the h-calibration.
@@ -280,11 +199,7 @@ vzv_cascade <- function(mod, lam, coverage) {
   list(S = S, I = I)
 }
 
-# NOTE on seeding. Two roots always exist: disease-free (prev = 0) and endemic.
-# The fixed-point map sends exactly 0 to 0, so a seed that has decayed to zero -
-# for example one carried forward from a coverage ABOVE the herd threshold - can
-# never escape, and the solver then reports zero even where an endemic
-# equilibrium exists. The seed is therefore floored at a small positive value,
+# NOTE on seeding.  The seed is floored at a small positive value,
 # which is enough to regrow whenever R_eff > 1 and decays harmlessly otherwise.
 vzv_equilibrium <- function(mod, coverage, guess = NULL,
                             damp = 0.45, iters = 400000, tol = 1e-18,
@@ -325,9 +240,7 @@ vzv_rhs <- function(mod, y, coverage) {
   c(dS, dI)
 }
 
-# Step change in birth coverage at t = 0. The step kicks the system off
-# equilibrium and it rings (period roughly 4-5 years, slow damping), so the rate
-# AT time t depends on cycle phase. Reported values are the MEAN ANNUAL rate over
+# Step change in birth coverage at t = 0.  Reported values are the MEAN ANNUAL rate over
 # the accrual window [0, t], which is stable and matches `accrual_years`.
 vzv_trajectory_rates <- function(mod, cov_base, cov_new, horizons, dt = 2 / 365) {
   base <- vzv_equilibrium(mod, cov_base)
@@ -479,7 +392,7 @@ run_varicella_agestructured <- function(coverage_df, pop_df, params,
                                         contact_matrix_path,
                                         fine_edges = ENGAGED_EDGES,
                                         groups = ENGAGED_GROUPS,
-                                        declines = c(0, 0.05, 0.10, 0.15, 0.20),
+                                        declines = seq(0,0.2,0.01),
                                         horizons = c(1, 5, 10, 20),
                                         national_name = "United States",
                                         verbose = TRUE) {
@@ -732,24 +645,3 @@ varicella_agestructured_main <- function(coverage_df, pop_df, params,
 }
 
 
-# -----------------------------------------------------------------------------
-# Example parameters
-# -----------------------------------------------------------------------------
-# params <- list(
-#   basic_reproduction_number = 8.5,     # POPULATION R0; reproduces the observed
-#                                        # current level. Sensitivity band 7-10.
-#   vaccine_effectiveness     = 0.92,    # 2-dose, vs ANY clinical varicella
-#   duration_infectious_days  = 7,
-#   # death_rate is no longer used - deaths come from PINKBOOK_CFR_INTERVALS
-#   duration_sick_days        = 5,
-#   duration_hospitalized_days = 3,
-#   cost_hospitalization_daily = 1683,
-#   cost_wage_daily            = 200,
-#   severe_adverse_event_rate  = 8.6e-5, # MMRV febrile seizure, 20% MMRV share
-#   ppv_50plus                 = 1,       # 1 = no correction; 0.43 = sensitivity
-#   observed_current_hospitalizations = 1390)   # VALIDATION only, not calibration
-#
-# pop_df <- readRDS(here("data-raw/census_acs_state_population_vzv_bands.rds"))
-# res <- varicella_agestructured_main(
-#   cdc_school_vax_view_varicella_df, pop_df, params,
-#   contact_matrix_path = here("data-raw/engaged_contact_matrix.csv"))
